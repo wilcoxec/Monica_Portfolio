@@ -69,6 +69,12 @@ html, body{
 	.nav2 a {
 		font-size: 12.5px;
 	}
+	#bodyContainer {
+		margin-top: 14px;
+	}
+	.portfolioBox{
+		margin-top: 16px;
+	}
 }
 @media (min-width: 250px) and (max-width: 300px) { 
 	.nav a {
@@ -76,6 +82,12 @@ html, body{
 	}
 	.nav2 a {
 		font-size: 13.5px;
+	}
+	#bodyContainer {
+		margin-top: 14.5px;
+	}
+	.portfolioBox{
+		margin-top: 16px;
 	}
 }
 @media (min-width: 300px) and (max-width: 350px) { 
@@ -85,6 +97,12 @@ html, body{
 	.nav2 a {
 		font-size: 15px;
 	}
+	#bodyContainer {
+		margin-top: 16px;
+	}
+	.portfolioBox{
+		margin-top: 18px;
+	}
 }
 @media (min-width: 350px) and (max-width: 400px) { 
 	.nav a {
@@ -92,6 +110,12 @@ html, body{
 	}
 	.nav2 a {
 		font-size: 19px;
+	}
+	#bodyContainer {
+		margin-top: 20px;
+	}
+	.portfolioBox{
+		margin-top: 20px;
 	}
 }
 @media (min-width: 400px) and (max-width: 450px) { 
@@ -101,6 +125,12 @@ html, body{
 	.nav2 a {
 		font-size: 23.5px;
 	}
+	#bodyContainer {
+		margin-top: 25px;
+	}
+	.portfolioBox{
+		margin-top: 25px;
+	}
 }
 @media (min-width: 450px) and (max-width: 500px) { 
 	.nav a {
@@ -108,6 +138,12 @@ html, body{
 	}
 	.nav2 a {
 		font-size: 27px;
+	}
+	#bodyContainer {
+		margin-top: 28px;
+	}
+	.portfolioBox{
+		margin-top: 30px;
 	}
 }
 @media (min-width: 500px) and (max-width: 550px) { 
@@ -117,6 +153,12 @@ html, body{
 	.nav2 a {
 		font-size: 30px;
 	}
+	#bodyContainer {
+		margin-top: 31px;
+	}
+	.portfolioBox{
+		margin-top: 31px;
+	}
 }
 @media (min-width: 550px) and (max-width: 600px) { 
 	.nav a {
@@ -124,6 +166,12 @@ html, body{
 	}
 	.nav2 a {
 		font-size: 33px;
+	}
+	#bodyContainer {
+		margin-top: 35px;
+	}
+	.portfolioBox{
+		margin-top: 35px;
 	}
 }
 @media (min-width: 600px) and (max-width: 650px) { 
@@ -133,6 +181,12 @@ html, body{
 	.nav2 a {
 		font-size: 36px;
 	}
+	#bodyContainer {
+		margin-top: 37px;
+	}
+	.portfolioBox{
+		margin-top: 37px;
+	}
 }
 @media (min-width: 650px) and (max-width: 700px) { 
 	.nav a {
@@ -140,6 +194,12 @@ html, body{
 	}
 	.nav2 a {
 		font-size: 40px;
+	}
+	#bodyContainer {
+		margin-top: 42px;
+	}
+	.portfolioBox{
+		margin-top: 42px;
 	}
 }
 @media (min-width: 700px) and (max-width: 750px) { 
@@ -149,6 +209,12 @@ html, body{
 	.nav2 a {
 		font-size: 43px;
 	}
+	#bodyContainer {
+		margin-top: 45px;
+	}
+	.portfolioBox{
+		margin-top: 45px;
+	}
 }
 @media (min-width: 750px) and (max-width: 800px) { 
 	.nav a {
@@ -156,6 +222,12 @@ html, body{
 	}
 	.nav2 a {
 		font-size: 46px;
+	}
+	#bodyContainer {
+		margin-top: 48px;
+	}
+	.portfolioBox{
+		margin-top: 48px;
 	}
 }
 
@@ -166,6 +238,12 @@ html, body{
 	.nav2 a {
 		font-size: 50px;
 	}
+	#bodyContainer {
+		margin-top: 52px;
+	}
+	.portfolioBox{
+		margin-top: 52px;
+	}
 }
 
 @media (min-width: 850px) and (max-width: 900px) { 
@@ -175,6 +253,12 @@ html, body{
 	.nav2 a {
 		font-size: 53px;
 	}
+	#bodyContainer {
+		margin-top: 55px;
+	}
+	.portfolioBox{
+		margin-top: 55px;
+	}
 }
 @media (min-width: 900px) and (max-width: 950px) { 
 	.nav a {
@@ -182,6 +266,12 @@ html, body{
 	}
 	.nav2 a {
 		font-size: 56px;
+	}
+	#bodyContainer {
+		margin-top: 58px;
+	}
+	.portfolioBox{
+		margin-top: 58px;
 	}
 }
 @media (min-width: 950px) and (max-width: 1000px) { 
@@ -191,6 +281,12 @@ html, body{
 	.nav2 a {
 		font-size: 59px;
 	}
+	#bodyContainer {
+		margin-top: 61px;
+	}
+	.portfolioBox{
+		margin-top: 61px;
+	}
 }
 @media (min-width: 1000px) and (max-width: 1050px) { 
 	.nav a {
@@ -198,6 +294,12 @@ html, body{
 	}
 	.nav2 a {
 		font-size: 63px;
+	}
+	#bodyContainer {
+		margin-top: 65px;
+	}
+	.portfolioBox{
+		margin-top: 65px;
 	}
 }
 @media (min-width: 1050px) and (max-width: 1100px) { 
@@ -207,6 +309,12 @@ html, body{
 	.nav2 a {
 		font-size: 66px;
 	}
+	#bodyContainer {
+		margin-top: 68px;
+	}
+	.portfolioBox{
+		margin-top: 68px;
+	}
 }
 @media (min-width: 1100px) and (max-width: 1150px) { 
 	.nav a {
@@ -214,6 +322,12 @@ html, body{
 	}
 	.nav2 a {
 		font-size: 69px;
+	}
+	#bodyContainer {
+		margin-top: 71px;
+	}
+	.portfolioBox{
+		margin-top: 71px;
 	}
 }
 @media (min-width: 1150px) and (max-width: 1200px) { 
@@ -223,14 +337,108 @@ html, body{
 	.nav2 a {
 		font-size: 72px;
 	}
+	#bodyContainer {
+		margin-top: 74px;
+	}
+	.portfolioBox{
+		margin-top: 74px;
+	}
 }
-@media (min-width: 1200px){
+@media (min-width: 1200px) and (max-width: 1300px){
 	.nav a{
 		font-size: 75px;
 	}
 	.nav2 a{
 		font-size: 75px;
 	}
+	#bodyContainer {
+		margin-top: 77px;
+	}
+	.portfolioBox{
+		margin-top: 77px;
+	}
 }
-
-
+@media (min-width: 1300px) and (max-width: 1400px) {
+	.nav a{
+		font-size: 80px;
+	}
+	.nav2 a{
+		font-size: 80px;
+	}
+	#bodyContainer {
+		margin-top: 82px;
+	}
+	.portfolioBox{
+		margin-top: 82px;
+	}
+}
+@media (min-width: 1400px) and (max-width: 1500px) {
+	.nav a{
+		font-size: 88px;
+	}
+	.nav2 a{
+		font-size: 88px;
+	}
+	#bodyContainer {
+		margin-top: 90px;
+	}
+	.portfolioBox{
+		margin-top: 90px;
+	}
+}
+@media (min-width: 1500px) and (max-width: 1600px) {
+	.nav a{
+		font-size: 95px;
+	}
+	.nav2 a{
+		font-size: 95px;
+	}
+	#bodyContainer {
+		margin-top: 97px;
+	}
+	.portfolioBox{
+		margin-top: 97px;
+	}
+}
+@media (min-width: 1600px) and (max-width: 1700px) {
+	.nav a{
+		font-size: 100px;
+	}
+	.nav2 a{
+		font-size: 100px;
+	}
+	#bodyContainer {
+		margin-top: 102px;
+	}
+	.portfolioBox{
+		margin-top: 102px;
+	}
+}
+@media (min-width: 1700px) and (max-width: 1900px) {
+	.nav a{
+		font-size: 105px;
+	}
+	.nav2 a{
+		font-size: 105px;
+	}
+	#bodyContainer {
+		margin-top: 112px;
+	}
+	.portfolioBox{
+		margin-top: 112px;
+	}
+}
+@media (min-width: 1900px) and (max-width: 2000px) {
+	.nav a{
+		font-size: 120px;
+	}
+	.nav2 a{
+		font-size: 120px;
+	}
+	#bodyContainer {
+		margin-top: 122px;
+	}
+	.portfolioBox{
+		margin-top: 122px;
+	}
+}
