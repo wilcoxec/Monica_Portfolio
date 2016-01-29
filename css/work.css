@@ -70,6 +70,18 @@ html, body{
 	text-transform: uppercase;
 }
 
+#backToTop{
+	text-align: center;
+	width: 100%;
+	padding-bottom: 50px;
+}
+#backToTop a{
+	text-align: center;
+	width: 100%;
+	text-decoration: none;
+	color: #fff;
+}
+
 
 /* Navigation Style */
 .navContainer {
