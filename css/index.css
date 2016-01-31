@@ -3,25 +3,86 @@ html, body{
 	font-family: 'Arial', Arial, sans-serif;
 }
 
-#feature {
-	height: 500px;
-}
-
-.about{
-	
-	font-size: 20px;
-	margin: auto;
-}
-
-.aboutrow{
+.projectBox{
+	position: relative;
+	margin: 0;
 	text-align: center;
-	margin: auto;
+	min-height: 500px;
 }
+.projectBox .image{
+	z-index: 1;
+	position: absolute;
+	text-align: center;
+	height: 80%;
+}
+
+.projectBox .project{
+	position: absolute;
+	margin-top: 100px;
+	z-index: 2;
+	text-align: center;
+}
+
+#featureTitle{
+	text-align: center;
+	font-size: 30px;
+}
+
+.image img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+.aboutRow{
+	position: relative;
+	margin: 0;
+	text-align: center;
+
+}
+
+.aboutRow .about{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.aboutRow .aboutRight{
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	padding: 10px;
+}
+
+.aboutRow .aboutLeft{
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	padding: 10px;
+}
+
 
 
 #aboutContainer{
 	text-align: center;
 	margin: auto;
+	font-family: 'Arial', Arial, sans-serif;
+	height: 300px;
+}
+
+#footerContainer{
+	text-align: center;
+	margin: auto;
+	font-family: 'Arial', Arial, sans-serif;
+	padding-left: 30px;
+	padding-bottom: 50px;
+}
+
+.footerLeft{
+	text-align: left;
+}
+
+.footerRight{
+	text-align: left;
 }
 
 /* Navigation Style */
@@ -62,7 +123,7 @@ html, body{
 .nav a{
 	display: inline-block;
 	text-decoration: none;
-	
+	font-family: 'Arial', Arial, sans-serif;
 	font-weight: bold;
 }
 
@@ -79,6 +140,7 @@ html, body{
 	display: inline-block;
 	text-decoration: none;
 	font-weight: bold;
+	font-family: 'Arial', Arial, sans-serif;
 }
 
 .nav a:hover{
@@ -102,6 +164,10 @@ html, body{
 	.portfolioBox{
 		margin-top: 16px;
 	}
+	.about{
+		margin-top: 20px;
+	}
+
 }
 @media (min-width: 250px) and (max-width: 300px) { 
 	.nav a {
@@ -116,6 +182,10 @@ html, body{
 	.portfolioBox{
 		margin-top: 16px;
 	}
+	.about{
+		margin-top: 25px;
+	}
+
 }
 @media (min-width: 300px) and (max-width: 350px) { 
 	.nav a {
@@ -130,6 +200,10 @@ html, body{
 	.portfolioBox{
 		margin-top: 18px;
 	}
+	.about{
+		margin-top: 25px;
+	}
+
 }
 @media (min-width: 350px) and (max-width: 400px) { 
 	.nav a {
@@ -144,6 +218,10 @@ html, body{
 	.portfolioBox{
 		margin-top: 20px;
 	}
+	.about{
+		margin-top: 25px;
+	}
+
 }
 @media (min-width: 400px) and (max-width: 450px) { 
 	.nav a {
@@ -158,6 +236,10 @@ html, body{
 	.portfolioBox{
 		margin-top: 25px;
 	}
+	.about{
+		margin-top: 25px;
+	}
+
 }
 @media (min-width: 450px) and (max-width: 500px) { 
 	.nav a {
@@ -171,6 +253,16 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 30px;
+	}
+	.about{
+		margin-top: 25px;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
 	}
 }
 @media (min-width: 500px) and (max-width: 550px) { 
@@ -186,6 +278,16 @@ html, body{
 	.portfolioBox{
 		margin-top: 31px;
 	}
+	.about{
+		margin-top: 25px;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
+	}
 }
 @media (min-width: 550px) and (max-width: 600px) { 
 	.nav a {
@@ -199,6 +301,16 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 35px;
+	}
+	.about{
+		margin-top: 25px;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
 	}
 }
 @media (min-width: 600px) and (max-width: 650px) { 
@@ -214,6 +326,16 @@ html, body{
 	.portfolioBox{
 		margin-top: 37px;
 	}
+	.about{
+		margin-top: 25px;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
+	}
 }
 @media (min-width: 650px) and (max-width: 700px) { 
 	.nav a {
@@ -227,6 +349,16 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 42px;
+	}
+	.about{
+		margin-top: 25px;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
 	}
 }
 @media (min-width: 700px) and (max-width: 750px) { 
@@ -242,6 +374,17 @@ html, body{
 	.portfolioBox{
 		margin-top: 45px;
 	}
+	.about{
+		margin-top: 25px;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
+	}
+
 }
 @media (min-width: 750px) and (max-width: 800px) { 
 	.nav a {
@@ -255,6 +398,17 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 48px;
+	}
+	.about{
+		text-align: left;
+		margin-top: 10px;	
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
 	}
 }
 
@@ -270,6 +424,16 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 52px;
+	}
+	.about{
+		text-align: left;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
 	}
 }
 
@@ -289,6 +453,13 @@ html, body{
 	.about{
 		text-align: left;
 	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
+	}
 }
 @media (min-width: 900px) and (max-width: 950px) { 
 	.nav a {
@@ -303,7 +474,16 @@ html, body{
 	.portfolioBox{
 		margin-top: 58px;
 	}
-
+	.about{
+		text-align: left;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
+	}
 }
 @media (min-width: 950px) and (max-width: 1000px) { 
 	.nav a {
@@ -318,7 +498,16 @@ html, body{
 	.portfolioBox{
 		margin-top: 61px;
 	}
-
+	.about{
+		text-align: left;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
+	}
 }
 @media (min-width: 1000px) and (max-width: 1050px) { 
 	.nav a {
@@ -336,6 +525,13 @@ html, body{
 	.about{
 		text-align: left;
 		max-width: 400px;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
 	}
 }
 @media (min-width: 1050px) and (max-width: 1100px) { 
@@ -355,6 +551,13 @@ html, body{
 		text-align: left;
 		max-width: 400px;
 	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
+	}
 }
 @media (min-width: 1100px) and (max-width: 1150px) { 
 	.nav a {
@@ -372,6 +575,13 @@ html, body{
 	.about{
 		text-align: left;
 		max-width: 400px;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
 	}
 }
 @media (min-width: 1150px) and (max-width: 1200px) { 
@@ -391,6 +601,13 @@ html, body{
 		text-align: left;
 		max-width: 400px;
 	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
+	}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
 	.nav a{
@@ -408,6 +625,13 @@ html, body{
 	.about{
 		text-align: left;
 		max-width: 400px;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
 	}
 }
 @media (min-width: 1300px) and (max-width: 1400px) {
@@ -427,6 +651,13 @@ html, body{
 		text-align: left;
 		max-width: 400px;
 	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
+	}
 }
 @media (min-width: 1400px) and (max-width: 1500px) {
 	.nav a{
@@ -444,6 +675,13 @@ html, body{
 	.about{
 		text-align: left;
 		max-width: 400px;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
 	}
 }
 @media (min-width: 1500px) and (max-width: 1600px) {
@@ -463,6 +701,13 @@ html, body{
 		text-align: left;
 		max-width: 400px;
 	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
+	}
 }
 @media (min-width: 1600px) and (max-width: 1700px) {
 	.nav a{
@@ -480,6 +725,13 @@ html, body{
 	.about{
 		text-align: left;
 		max-width: 400px;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
 	}
 }
 @media (min-width: 1700px) and (max-width: 1900px) {
@@ -499,6 +751,13 @@ html, body{
 		text-align: left;
 		max-width: 400px;
 	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
+	}
 }
 @media (min-width: 1900px) and (max-width: 2000px) {
 	.nav a{
@@ -516,6 +775,13 @@ html, body{
 	.about{
 		text-align: left;
 		max-width: 400px;
+	}
+	.image img{
+		-webkit-transform: rotate(-3deg);
+	    -moz-transform: rotate(-3deg);
+	    -o-transform: rotate(-3deg);
+	    -ms-transform: rotate(-3deg);
+	    transform: rotate(-3deg);
 	}
 }
 

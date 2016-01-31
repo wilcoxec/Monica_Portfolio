@@ -1,0 +1,180 @@
+html, body{
+	min-height: 100%;
+	font-family: 'Arial', Arial, sans-serif;
+	background-image: url(../photoBrown.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#svgBox{
+	height: 500px;
+	width: 200px;
+}
+
+#name {
+
+	font-size: 95px;
+	line-height: 95px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-family: 'Arial', Arial, sans-serif;
+
+}
+
+#middle {
+	font-size: 29px;
+	line-height: 29px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Arial', Arial, sans-serif;
+}
+
+
+#middle a{
+	text-decoration: none;
+
+	-webkit-animation: color 10s linear infinite;
+    -moz-animation:    color 10s linear infinite;
+    -o-animation:      color 10s linear infinite;
+    -ms-transition:    color 10s linear infinite; 
+    animation:         color 10s linear infinite;
+}
+
+#title{
+	color: #000;
+	width: 400px;
+	height: 280px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+	text-align: center;
+
+	font-family: 'Arial', Arial, sans-serif;
+    
+    -webkit-animation: fadeIn 3s linear forwards;
+    -moz-animation:    fadeIn 3s linear forwards;
+    -o-animation:      fadeIn 3s linear forwards;
+    -ms-transition:    fadeIn 3s linear forwards; 
+    animation:         fadeIn 3s linear forwards;
+}
+
+@-webkit-keyframes fadeIn{
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn{
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+
+@-webkit-keyframes color{
+	0%{
+		color: #0000ff;
+	}
+	25%{
+		color: #6600ff;
+	}
+	50% {
+		color: #ff3333;
+	}
+	75%{
+		color: #ffff00;
+	}
+	100%{
+		color: #00cc66;
+	}
+}
+
+@-moz-keyframes color{
+	0%{
+		color: #0000ff;
+	}
+	25%{
+		color: #6600ff;
+	}
+	50% {
+		color: #ff3333;
+	}
+	75%{
+		color: #ffff00;
+	}
+	100%{
+		color: #00cc66;
+	}
+}
+
+@-o-keyframes color {
+	0%{
+		color: #0000ff;
+	}
+	25%{
+		color: #6600ff;
+	}
+	50% {
+		color: #ff3333;
+	}
+	75%{
+		color: #ffff00;
+	}
+	100%{
+		color: #00cc66;
+	}
+}
+
+@-ms-keyframes color{
+	0%{
+		color: #0000ff;
+	}
+	25%{
+		color: #6600ff;
+	}
+	50% {
+		color: #ff3333;
+	}
+	75%{
+		color: #ffff00;
+	}
+	100%{
+		color: #00cc66;
+	}
+}
+
+@keyframes color {
+	0%{
+		color: #0000ff;
+	}
+	25%{
+		color: #6600ff;
+	}
+	50% {
+		color: #ff3333;
+	}
+	75%{
+		color: #ffff00;
+	}
+	100%{
+		color: #00cc66;
+	}
+}
+
