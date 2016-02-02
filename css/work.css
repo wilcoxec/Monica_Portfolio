@@ -66,6 +66,7 @@ html, body{
 #projectTitle{
 	text-align: center;
 	font-size: 50px;
+	text-transform: uppercase;
 }
 
 #projectDescription{
@@ -153,10 +154,10 @@ html, body{
 
 @media (min-width: 200px) and (max-width: 250px) { 
 	.nav a {
-		font-size: 12.5px;
+		font-size: 13px;
 	}
 	.nav2 a {
-		font-size: 12.5px;
+		font-size: 13px;
 	}
 	#bodyContainer {
 		margin-top: 14px;
@@ -167,10 +168,10 @@ html, body{
 }
 @media (min-width: 250px) and (max-width: 300px) { 
 	.nav a {
-		font-size: 13.5px;
+		font-size: 14px;
 	}
 	.nav2 a {
-		font-size: 13.5px;
+		font-size: 14px;
 	}
 	#bodyContainer {
 		margin-top: 14.5px;
@@ -195,10 +196,10 @@ html, body{
 }
 @media (min-width: 350px) and (max-width: 400px) { 
 	.nav a {
-		font-size: 19px;
+		font-size: 22px;
 	}
 	.nav2 a {
-		font-size: 19px;
+		font-size: 22px;
 	}
 	#bodyContainer {
 		margin-top: 20px;
