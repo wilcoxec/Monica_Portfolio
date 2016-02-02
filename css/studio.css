@@ -50,6 +50,7 @@ html, body{
 
 #featureContainerFirst{
 	margin-top: 50px;
+	overflow-x: hidden;
 }
 
 #featureContainer {
@@ -62,13 +63,13 @@ html, body{
 }
 
 .image img{
-	width: 390px;
+	width: 350px;
 	height: auto;
 	text-align: center;
 }
 
 .imageRight img{
-	width: 390px;
+	width: 350px;
 	height: auto;
 	text-align: center;
 }
