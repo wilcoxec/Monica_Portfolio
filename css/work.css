@@ -7,7 +7,7 @@ html, body{
 	position: relative;
 	margin: 0;
 	text-align: center;
-	min-height: 500px;
+
 }
 
 .portfolioBox{
@@ -31,7 +31,6 @@ html, body{
 	z-index: 1;
 	position: absolute;
 	text-align: center;
-	height: 100%;
 }
 
 .image img{
@@ -49,6 +48,7 @@ html, body{
 
 	width: 400px;
 	padding: 10px;
+	color: #000;
 }
 
 
@@ -165,6 +165,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 16px;
 	}
+	.projectBox{
+		height: 350px;
+	}
 }
 @media (min-width: 250px) and (max-width: 300px) { 
 	.nav a {
@@ -178,6 +181,9 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 16px;
+	}
+	.projectBox{
+		height: 350px;
 	}
 }
 @media (min-width: 300px) and (max-width: 350px) { 
@@ -193,6 +199,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 18px;
 	}
+	.projectBox{
+		height: 350px;
+	}
 }
 @media (min-width: 350px) and (max-width: 400px) { 
 	.nav a {
@@ -206,6 +215,9 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 20px;
+	}
+	.projectBox{
+		height: 350px;
 	}
 }
 @media (min-width: 400px) and (max-width: 450px) { 
@@ -221,6 +233,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 25px;
 	}
+	.projectBox{
+		height: 350px;
+	}
 }
 @media (min-width: 450px) and (max-width: 500px) { 
 	.nav a {
@@ -234,6 +249,9 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 30px;
+	}
+	.projectBox{
+		height: 400px;
 	}
 }
 @media (min-width: 500px) and (max-width: 550px) { 
@@ -249,6 +267,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 31px;
 	}
+	.projectBox{
+		height: 500px;
+	}
 }
 @media (min-width: 550px) and (max-width: 600px) { 
 	.nav a {
@@ -262,6 +283,9 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 35px;
+	}
+	.projectBox{
+		height: 500px;
 	}
 }
 @media (min-width: 600px) and (max-width: 650px) { 
@@ -277,6 +301,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 37px;
 	}
+	.projectBox{
+		height: 500px;
+	}
 }
 @media (min-width: 650px) and (max-width: 700px) { 
 	.nav a {
@@ -290,6 +317,9 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 42px;
+	}
+	.projectBox{
+		height: 500px;
 	}
 }
 @media (min-width: 700px) and (max-width: 750px) { 
@@ -305,6 +335,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 45px;
 	}
+	.projectBox{
+		height: 500px;
+	}
 }
 @media (min-width: 750px) and (max-width: 800px) { 
 	.nav a {
@@ -318,6 +351,9 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 48px;
+	}
+	.projectBox{
+		height: 500px;
 	}
 }
 
@@ -334,6 +370,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 52px;
 	}
+	.projectBox{
+		height: 500px;
+	}
 }
 
 @media (min-width: 850px) and (max-width: 900px) { 
@@ -349,6 +388,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 55px;
 	}
+	.projectBox{
+		height: 500px;
+	}
 }
 @media (min-width: 900px) and (max-width: 950px) { 
 	.nav a {
@@ -362,6 +404,9 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 58px;
+	}
+	.projectBox{
+		height: 500px;
 	}
 }
 @media (min-width: 950px) and (max-width: 1000px) { 
@@ -377,6 +422,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 61px;
 	}
+	.projectBox{
+		height: 500px;
+	}
 }
 @media (min-width: 1000px) and (max-width: 1050px) { 
 	.nav a {
@@ -390,6 +438,9 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 65px;
+	}
+	.projectBox{
+		height: 500px;
 	}
 }
 @media (min-width: 1050px) and (max-width: 1100px) { 
@@ -405,6 +456,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 68px;
 	}
+	.projectBox{
+		height: 500px;
+	}
 }
 @media (min-width: 1100px) and (max-width: 1150px) { 
 	.nav a {
@@ -418,6 +472,9 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 71px;
+	}
+	.projectBox{
+		height: 500px;
 	}
 }
 @media (min-width: 1150px) and (max-width: 1200px) { 
@@ -433,6 +490,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 74px;
 	}
+	.projectBox{
+		height: 500px;
+	}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
 	.nav a{
@@ -446,6 +506,9 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 77px;
+	}
+	.projectBox{
+		height: 500px;
 	}
 }
 @media (min-width: 1300px) and (max-width: 1400px) {
@@ -461,6 +524,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 82px;
 	}
+	.projectBox{
+		height: 500px;
+	}
 }
 @media (min-width: 1400px) and (max-width: 1500px) {
 	.nav a{
@@ -474,6 +540,9 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 90px;
+	}
+	.projectBox{
+		height: 500px;
 	}
 }
 @media (min-width: 1500px) and (max-width: 1600px) {
@@ -489,6 +558,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 97px;
 	}
+	.projectBox{
+		height: 500px;
+	}
 }
 @media (min-width: 1600px) and (max-width: 1700px) {
 	.nav a{
@@ -502,6 +574,9 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 102px;
+	}
+	.projectBox{
+		height: 500px;
 	}
 }
 @media (min-width: 1700px) and (max-width: 1900px) {
@@ -517,6 +592,9 @@ html, body{
 	.portfolioBox{
 		margin-top: 112px;
 	}
+	.projectBox{
+		height: 500px;
+	}
 }
 @media (min-width: 1900px) and (max-width: 2000px) {
 	.nav a{
@@ -530,6 +608,9 @@ html, body{
 	}
 	.portfolioBox{
 		margin-top: 122px;
+	}
+	.projectBox{
+		height: 500px;
 	}
 }
 
