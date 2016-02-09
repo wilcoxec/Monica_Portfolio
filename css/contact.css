@@ -1,3 +1,104 @@
+html{
+	min-height: 100%;
+}
+body{
+	font-family: 'Arial', Arial, sans-serif;
+	min-height: 100%;
+}
+
+
+
+
+.aboutRow{
+	position: relative;
+	margin: 0;
+	text-align: left;
+}
+
+
+
+.aboutRow .aboutRight{
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  	Helvetica, Arial, "Lucida Grande", sans-serif;
+  	letter-spacing: 1px;
+}
+
+.aboutRow .aboutLeft{
+	position: absolute;
+	z-index: 1;
+	padding: 10px;
+	font-size: 40px;
+	line-height: 40px;
+	font-family: 'Arial', Arial, sans-serif;
+
+}
+
+.about{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+
+}
+
+.aboutMon {
+	text-align: left;
+	font-size: 14px;
+}
+.aboutEmail {
+	text-align: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #ff3333;
+}
+
+.aboutEmail a{
+	color: #ff3333;
+} 
+
+#aboutContainer hr{
+	color: #000;
+	height: 20px;
+}
+
+
+#aboutContainer{
+	color: #000;
+	text-align: center;
+	margin: auto;
+	font-family: 'Arial', Arial, sans-serif;
+	height: 700px;
+	overflow-x: hidden;
+}
+
+#footerContainer{
+	text-align: center;
+	margin: auto;
+	font-family: 'Arial', Arial, sans-serif;
+	padding: 30px;
+	background-color: #fff;
+	color: #000;
+	width: 100%;
+	bottom: 0;
+}
+
+.footerRow{
+	width: 100%;
+}
+
+
+.footerLeft{
+	text-align: left;
+}
+
+.footerRight{
+	text-align: left;
+}
+
 /* Navigation Style */
 .navContainer {
 	position: relative;
@@ -78,9 +179,12 @@
 		margin-top: 16px;
 	}
 	.about{
-		margin-top: 40px;
+		margin-top: 0px;
+		font-size: 30px;
 	}
-
+	.aboutEmail{
+		font-size: 30px;
+	}
 	.aboutRow .aboutLeft{
 		font-size: 20px;
 		line-height: 20px;
@@ -101,7 +205,11 @@
 		margin-top: 16px;
 	}
 	.about{
-		margin-top: 45px;
+		margin-top: 0px;
+		font-size: 30px;
+	}
+	.aboutEmail{
+		font-size: 30px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 20px;
@@ -124,7 +232,11 @@
 		margin-top: 18px;
 	}
 	.about{
-		margin-top: 45px;
+		margin-top: 0px;
+		font-size: 30px;
+	}
+	.aboutEmail{
+		font-size: 30px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 20px;
@@ -132,12 +244,14 @@
 	}
 
 }
+
+/*iphone 6*/
 @media (min-width: 350px) and (max-width: 400px) { 
 	.nav a {
 		font-size: 22px;
 	}
 	.nav2 a {
-		font-size: 2px;
+		font-size: 22px;
 	}
 	#bodyContainer {
 		margin-top: 20px;
@@ -146,7 +260,11 @@
 		margin-top: 20px;
 	}
 	.about{
-		margin-top: 45px;
+		margin-top: 0px;
+		font-size: 30px;
+	}
+	.aboutEmail{
+		font-size: 30px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 20px;
@@ -168,12 +286,17 @@
 		margin-top: 25px;
 	}
 	.about{
-		margin-top: 45px;
+		margin-top: 20px;
+		font-size: 30px;
+	}
+	.aboutEmail{
+		font-size: 30px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 20px;
 		line-height: 20px;
 	}
+
 
 }
 @media (min-width: 450px) and (max-width: 500px) { 
@@ -190,7 +313,11 @@
 		margin-top: 30px;
 	}
 	.about{
-		margin-top: 45px;
+		margin-top: 35px;
+		font-size: 30px;
+	}
+	.aboutEmail{
+		font-size: 30px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 20px;
@@ -203,13 +330,6 @@
 	    -o-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
 	}
 }
 @media (min-width: 500px) and (max-width: 550px) { 
@@ -227,7 +347,11 @@
 	}
 	.about{
 		margin-top: 45px;
+		font-size: 30px;
 	}
+	.aboutEmail{
+		font-size: 30px;
+	}	
 	.aboutRow .aboutLeft{
 		font-size: 20px;
 		line-height: 20px;
@@ -239,13 +363,6 @@
 	    -o-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
 	}
 }
 @media (min-width: 550px) and (max-width: 600px) { 
@@ -263,6 +380,10 @@
 	}
 	.about{
 		margin-top: 45px;
+		font-size: 30px;
+	}
+	.aboutEmail{
+		font-size: 30px;
 	}
 
 	.aboutRow .aboutLeft{
@@ -276,13 +397,6 @@
 	    -o-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
 	}
 }
 @media (min-width: 600px) and (max-width: 650px) { 
@@ -300,6 +414,10 @@
 	}
 	.about{
 		margin-top: 45px;
+		font-size: 30px;
+	}
+	.aboutEmail{
+		font-size: 30px;
 	}
 
 	.aboutRow .aboutLeft{
@@ -313,13 +431,6 @@
 	    -o-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
 	}
 }
 @media (min-width: 650px) and (max-width: 700px) { 
@@ -337,6 +448,10 @@
 	}
 	.about{
 		margin-top: 45px;
+		font-size: 30px;
+	}
+	.aboutEmail{
+		font-size: 30px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 20px;
@@ -349,13 +464,6 @@
 	    -o-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
 	}
 }
 @media (min-width: 700px) and (max-width: 750px) { 
@@ -373,6 +481,10 @@
 	}
 	.about{
 		margin-top: 45px;
+		font-size: 30px;
+	}
+	.aboutEmail{
+		font-size: 30px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 20px;
@@ -385,13 +497,6 @@
 	    -o-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
 	}
 
 }
@@ -409,8 +514,12 @@
 		margin-top: 48px;
 	}
 	.about{
+		margin-top: 45px;
 		text-align: left;
-		margin-top: 40px;	
+		font-size: 30px;
+	}
+	.aboutEmail{
+		font-size: 30px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 20px;
@@ -424,13 +533,6 @@
 	    -o-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
 	}
 }
 
@@ -449,6 +551,11 @@
 	}
 	.about{
 		text-align: left;
+		margin-top: 45px;
+		font-size: 30px;
+	}
+	.aboutEmail{
+		font-size: 30px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 40px;
@@ -461,13 +568,6 @@
 	    -o-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
 	}
 }
 
@@ -486,6 +586,11 @@
 	}
 	.about{
 		text-align: left;
+		margin-top: 45px;
+		font-size: 40px;
+	}
+	.aboutEmail{
+		font-size: 40px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 40px;
@@ -498,13 +603,6 @@
 	    -o-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
 	}
 }
 @media (min-width: 900px) and (max-width: 950px) { 
@@ -522,6 +620,11 @@
 	}
 	.about{
 		text-align: left;
+		margin-top: 45px;
+		font-size: 40px;
+	}
+	.aboutEmail{
+		font-size: 40px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 40px;
@@ -534,13 +637,6 @@
 	    -o-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
 	}
 }
 @media (min-width: 950px) and (max-width: 1000px) { 
@@ -558,6 +654,11 @@
 	}
 	.about{
 		text-align: left;
+		margin-top: 45px;
+		font-size: 40px;
+	}
+	.aboutEmail{
+		font-size: 40px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 40px;
@@ -570,13 +671,6 @@
 	    -o-transform: rotate(-3deg);
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
 	}
 }
 @media (min-width: 1000px) and (max-width: 1050px) { 
@@ -594,7 +688,11 @@
 	}
 	.about{
 		text-align: left;
-		max-width: 400px;
+		margin-top: 45px;
+		font-size: 40px;
+	}
+	.aboutEmail{
+		font-size: 40px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 40px;
@@ -608,12 +706,8 @@
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	#aboutContainer {
+		margin-top: 110px;
 	}
 }
 @media (min-width: 1050px) and (max-width: 1100px) { 
@@ -631,7 +725,11 @@
 	}
 	.about{
 		text-align: left;
-		max-width: 400px;
+		margin-top: 45px;
+		font-size: 50px;
+	}
+	.aboutEmail{
+		font-size: 50px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 40px;
@@ -645,12 +743,8 @@
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	#aboutContainer {
+		margin-top: 120px;
 	}
 }
 @media (min-width: 1100px) and (max-width: 1150px) { 
@@ -668,7 +762,11 @@
 	}
 	.about{
 		text-align: left;
-		max-width: 400px;
+		margin-top: 45px;
+		font-size: 50px;
+	}
+	.aboutEmail{
+		font-size: 50px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 40px;
@@ -682,12 +780,8 @@
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	#aboutContainer {
+		margin-top: 130px;
 	}
 }
 @media (min-width: 1150px) and (max-width: 1200px) { 
@@ -705,7 +799,10 @@
 	}
 	.about{
 		text-align: left;
-		max-width: 400px;
+		font-size: 50px;
+	}
+	.aboutEmail{
+		font-size: 50px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 40px;
@@ -719,12 +816,8 @@
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	#aboutContainer {
+		margin-top: 130px;
 	}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
@@ -742,7 +835,10 @@
 	}
 	.about{
 		text-align: left;
-		max-width: 400px;
+		font-size: 50px;
+	}
+	.aboutEmail{
+		font-size: 50px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 40px;
@@ -756,12 +852,8 @@
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	#aboutContainer {
+		margin-top: 140px;
 	}
 }
 @media (min-width: 1300px) and (max-width: 1400px) {
@@ -779,7 +871,10 @@
 	}
 	.about{
 		text-align: left;
-		max-width: 400px;
+		font-size: 50px;
+	}
+	.aboutEmail{
+		font-size: 50px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 40px;
@@ -793,12 +888,9 @@
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	#aboutContainer {
+		margin-top: 150px;
+
 	}
 }
 @media (min-width: 1400px) and (max-width: 1500px) {
@@ -816,7 +908,10 @@
 	}
 	.about{
 		text-align: left;
-		max-width: 400px;
+		font-size: 50px;
+	}
+	.aboutEmail{
+		font-size: 50px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 40px;
@@ -830,12 +925,9 @@
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	#aboutContainer {
+		margin-top: 150px;
+
 	}
 }
 @media (min-width: 1500px) and (max-width: 1600px) {
@@ -853,7 +945,10 @@
 	}
 	.about{
 		text-align: left;
-		max-width: 400px;
+		font-size: 60px;
+	}
+	.aboutEmail{
+		font-size: 60px;
 	}
 	#aboutContainer {
 		margin-top: 50px;
@@ -870,12 +965,9 @@
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	#aboutContainer {
+		margin-top: 160px;
+
 	}
 }
 @media (min-width: 1600px) and (max-width: 1700px) {
@@ -893,7 +985,10 @@
 	}
 	.about{
 		text-align: left;
-		max-width: 400px;
+		font-size: 60px;
+	}
+	.aboutEmail{
+		font-size: 60px;
 	}
 	.aboutRow .aboutLeft{
 		font-size: 40px;
@@ -907,12 +1002,9 @@
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	#aboutContainer {
+		margin-top: 160px;
+
 	}
 }
 @media (min-width: 1700px) and (max-width: 1900px) {
@@ -930,7 +1022,10 @@
 	}
 	.about{
 		text-align: left;
-		max-width: 400px;
+		font-size: 60px;
+	}
+	.aboutEmail{
+		font-size: 60px;
 	}
 	.image img{
 		-webkit-transform: rotate(-3deg);
@@ -939,12 +1034,14 @@
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	#aboutContainer {
+		margin-top: 170px;
+
+	}
+	.aboutRow .aboutLeft{
+		font-size: 40px;
+		line-height: 40px;
+		text-align: right;
 	}
 }
 @media (min-width: 1900px) and (max-width: 2000px) {
@@ -962,7 +1059,10 @@
 	}
 	.about{
 		text-align: left;
-		max-width: 400px;
+		font-size: 70px;
+	}
+	.aboutEmail{
+		font-size: 70px;
 	}
 	.image img{
 		-webkit-transform: rotate(-3deg);
@@ -972,12 +1072,14 @@
 	    transform: rotate(-3deg);
 	}
 
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	#aboutContainer {
+		margin-top: 180px;
+
+	}
+	.aboutRow .aboutLeft{
+		font-size: 40px;
+		line-height: 40px;
+		text-align: right;
 	}
 }
 

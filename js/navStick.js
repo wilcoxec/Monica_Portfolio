@@ -33,7 +33,43 @@ $(function() {
     $("#workNav").hover(
         function() {
         $(this).css({
-            color: "white",
+            color: "#ff9999",
+
+        });
+        },
+        function(){
+            $(this).css("color", "black");
+        }
+    );
+
+    $("#mwNav").hover(
+        function() {
+        $(this).css({
+            color: "#ff9999",
+
+        });
+        },
+        function(){
+            $(this).css("color", "black");
+        }
+    );
+
+    $("#studioNav").hover(
+        function() {
+        $(this).css({
+            color: "#ff9999",
+
+        });
+        },
+        function(){
+            $(this).css("color", "black");
+        }
+    );
+
+    $("#contactNav").hover(
+        function() {
+        $(this).css({
+            color: "#ff9999",
 
         });
         },

@@ -20,7 +20,7 @@ html, body{
 	width: 300px;
 	margin: auto;
 	text-align: center;
-	padding: 10px;
+	padding: 0px;
 }
 
 .projectBox2{
@@ -28,9 +28,10 @@ html, body{
 }
 
 .projectBox .image{
-	z-index: 1;
+	z-index: 0;
 	position: absolute;
 	text-align: center;
+
 }
 
 .image img{
@@ -42,7 +43,7 @@ html, body{
 
 .projectBox .project{
 	position: absolute;
-	z-index: 2;
+	z-index: 1;
 	text-align: center;
 	margin-top: 100px;
 
@@ -82,7 +83,36 @@ html, body{
 	text-align: center;
 	width: 100%;
 	text-decoration: none;
+	color: #000;
+	font-family: 'Arial', Arial, sans-serif;
+}
+
+#pdf{
+	text-transform: uppercase;
+}
+
+#footerContainer{
+	text-align: center;
+	margin: auto;
+	font-family: 'Arial', Arial, sans-serif;
+	padding: 30px;
+	background-color: #000;
 	color: #fff;
+	width: 100%;
+	bottom: 0;
+}
+
+.footerRow{
+	width: 100%;
+}
+
+
+.footerLeft{
+	text-align: left;
+}
+
+.footerRight{
+	text-align: left;
 }
 
 
@@ -94,7 +124,7 @@ html, body{
 
 .nav {
 	position: absolute;
-	z-index: 4;
+	z-index: 3;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -104,7 +134,7 @@ html, body{
 
 .nav2 {
 	position: absolute;
-	z-index: 3;
+	z-index: 2;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -152,6 +182,8 @@ html, body{
 	text-decoration: none;
 }
 
+
+
 @media (min-width: 200px) and (max-width: 250px) { 
 	.nav a {
 		font-size: 13px;
@@ -160,13 +192,13 @@ html, body{
 		font-size: 13px;
 	}
 	#bodyContainer {
-		margin-top: 14px;
+		margin-top: 10px;
 	}
 	.portfolioBox{
 		margin-top: 16px;
 	}
 	.projectBox{
-		height: 350px;
+		height: 250px;
 	}
 }
 @media (min-width: 250px) and (max-width: 300px) { 
@@ -177,13 +209,16 @@ html, body{
 		font-size: 14px;
 	}
 	#bodyContainer {
-		margin-top: 14.5px;
+		margin-top: 10px;
 	}
 	.portfolioBox{
 		margin-top: 16px;
 	}
 	.projectBox{
-		height: 350px;
+		height: 250px;
+	}
+	header {
+		height: 10px;
 	}
 }
 @media (min-width: 300px) and (max-width: 350px) { 
@@ -194,13 +229,16 @@ html, body{
 		font-size: 15px;
 	}
 	#bodyContainer {
-		margin-top: 16px;
+		margin-top: 10px;
 	}
 	.portfolioBox{
 		margin-top: 18px;
 	}
 	.projectBox{
-		height: 350px;
+		height: 250px;
+	}
+	header {
+		height: 10px;
 	}
 }
 @media (min-width: 350px) and (max-width: 400px) { 
@@ -211,13 +249,16 @@ html, body{
 		font-size: 22px;
 	}
 	#bodyContainer {
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	.portfolioBox{
 		margin-top: 20px;
 	}
 	.projectBox{
-		height: 350px;
+		height: 250px;
+	}
+	header {
+		height: 15px;
 	}
 }
 @media (min-width: 400px) and (max-width: 450px) { 
@@ -228,13 +269,13 @@ html, body{
 		font-size: 23.5px;
 	}
 	#bodyContainer {
-		margin-top: 25px;
+		margin-top: 10px;
 	}
 	.portfolioBox{
 		margin-top: 25px;
 	}
 	.projectBox{
-		height: 350px;
+		height: 250px;
 	}
 }
 @media (min-width: 450px) and (max-width: 500px) { 

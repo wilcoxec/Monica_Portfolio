@@ -3,11 +3,9 @@ html{
 }
 body{
 	font-family: 'Arial', Arial, sans-serif;
-	background-image: url(../black.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
 	min-height: 100%;
-}
+
+ }
 
 .projectBox{
 	position: relative;
@@ -82,7 +80,6 @@ body{
 .aboutRow .aboutLeft{
 	position: absolute;
 	z-index: 1;
-	text-transform: uppercase;
 	padding: 10px;
 	font-size: 40px;
 	line-height: 40px;
@@ -97,12 +94,16 @@ body{
 
 
 #aboutContainer{
-	color: white;
+	color: #000;
 	text-align: center;
 	margin: auto;
 	font-family: 'Arial', Arial, sans-serif;
 	height: 700px;
 	overflow-x: hidden;
+/*	background-image: url(../images/wa2.jpg);
+	background-repeat: no-repeat;
+    background-position: center bottom fixed;
+    background-size: auto 100%;*/
 }
 
 #footerContainer{
@@ -110,8 +111,8 @@ body{
 	margin: auto;
 	font-family: 'Arial', Arial, sans-serif;
 	padding: 30px;
-	background-color: #fff;
-	color: #000;
+	background-color: #000;
+	color: #fff;
 	width: 100%;
 	bottom: 0;
 }
@@ -143,6 +144,7 @@ body{
 	list-style: none;
 	text-align: center;
 	width: 100%;
+	text-decoration: none;
 }
 
 .nav2 {
@@ -153,15 +155,17 @@ body{
 	list-style: none;
 	text-align: center;
 	width: 100%;
-
+	text-decoration: none;
 }
 .nav li{
 	display: inline;
+	text-decoration: none;
 }
 
 .nav ul{
 	padding: 0;
 	margin: 0;
+	text-decoration: none;
 }
 
 .nav a{
@@ -173,11 +177,13 @@ body{
 
 .nav2 li{
 	display: inline;
+	text-decoration: none;
 }
 
 .nav2 ul{
 	padding: 0;
 	margin: 0;
+	text-decoration: none;
 }
 
 .nav2 a{

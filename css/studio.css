@@ -1,109 +1,173 @@
-html, body{
+html {
 	min-height: 100%;
-	font-family: 'Arial', Arial, sans-serif;
-	background: black;
 }
 
-.projectBoxFirst{
-	position: relative;
-	margin: auto;
-	text-align: center;
-	min-height: 100px;
+body{
+	font-family: 'Arial', Arial, sans-serif;
+	background-image: url(../images/studioBack.jpg);
+	background-repeat: no-repeat;
+    background-position: center top fixed;
+    background-size: 100% auto;
+    overflow-x: hidden;
+
 }
 
 .projectBox{
 	position: relative;
+	margin: 0;
+	text-align: center;
+
+}
+
+.image {
+	width: 100%;
+}
+
+
+
+.portfolioBox{
+	width: 100%;
+	text-align: center;
+	font-family: 'Arial', Arial, sans-serif;
+}
+
+.portfolio{
+	width: 300px;
 	margin: auto;
 	text-align: center;
-	min-height: 500px;
+	padding: 0px;
+}
+
+.projectBoxNext .image{
+	z-index: 0;
+	position: absolute;
+	text-align: center;
 }
 
 .projectBox .image{
-	margin-top: 12px;
 	z-index: 0;
 	position: absolute;
 	text-align: center;
-	height: 80%;
+	overflow-x: hidden;
 }
 
-.projectBox .imageRight{
-	margin-top: 12px;
+.projectBoxNext .image2{
 	z-index: 0;
 	position: absolute;
 	text-align: center;
-	height: 80%;
-}
-
-.projectBox .projectRight{
-	position: absolute;
 	margin-top: 100px;
-	z-index: 2;
-	text-align: center;
-}
-
-.projectBox .project{
-	position: absolute;
-	margin-top: 100px;
-	z-index: 2;
-	text-align: center;
-}
-
-#featureContainerFirst{
-	margin-top: 50px;
 	overflow-x: hidden;
-}
-
-#featureContainer {
-	overflow-x: hidden;
-}
-
-#featureTitle{
-	text-align: center;
-	font-size: 30px;
 }
 
 .image img{
-	width: 350px;
+	max-width: 100%;
 	height: auto;
+}
+
+
+
+.projectBox .project{
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	margin-top: 100px;
+
+	width: 375px;
+	padding: 10px;
+	color: #000;
+	border-color: black;
+	border-width: 0.5;
+	border-style: solid;
+}
+
+.projectBoxNext .project{
+	position: absolute;
+	z-index: 0;
+	text-align: center;
+	margin-top: 100px;
+
+	width: 400px;
+	padding: 10px;
+	color: #000;
+	background-image: url(../images/stripes.jpg);
+}
+#bodyContainerNext{
+	height: auto;
+	font-family: 'Arial', Arial, sans-serif;
+}
+
+#bodyContainer {
+	height: auto;
+	overflow: hidden;
+	font-family: 'Arial', Arial, sans-serif;
+}
+
+#date {
 	text-align: center;
 }
 
-.imageRight img{
-	width: 350px;
-	height: auto;
+#projectTitle{
 	text-align: center;
+	font-size: 35px;
+	font-weight: bolder;
+	text-transform: uppercase;
 }
 
-.project img{
-	width: 300px;
-	-webkit-transform: rotate(3deg);
-    -moz-transform: rotate(3deg);
-    -o-transform: rotate(3deg);
-    -ms-transform: rotate(3deg);
-    transform: rotate(3deg);
+#projectDescription{
+	text-transform: uppercase;
 }
 
-.projectRight img{
-	width: 300px;
-	-webkit-transform: rotate(-3deg);
-    -moz-transform: rotate(-3deg);
-    -o-transform: rotate(-3deg);
-    -ms-transform: rotate(-3deg);
-    transform: rotate(-3deg);
+#backToTop{
+	text-align: center;
+	width: 100%;
+	padding-bottom: 50px;
+}
+#backToTop a{
+	text-align: center;
+	width: 100%;
+	text-decoration: none;
+	color: #000;
+	font-family: 'Arial', Arial, sans-serif;
+}
+
+#pdf{
+	text-transform: uppercase;
 }
 
 
+#footerContainer{
+	text-align: center;
+	margin: auto;
+	font-family: 'Arial', Arial, sans-serif;
+	padding: 30px;
+	background-color: #000;
+	color: #fff;
+	width: 100%;
+	bottom: 0;
+}
 
+.footerRow{
+	width: 100%;
+}
+
+
+.footerLeft{
+	text-align: left;
+}
+
+.footerRight{
+	text-align: left;
+}
 
 /* Navigation Style */
 .navContainer {
 	position: relative;
-	height: 20px;
+	height: 78px;
 }
 
 .nav {
 	position: absolute;
-	z-index: 4;
+	z-index: 3;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -113,7 +177,7 @@ html, body{
 
 .nav2 {
 	position: absolute;
-	z-index: 3;
+	z-index: 2;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -133,7 +197,7 @@ html, body{
 .nav a{
 	display: inline-block;
 	text-decoration: none;
-	font-family: 'Arial', Arial, sans-serif;
+	font-family: 'Arial', Arial, sans-serif;	
 	font-weight: bold;
 }
 
@@ -169,20 +233,17 @@ html, body{
 		font-size: 13px;
 	}
 	#bodyContainer {
-		margin-top: 14px;
+		margin-top: 0px;
 	}
 	.portfolioBox{
 		margin-top: 16px;
 	}
-	.about{
-		margin-top: 40px;
+	.projectBox{
+		height: 200px;
 	}
-
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
+	.projectBoxNext .image2{
+		margin-top: 200px;
 	}
-
 }
 @media (min-width: 250px) and (max-width: 300px) { 
 	.nav a {
@@ -192,23 +253,22 @@ html, body{
 		font-size: 14px;
 	}
 	#bodyContainer {
-		margin-top: 14.5px;
+		margin-top: 0px;
 	}
 	.portfolioBox{
 		margin-top: 16px;
 	}
-	.about{
-		margin-top: 45px;
+	.projectBox{
+		height: 200px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
+	.projectBoxNext .image2{
+		margin-top: 200px;
 	}
-
-
+	header {
+		height: 10px;
+	}
 }
 @media (min-width: 300px) and (max-width: 350px) { 
-
 	.nav a {
 		font-size: 15px;
 	}
@@ -216,19 +276,20 @@ html, body{
 		font-size: 15px;
 	}
 	#bodyContainer {
-		margin-top: 16px;
+		margin-top: 0px;
 	}
 	.portfolioBox{
 		margin-top: 18px;
 	}
-	.about{
-		margin-top: 45px;
+	.projectBox{
+		height: 200px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
+	.projectBoxNext .image2{
+		margin-top: 200px;
 	}
-
+	header {
+		height: 10px;
+	}
 }
 @media (min-width: 350px) and (max-width: 400px) { 
 	.nav a {
@@ -238,19 +299,21 @@ html, body{
 		font-size: 22px;
 	}
 	#bodyContainer {
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 	.portfolioBox{
 		margin-top: 20px;
 	}
-	.about{
-		margin-top: 45px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
+	.projectBox{
+		height: 200px;
 	}
 
+	.projectBoxNext{
+		margin-top: 50px;
+	}
+	header {
+		height: 15px;
+	}
 }
 @media (min-width: 400px) and (max-width: 450px) { 
 	.nav a {
@@ -260,19 +323,17 @@ html, body{
 		font-size: 23.5px;
 	}
 	#bodyContainer {
-		margin-top: 25px;
+		margin-top: 0px;
 	}
 	.portfolioBox{
 		margin-top: 25px;
 	}
-	.about{
-		margin-top: 45px;
+	.projectBox{
+		height: 200px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
+	.projectBoxNext{
+		margin-top: 140px;
 	}
-
 }
 @media (min-width: 450px) and (max-width: 500px) { 
 	.nav a {
@@ -284,30 +345,11 @@ html, body{
 	#bodyContainer {
 		margin-top: 28px;
 	}
-	.portfolioBox{
+	.portfolioBox .image2{
 		margin-top: 30px;
 	}
-	.about{
-		margin-top: 45px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.projectBox{
+		height: 190px;
 	}
 }
 @media (min-width: 500px) and (max-width: 550px) { 
@@ -323,27 +365,8 @@ html, body{
 	.portfolioBox{
 		margin-top: 31px;
 	}
-	.about{
-		margin-top: 45px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.projectBox{
+		height: 210px;
 	}
 }
 @media (min-width: 550px) and (max-width: 600px) { 
@@ -359,29 +382,10 @@ html, body{
 	.portfolioBox{
 		margin-top: 35px;
 	}
-	.about{
-		margin-top: 45px;
+	.projectBox{
+		height: 240px;
 	}
 
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
-	}
 }
 @media (min-width: 600px) and (max-width: 650px) { 
 	.nav a {
@@ -396,29 +400,10 @@ html, body{
 	.portfolioBox{
 		margin-top: 37px;
 	}
-	.about{
-		margin-top: 45px;
+	.projectBox{
+		height: 270px;
 	}
 
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
-	}
 }
 @media (min-width: 650px) and (max-width: 700px) { 
 	.nav a {
@@ -433,28 +418,10 @@ html, body{
 	.portfolioBox{
 		margin-top: 42px;
 	}
-	.about{
-		margin-top: 45px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
+	.projectBox{
+		height: 300px;
 	}
 
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
-	}
 }
 @media (min-width: 700px) and (max-width: 750px) { 
 	.nav a {
@@ -469,27 +436,8 @@ html, body{
 	.portfolioBox{
 		margin-top: 45px;
 	}
-	.about{
-		margin-top: 45px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.projectBox{
+		height: 330px;
 	}
 
 }
@@ -506,30 +454,10 @@ html, body{
 	.portfolioBox{
 		margin-top: 48px;
 	}
-	.about{
-		text-align: left;
-		margin-top: 40px;	
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-		text-align: right;
+	.projectBox{
+		height: 360px;
 	}
 
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
-	}
 }
 
 @media (min-width: 800px) and (max-width: 850px) { 
@@ -545,28 +473,10 @@ html, body{
 	.portfolioBox{
 		margin-top: 52px;
 	}
-	.about{
-		text-align: left;
+	.projectBox{
+		height: 390px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
-	}
+
 }
 
 @media (min-width: 850px) and (max-width: 900px) { 
@@ -582,28 +492,10 @@ html, body{
 	.portfolioBox{
 		margin-top: 55px;
 	}
-	.about{
-		text-align: left;
+	.projectBox{
+		height: 430px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
-	}
+
 }
 @media (min-width: 900px) and (max-width: 950px) { 
 	.nav a {
@@ -618,28 +510,10 @@ html, body{
 	.portfolioBox{
 		margin-top: 58px;
 	}
-	.about{
-		text-align: left;
+	.projectBox{
+		height: 450px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
-	}
+
 }
 @media (min-width: 950px) and (max-width: 1000px) { 
 	.nav a {
@@ -654,27 +528,11 @@ html, body{
 	.portfolioBox{
 		margin-top: 61px;
 	}
-	.about{
-		text-align: left;
+	.projectBox{
+		height: 470px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.image2{
+		margin-top: 75px;
 	}
 }
 @media (min-width: 1000px) and (max-width: 1050px) { 
@@ -690,28 +548,11 @@ html, body{
 	.portfolioBox{
 		margin-top: 65px;
 	}
-	.about{
-		text-align: left;
-		max-width: 400px;
+	.projectBox{
+		height: 500px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.image2{
+		margin-top: 75px;
 	}
 }
 @media (min-width: 1050px) and (max-width: 1100px) { 
@@ -727,28 +568,11 @@ html, body{
 	.portfolioBox{
 		margin-top: 68px;
 	}
-	.about{
-		text-align: left;
-		max-width: 400px;
+	.projectBox{
+		height: 500px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.image2{
+		margin-top: 75px;
 	}
 }
 @media (min-width: 1100px) and (max-width: 1150px) { 
@@ -764,28 +588,11 @@ html, body{
 	.portfolioBox{
 		margin-top: 71px;
 	}
-	.about{
-		text-align: left;
-		max-width: 400px;
+	.projectBox{
+		height: 500px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.image2{
+		margin-top: 75px;
 	}
 }
 @media (min-width: 1150px) and (max-width: 1200px) { 
@@ -801,28 +608,11 @@ html, body{
 	.portfolioBox{
 		margin-top: 74px;
 	}
-	.about{
-		text-align: left;
-		max-width: 400px;
+	.projectBox{
+		height: 500px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.image2{
+		margin-top: 75px;
 	}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
@@ -838,28 +628,11 @@ html, body{
 	.portfolioBox{
 		margin-top: 77px;
 	}
-	.about{
-		text-align: left;
-		max-width: 400px;
+	.projectBox{
+		height: 500px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.image2{
+		margin-top: 75px;
 	}
 }
 @media (min-width: 1300px) and (max-width: 1400px) {
@@ -869,32 +642,17 @@ html, body{
 	.nav2 a{
 		font-size: 80px;
 	}
-
+	#bodyContainer {
+		margin-top: 82px;
+	}
 	.portfolioBox{
 		margin-top: 82px;
 	}
-	.about{
-		text-align: left;
-		max-width: 400px;
+	.projectBox{
+		height: 500px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.image2{
+		margin-top: 75px;
 	}
 }
 @media (min-width: 1400px) and (max-width: 1500px) {
@@ -904,32 +662,17 @@ html, body{
 	.nav2 a{
 		font-size: 88px;
 	}
-
+	#bodyContainer {
+		margin-top: 90px;
+	}
 	.portfolioBox{
 		margin-top: 90px;
 	}
-	.about{
-		text-align: left;
-		max-width: 400px;
+	.projectBox{
+		height: 500px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.image2{
+		margin-top: 75px;
 	}
 }
 @media (min-width: 1500px) and (max-width: 1600px) {
@@ -939,35 +682,17 @@ html, body{
 	.nav2 a{
 		font-size: 95px;
 	}
-
+	#bodyContainer {
+		margin-top: 97px;
+	}
 	.portfolioBox{
 		margin-top: 97px;
 	}
-	.about{
-		text-align: left;
-		max-width: 400px;
+	.projectBox{
+		height: 500px;
 	}
-	#aboutContainer {
-		margin-top: 50px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.image2{
+		margin-top: 75px;
 	}
 }
 @media (min-width: 1600px) and (max-width: 1700px) {
@@ -977,32 +702,17 @@ html, body{
 	.nav2 a{
 		font-size: 100px;
 	}
-
+	#bodyContainer {
+		margin-top: 102px;
+	}
 	.portfolioBox{
 		margin-top: 102px;
 	}
-	.about{
-		text-align: left;
-		max-width: 400px;
+	.projectBox{
+		height: 500px;
 	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.image2{
+		margin-top: 75px;
 	}
 }
 @media (min-width: 1700px) and (max-width: 1900px) {
@@ -1012,27 +722,17 @@ html, body{
 	.nav2 a{
 		font-size: 105px;
 	}
-
+	#bodyContainer {
+		margin-top: 112px;
+	}
 	.portfolioBox{
 		margin-top: 112px;
 	}
-	.about{
-		text-align: left;
-		max-width: 400px;
+	.projectBox{
+		height: 500px;
 	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.image2{
+		margin-top: 75px;
 	}
 }
 @media (min-width: 1900px) and (max-width: 2000px) {
@@ -1042,29 +742,19 @@ html, body{
 	.nav2 a{
 		font-size: 120px;
 	}
-
+	#bodyContainer {
+		margin-top: 122px;
+	}
 	.portfolioBox{
 		margin-top: 122px;
 	}
-	.about{
-		text-align: left;
-		max-width: 400px;
+	.projectBox{
+		height: 500px;
 	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
+	.image2{
+		margin-top: 75px;
 	}
 }
+
 
 
