@@ -1,5 +1,5 @@
 html {
-	min-height: 100%;
+	height: 100%;
 }
 
 body{
@@ -7,114 +7,42 @@ body{
 	background-image: url(../images/studioBack.jpg);
 	background-repeat: no-repeat;
     background-position: center top fixed;
-    background-size: 100% auto;
+    background-size: cover;
     overflow-x: hidden;
-
+    height: 100%;
 }
 
-.projectBox{
-	position: relative;
-	margin: 0;
+.titleContain {
 	text-align: center;
+	color: #000;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 100%;
 
 }
-
-.image {
-	width: 100%;
+header{
+	height: 0;
 }
 
-
-
-.portfolioBox{
-	width: 100%;
+.title{
+	border-style: solid;
 	text-align: center;
+	overflow-x: hidden;
+	text-transform: uppercase;
 	font-family: 'Arial', Arial, sans-serif;
-}
-
-.portfolio{
-	width: 300px;
-	margin: auto;
-	text-align: center;
-	padding: 0px;
-}
-
-.projectBoxNext .image{
-	z-index: 0;
-	position: absolute;
-	text-align: center;
-}
-
-.projectBox .image{
-	z-index: 0;
-	position: absolute;
-	text-align: center;
-	overflow-x: hidden;
-}
-
-.projectBoxNext .image2{
-	z-index: 0;
-	position: absolute;
-	text-align: center;
-	margin-top: 100px;
-	overflow-x: hidden;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 300px;
 }
 
 .image img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 
-
-
-.projectBox .project{
-	position: absolute;
-	z-index: 1;
-	text-align: center;
-	margin-top: 100px;
-
-	width: 375px;
-	padding: 10px;
-	color: #000;
-	border-color: black;
-	border-width: 0.5;
-	border-style: solid;
-}
-
-.projectBoxNext .project{
-	position: absolute;
-	z-index: 0;
-	text-align: center;
-	margin-top: 100px;
-
-	width: 400px;
-	padding: 10px;
-	color: #000;
-	background-image: url(../images/stripes.jpg);
-}
-#bodyContainerNext{
-	height: auto;
-	font-family: 'Arial', Arial, sans-serif;
-}
-
-#bodyContainer {
-	height: auto;
-	overflow: hidden;
-	font-family: 'Arial', Arial, sans-serif;
-}
-
-#date {
-	text-align: center;
-}
-
-#projectTitle{
-	text-align: center;
-	font-size: 35px;
-	font-weight: bolder;
-	text-transform: uppercase;
-}
-
-#projectDescription{
-	text-transform: uppercase;
+.pic{
+	margin: 0;
+	padding: 0;
 }
 
 #backToTop{
@@ -122,28 +50,29 @@ body{
 	width: 100%;
 	padding-bottom: 50px;
 }
+
 #backToTop a{
 	text-align: center;
 	width: 100%;
 	text-decoration: none;
-	color: #000;
 	font-family: 'Arial', Arial, sans-serif;
-}
-
-#pdf{
+	color: #000;
+	width: 100%;
+	bottom: 0;
+	font-size: 12px;
 	text-transform: uppercase;
 }
 
-
 #footerContainer{
-	text-align: center;
+	text-align: left;
 	margin: auto;
 	font-family: 'Arial', Arial, sans-serif;
-	padding: 30px;
-	background-color: #000;
-	color: #fff;
+	color: #000;
 	width: 100%;
 	bottom: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 10px;
 }
 
 .footerRow{
@@ -158,6 +87,7 @@ body{
 .footerRight{
 	text-align: left;
 }
+
 
 /* Navigation Style */
 .navContainer {
@@ -232,18 +162,7 @@ body{
 	.nav2 a {
 		font-size: 13px;
 	}
-	#bodyContainer {
-		margin-top: 0px;
-	}
-	.portfolioBox{
-		margin-top: 16px;
-	}
-	.projectBox{
-		height: 200px;
-	}
-	.projectBoxNext .image2{
-		margin-top: 200px;
-	}
+
 }
 @media (min-width: 250px) and (max-width: 300px) { 
 	.nav a {
@@ -252,21 +171,7 @@ body{
 	.nav2 a {
 		font-size: 14px;
 	}
-	#bodyContainer {
-		margin-top: 0px;
-	}
-	.portfolioBox{
-		margin-top: 16px;
-	}
-	.projectBox{
-		height: 200px;
-	}
-	.projectBoxNext .image2{
-		margin-top: 200px;
-	}
-	header {
-		height: 10px;
-	}
+
 }
 @media (min-width: 300px) and (max-width: 350px) { 
 	.nav a {
@@ -275,21 +180,7 @@ body{
 	.nav2 a {
 		font-size: 15px;
 	}
-	#bodyContainer {
-		margin-top: 0px;
-	}
-	.portfolioBox{
-		margin-top: 18px;
-	}
-	.projectBox{
-		height: 200px;
-	}
-	.projectBoxNext .image2{
-		margin-top: 200px;
-	}
-	header {
-		height: 10px;
-	}
+
 }
 @media (min-width: 350px) and (max-width: 400px) { 
 	.nav a {
@@ -298,22 +189,7 @@ body{
 	.nav2 a {
 		font-size: 22px;
 	}
-	#bodyContainer {
-		margin-top: 0px;
-	}
-	.portfolioBox{
-		margin-top: 20px;
-	}
-	.projectBox{
-		height: 200px;
-	}
 
-	.projectBoxNext{
-		margin-top: 50px;
-	}
-	header {
-		height: 15px;
-	}
 }
 @media (min-width: 400px) and (max-width: 450px) { 
 	.nav a {
@@ -322,18 +198,7 @@ body{
 	.nav2 a {
 		font-size: 23.5px;
 	}
-	#bodyContainer {
-		margin-top: 0px;
-	}
-	.portfolioBox{
-		margin-top: 25px;
-	}
-	.projectBox{
-		height: 200px;
-	}
-	.projectBoxNext{
-		margin-top: 140px;
-	}
+
 }
 @media (min-width: 450px) and (max-width: 500px) { 
 	.nav a {
@@ -342,15 +207,7 @@ body{
 	.nav2 a {
 		font-size: 27px;
 	}
-	#bodyContainer {
-		margin-top: 28px;
-	}
-	.portfolioBox .image2{
-		margin-top: 30px;
-	}
-	.projectBox{
-		height: 190px;
-	}
+
 }
 @media (min-width: 500px) and (max-width: 550px) { 
 	.nav a {
@@ -359,15 +216,7 @@ body{
 	.nav2 a {
 		font-size: 30px;
 	}
-	#bodyContainer {
-		margin-top: 31px;
-	}
-	.portfolioBox{
-		margin-top: 31px;
-	}
-	.projectBox{
-		height: 210px;
-	}
+
 }
 @media (min-width: 550px) and (max-width: 600px) { 
 	.nav a {
@@ -376,16 +225,11 @@ body{
 	.nav2 a {
 		font-size: 33px;
 	}
-	#bodyContainer {
-		margin-top: 35px;
-	}
-	.portfolioBox{
-		margin-top: 35px;
-	}
-	.projectBox{
-		height: 240px;
-	}
 
+	.image{
+		margin: 0;
+		padding: 0;
+	}
 }
 @media (min-width: 600px) and (max-width: 650px) { 
 	.nav a {
@@ -394,16 +238,11 @@ body{
 	.nav2 a {
 		font-size: 36px;
 	}
-	#bodyContainer {
-		margin-top: 37px;
-	}
-	.portfolioBox{
-		margin-top: 37px;
-	}
-	.projectBox{
-		height: 270px;
-	}
 
+	.image{
+		margin: 0;
+		padding: 0;
+	}
 }
 @media (min-width: 650px) and (max-width: 700px) { 
 	.nav a {
@@ -412,16 +251,11 @@ body{
 	.nav2 a {
 		font-size: 40px;
 	}
-	#bodyContainer {
-		margin-top: 42px;
-	}
-	.portfolioBox{
-		margin-top: 42px;
-	}
-	.projectBox{
-		height: 300px;
-	}
 
+	.image{
+		margin: 0;
+		padding: 0;
+	}
 }
 @media (min-width: 700px) and (max-width: 750px) { 
 	.nav a {
@@ -430,14 +264,10 @@ body{
 	.nav2 a {
 		font-size: 43px;
 	}
-	#bodyContainer {
-		margin-top: 45px;
-	}
-	.portfolioBox{
-		margin-top: 45px;
-	}
-	.projectBox{
-		height: 330px;
+
+	.image{
+		margin: 0;
+		padding: 0;
 	}
 
 }
@@ -448,15 +278,7 @@ body{
 	.nav2 a {
 		font-size: 46px;
 	}
-	#bodyContainer {
-		margin-top: 48px;
-	}
-	.portfolioBox{
-		margin-top: 48px;
-	}
-	.projectBox{
-		height: 360px;
-	}
+
 
 }
 
@@ -467,16 +289,10 @@ body{
 	.nav2 a {
 		font-size: 50px;
 	}
-	#bodyContainer {
-		margin-top: 52px;
-	}
-	.portfolioBox{
-		margin-top: 52px;
-	}
-	.projectBox{
-		height: 390px;
-	}
 
+	.image{
+		padding: 20px;
+	}
 }
 
 @media (min-width: 850px) and (max-width: 900px) { 
@@ -486,16 +302,10 @@ body{
 	.nav2 a {
 		font-size: 53px;
 	}
-	#bodyContainer {
-		margin-top: 55px;
-	}
-	.portfolioBox{
-		margin-top: 55px;
-	}
-	.projectBox{
-		height: 430px;
-	}
 
+	.image{
+		padding: 20px;
+	}
 }
 @media (min-width: 900px) and (max-width: 950px) { 
 	.nav a {
@@ -504,16 +314,10 @@ body{
 	.nav2 a {
 		font-size: 56px;
 	}
-	#bodyContainer {
-		margin-top: 58px;
-	}
-	.portfolioBox{
-		margin-top: 58px;
-	}
-	.projectBox{
-		height: 450px;
-	}
 
+	.image{
+		padding: 20px;
+	}
 }
 @media (min-width: 950px) and (max-width: 1000px) { 
 	.nav a {
@@ -522,17 +326,9 @@ body{
 	.nav2 a {
 		font-size: 59px;
 	}
-	#bodyContainer {
-		margin-top: 61px;
-	}
-	.portfolioBox{
-		margin-top: 61px;
-	}
-	.projectBox{
-		height: 470px;
-	}
-	.image2{
-		margin-top: 75px;
+
+	.image{
+		padding: 20px;
 	}
 }
 @media (min-width: 1000px) and (max-width: 1050px) { 
@@ -542,17 +338,9 @@ body{
 	.nav2 a {
 		font-size: 63px;
 	}
-	#bodyContainer {
-		margin-top: 65px;
-	}
-	.portfolioBox{
-		margin-top: 65px;
-	}
-	.projectBox{
-		height: 500px;
-	}
-	.image2{
-		margin-top: 75px;
+
+	.image{
+		padding: 20px;
 	}
 }
 @media (min-width: 1050px) and (max-width: 1100px) { 
@@ -562,17 +350,9 @@ body{
 	.nav2 a {
 		font-size: 66px;
 	}
-	#bodyContainer {
-		margin-top: 68px;
-	}
-	.portfolioBox{
-		margin-top: 68px;
-	}
-	.projectBox{
-		height: 500px;
-	}
-	.image2{
-		margin-top: 75px;
+
+	.image{
+		padding: 20px;
 	}
 }
 @media (min-width: 1100px) and (max-width: 1150px) { 
@@ -582,17 +362,9 @@ body{
 	.nav2 a {
 		font-size: 69px;
 	}
-	#bodyContainer {
-		margin-top: 71px;
-	}
-	.portfolioBox{
-		margin-top: 71px;
-	}
-	.projectBox{
-		height: 500px;
-	}
-	.image2{
-		margin-top: 75px;
+
+	.image{
+		padding: 20px;
 	}
 }
 @media (min-width: 1150px) and (max-width: 1200px) { 
@@ -602,17 +374,9 @@ body{
 	.nav2 a {
 		font-size: 72px;
 	}
-	#bodyContainer {
-		margin-top: 74px;
-	}
-	.portfolioBox{
-		margin-top: 74px;
-	}
-	.projectBox{
-		height: 500px;
-	}
-	.image2{
-		margin-top: 75px;
+
+	.image{
+		padding: 20px;
 	}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
@@ -622,17 +386,9 @@ body{
 	.nav2 a{
 		font-size: 75px;
 	}
-	#bodyContainer {
-		margin-top: 77px;
-	}
-	.portfolioBox{
-		margin-top: 77px;
-	}
-	.projectBox{
-		height: 500px;
-	}
-	.image2{
-		margin-top: 75px;
+
+	.image{
+		padding: 20px;
 	}
 }
 @media (min-width: 1300px) and (max-width: 1400px) {
@@ -642,17 +398,9 @@ body{
 	.nav2 a{
 		font-size: 80px;
 	}
-	#bodyContainer {
-		margin-top: 82px;
-	}
-	.portfolioBox{
-		margin-top: 82px;
-	}
-	.projectBox{
-		height: 500px;
-	}
-	.image2{
-		margin-top: 75px;
+
+	.image{
+		padding: 20px;
 	}
 }
 @media (min-width: 1400px) and (max-width: 1500px) {
@@ -662,17 +410,9 @@ body{
 	.nav2 a{
 		font-size: 88px;
 	}
-	#bodyContainer {
-		margin-top: 90px;
-	}
-	.portfolioBox{
-		margin-top: 90px;
-	}
-	.projectBox{
-		height: 500px;
-	}
-	.image2{
-		margin-top: 75px;
+
+	.image{
+		padding: 20px;
 	}
 }
 @media (min-width: 1500px) and (max-width: 1600px) {
@@ -682,17 +422,9 @@ body{
 	.nav2 a{
 		font-size: 95px;
 	}
-	#bodyContainer {
-		margin-top: 97px;
-	}
-	.portfolioBox{
-		margin-top: 97px;
-	}
-	.projectBox{
-		height: 500px;
-	}
-	.image2{
-		margin-top: 75px;
+
+	.image{
+		padding: 20px;
 	}
 }
 @media (min-width: 1600px) and (max-width: 1700px) {
@@ -702,17 +434,9 @@ body{
 	.nav2 a{
 		font-size: 100px;
 	}
-	#bodyContainer {
-		margin-top: 102px;
-	}
-	.portfolioBox{
-		margin-top: 102px;
-	}
-	.projectBox{
-		height: 500px;
-	}
-	.image2{
-		margin-top: 75px;
+
+	.image{
+		padding: 20px;
 	}
 }
 @media (min-width: 1700px) and (max-width: 1900px) {
@@ -722,17 +446,9 @@ body{
 	.nav2 a{
 		font-size: 105px;
 	}
-	#bodyContainer {
-		margin-top: 112px;
-	}
-	.portfolioBox{
-		margin-top: 112px;
-	}
-	.projectBox{
-		height: 500px;
-	}
-	.image2{
-		margin-top: 75px;
+
+	.image{
+		padding: 20px;
 	}
 }
 @media (min-width: 1900px) and (max-width: 2000px) {
@@ -742,17 +458,8 @@ body{
 	.nav2 a{
 		font-size: 120px;
 	}
-	#bodyContainer {
-		margin-top: 122px;
-	}
-	.portfolioBox{
-		margin-top: 122px;
-	}
-	.projectBox{
-		height: 500px;
-	}
-	.image2{
-		margin-top: 75px;
+	.image{
+		padding: 20px;
 	}
 }
 

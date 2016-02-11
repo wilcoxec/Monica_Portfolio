@@ -33,7 +33,7 @@ $(function() {
     $("#workNav").hover(
         function() {
         $(this).css({
-            color: "#ffe5e5",
+            color: "#f2f2f2",
 
         });
         },
@@ -45,7 +45,7 @@ $(function() {
     $("#mwNav").hover(
         function() {
         $(this).css({
-            color: "#ffe5e5",
+            color: "#f2f2f2",
 
         });
         },
@@ -57,7 +57,7 @@ $(function() {
     $("#mwNav2").hover(
         function() {
         $(this).css({
-            color: "#ffe5e5",
+            color: "#f2f2f2",
 
         });
         },
@@ -69,7 +69,7 @@ $(function() {
     $("#studioNav").hover(
         function() {
         $(this).css({
-            color: "#ffe5e5",
+            color: "#f2f2f2",
 
         });
         },
@@ -81,7 +81,7 @@ $(function() {
     $("#contactNav").hover(
         function() {
         $(this).css({
-            color: "#ffe5e5",
+            color: "#f2f2f2",
 
         });
         },

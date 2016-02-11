@@ -1,19 +1,21 @@
 html, body{
 	min-height: 100%;
 	font-family: 'Arial', Arial, sans-serif;
+	overflow-x:hidden;
 }
 
 .projectBox{
 	position: relative;
 	margin: 0;
 	text-align: center;
-
+	overflow-x:hidden;
 }
 
 .portfolioBox{
 	width: 100%;
 	text-align: center;
 	font-family: 'Arial', Arial, sans-serif;
+	overflow-x:hidden;
 }
 
 .portfolio{
@@ -21,24 +23,18 @@ html, body{
 	margin: auto;
 	text-align: center;
 	padding: 0px;
+	overflow-x:hidden;
 }
 
-.projectBox2{
-	
-}
+
 
 .projectBox .image{
 	z-index: 0;
 	position: absolute;
 	text-align: center;
+	overflow-x:hidden;
 
 }
-
-.image img{
-	max-width: 70%;
-	height: auto;
-}
-
 
 
 .projectBox .project{
@@ -50,6 +46,7 @@ html, body{
 	width: 400px;
 	padding: 10px;
 	color: #000;
+	overflow-x:hidden;
 }
 
 
@@ -58,48 +55,61 @@ html, body{
 	height: auto;
 	overflow: hidden;
 	font-family: 'Arial', Arial, sans-serif;
+	overflow-x:hidden;
 }
 
 #date {
 	text-align: center;
+	overflow-x:hidden;
 }
 
 #projectTitle{
 	text-align: center;
 	font-size: 50px;
 	text-transform: uppercase;
+	overflow-x:hidden;
 }
 
 #projectDescription{
 	text-transform: uppercase;
+	overflow-x:hidden;
 }
 
 #backToTop{
 	text-align: center;
 	width: 100%;
 	padding-bottom: 50px;
+	overflow-x:hidden;
 }
 #backToTop a{
 	text-align: center;
 	width: 100%;
 	text-decoration: none;
-	color: #000;
 	font-family: 'Arial', Arial, sans-serif;
+	color: #000;
+	width: 100%;
+	bottom: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	overflow-x:hidden;
 }
 
 #pdf{
 	text-transform: uppercase;
+	overflow-x:hidden;
 }
 
 #footerContainer{
-	text-align: center;
+	text-align: left;
 	margin: auto;
 	font-family: 'Arial', Arial, sans-serif;
-	padding: 30px;
-	background-color: #000;
-	color: #fff;
+	color: #000;
 	width: 100%;
 	bottom: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 10px;
+	overflow-x:hidden;
 }
 
 .footerRow{
@@ -114,6 +124,7 @@ html, body{
 .footerRight{
 	text-align: left;
 }
+
 
 
 /* Navigation Style */
@@ -200,6 +211,11 @@ html, body{
 	.projectBox{
 		height: 250px;
 	}
+
+	.image img{
+		max-width: 100%;
+		height: auto;
+	}
 }
 @media (min-width: 250px) and (max-width: 300px) { 
 	.nav a {
@@ -219,6 +235,10 @@ html, body{
 	}
 	header {
 		height: 10px;
+	}
+	.image img{
+		max-width: 100%;
+		height: auto;
 	}
 }
 @media (min-width: 300px) and (max-width: 350px) { 
@@ -240,6 +260,10 @@ html, body{
 	header {
 		height: 10px;
 	}
+	.image img{
+		max-width: 100%;
+		height: auto;
+	}
 }
 @media (min-width: 350px) and (max-width: 400px) { 
 	.nav a {
@@ -260,6 +284,10 @@ html, body{
 	header {
 		height: 15px;
 	}
+	.image img{
+		max-width: 100%;
+		height: auto;
+	}
 }
 @media (min-width: 400px) and (max-width: 450px) { 
 	.nav a {
@@ -276,6 +304,10 @@ html, body{
 	}
 	.projectBox{
 		height: 250px;
+	}
+	.image img{
+		max-width: 100%;
+		height: auto;
 	}
 }
 @media (min-width: 450px) and (max-width: 500px) { 
@@ -294,6 +326,10 @@ html, body{
 	.projectBox{
 		height: 400px;
 	}
+	.image img{
+		max-width: 100%;
+		height: auto;
+	}
 }
 @media (min-width: 500px) and (max-width: 550px) { 
 	.nav a {
@@ -310,6 +346,10 @@ html, body{
 	}
 	.projectBox{
 		height: 500px;
+	}
+	.image img{
+		max-width: 100%;
+		height: auto;
 	}
 }
 @media (min-width: 550px) and (max-width: 600px) { 
@@ -328,6 +368,10 @@ html, body{
 	.projectBox{
 		height: 500px;
 	}
+	.image img{
+		max-width: 100%;
+		height: auto;
+	}
 }
 @media (min-width: 600px) and (max-width: 650px) { 
 	.nav a {
@@ -344,6 +388,10 @@ html, body{
 	}
 	.projectBox{
 		height: 500px;
+	}
+	.image img{
+		max-width: 100%;
+		height: auto;
 	}
 }
 @media (min-width: 650px) and (max-width: 700px) { 
@@ -362,6 +410,10 @@ html, body{
 	.projectBox{
 		height: 500px;
 	}
+	.image img{
+		max-width: 100%;
+		height: auto;
+	}
 }
 @media (min-width: 700px) and (max-width: 750px) { 
 	.nav a {
@@ -379,6 +431,10 @@ html, body{
 	.projectBox{
 		height: 500px;
 	}
+	.image img{
+		max-width: 100%;
+		height: auto;
+	}
 }
 @media (min-width: 750px) and (max-width: 800px) { 
 	.nav a {
@@ -395,6 +451,10 @@ html, body{
 	}
 	.projectBox{
 		height: 500px;
+	}
+	.image img{
+		max-width: 100%;
+		height: auto;
 	}
 }
 
@@ -414,6 +474,10 @@ html, body{
 	.projectBox{
 		height: 500px;
 	}
+	.image img{
+		max-width: 90%;
+		height: auto;
+	}
 }
 
 @media (min-width: 850px) and (max-width: 900px) { 
@@ -432,6 +496,10 @@ html, body{
 	.projectBox{
 		height: 500px;
 	}
+	.image img{
+		max-width: 90%;
+		height: auto;
+	}
 }
 @media (min-width: 900px) and (max-width: 950px) { 
 	.nav a {
@@ -448,6 +516,10 @@ html, body{
 	}
 	.projectBox{
 		height: 500px;
+	}
+	.image img{
+		max-width: 90%;
+		height: auto;
 	}
 }
 @media (min-width: 950px) and (max-width: 1000px) { 
@@ -466,6 +538,10 @@ html, body{
 	.projectBox{
 		height: 500px;
 	}
+	.image img{
+		max-width: 90%;
+		height: auto;
+	}
 }
 @media (min-width: 1000px) and (max-width: 1050px) { 
 	.nav a {
@@ -482,6 +558,10 @@ html, body{
 	}
 	.projectBox{
 		height: 500px;
+	}
+	.image img{
+		max-width: 70%;
+		height: auto;
 	}
 }
 @media (min-width: 1050px) and (max-width: 1100px) { 
@@ -500,6 +580,10 @@ html, body{
 	.projectBox{
 		height: 500px;
 	}
+	.image img{
+		max-width: 70%;
+		height: auto;
+	}
 }
 @media (min-width: 1100px) and (max-width: 1150px) { 
 	.nav a {
@@ -516,6 +600,10 @@ html, body{
 	}
 	.projectBox{
 		height: 500px;
+	}
+	.image img{
+		max-width: 70%;
+		height: auto;
 	}
 }
 @media (min-width: 1150px) and (max-width: 1200px) { 
@@ -534,6 +622,10 @@ html, body{
 	.projectBox{
 		height: 500px;
 	}
+	.image img{
+		max-width: 70%;
+		height: auto;
+	}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
 	.nav a{
@@ -550,6 +642,10 @@ html, body{
 	}
 	.projectBox{
 		height: 500px;
+	}
+	.image img{
+		max-width: 70%;
+		height: auto;
 	}
 }
 @media (min-width: 1300px) and (max-width: 1400px) {
@@ -568,6 +664,10 @@ html, body{
 	.projectBox{
 		height: 500px;
 	}
+	.image img{
+		max-width: 70%;
+		height: auto;
+	}
 }
 @media (min-width: 1400px) and (max-width: 1500px) {
 	.nav a{
@@ -584,6 +684,10 @@ html, body{
 	}
 	.projectBox{
 		height: 500px;
+	}
+	.image img{
+		max-width: 70%;
+		height: auto;
 	}
 }
 @media (min-width: 1500px) and (max-width: 1600px) {
@@ -602,6 +706,10 @@ html, body{
 	.projectBox{
 		height: 500px;
 	}
+	.image img{
+		max-width: 70%;
+		height: auto;
+	}
 }
 @media (min-width: 1600px) and (max-width: 1700px) {
 	.nav a{
@@ -618,6 +726,10 @@ html, body{
 	}
 	.projectBox{
 		height: 500px;
+	}
+	.image img{
+		max-width: 70%;
+		height: auto;
 	}
 }
 @media (min-width: 1700px) and (max-width: 1900px) {
@@ -636,6 +748,10 @@ html, body{
 	.projectBox{
 		height: 500px;
 	}
+	.image img{
+		max-width: 70%;
+		height: auto;
+	}
 }
 @media (min-width: 1900px) and (max-width: 2000px) {
 	.nav a{
@@ -652,6 +768,10 @@ html, body{
 	}
 	.projectBox{
 		height: 500px;
+	}
+	.image img{
+		max-width: 70%;
+		height: auto;
 	}
 }
 

@@ -80,6 +80,15 @@ body{
 
 #title a{
 	text-decoration: none;
+	color: #000;
+}
+
+#title a:hover{
+	color: #fff;
+}
+
+#title:hover{
+	background-color: #000;
 }
 
 #enter:hover {

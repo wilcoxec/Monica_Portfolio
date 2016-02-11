@@ -1,10 +1,11 @@
 html{
-	min-height: 100%;
+	height: 100%;
+	overflow-x: hidden;
 }
 body{
 	font-family: 'Arial', Arial, sans-serif;
-	min-height: 100%;
-
+	height: 100%;
+	overflow-x:hidden;
  }
 
 .projectBox{
@@ -12,6 +13,7 @@ body{
 	margin: auto;
 	text-align: center;
 	min-height: 550px;
+	overflow-x:hidden;
 }
 
 .projectBox .image{
@@ -19,6 +21,7 @@ body{
 	position: absolute;
 	text-align: center;
 	height: 80%;
+	overflow-x:hidden;
 }
 
 
@@ -28,33 +31,11 @@ body{
 	margin-top: 100px;
 	z-index: 2;
 	text-align: center;
+	overflow-x:hidden;
 }
 
-#featureContainer {
-	margin-top: 200px;
-	overflow-x: hidden;
-}
 
-#featureTitle{
-	text-align: center;
-	font-size: 30px;
 
-}
-
-.image img{
-	width: 390px;
-	height: auto;
-	text-align: center;
-}
-
-.project img{
-	width: 300px;
-	-webkit-transform: rotate(3deg);
-    -moz-transform: rotate(3deg);
-    -o-transform: rotate(3deg);
-    -ms-transform: rotate(3deg);
-    transform: rotate(3deg);
-}
 
 .aboutRow{
 	position: relative;
@@ -68,28 +49,27 @@ body{
 .aboutRow .aboutRight{
 	position: absolute;
 	z-index: 2;
-	text-align: center;
+	text-align: left;
 	padding: 10px;
-	font-size: 20px;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
-  	Helvetica, Arial, "Lucida Grande", sans-serif;
-  	letter-spacing: 1px;
-  	font-weight: lighter;
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 17px;
+	line-height: 22px;
+	overflow-x:hidden;
 }
 
 .aboutRow .aboutLeft{
 	position: absolute;
 	z-index: 1;
 	padding: 10px;
-	font-size: 40px;
-	line-height: 40px;
 	font-family: 'Arial', Arial, sans-serif;
-
+	text-transform: uppercase;
+	overflow-x:hidden;
 }
 
 .about{
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	overflow-x:hidden;
 }
 
 
@@ -97,28 +77,26 @@ body{
 	color: #000;
 	text-align: center;
 	margin: auto;
-	font-family: 'Arial', Arial, sans-serif;
-	height: 700px;
+	height: 100%;
 	overflow-x: hidden;
-/*	background-image: url(../images/wa2.jpg);
-	background-repeat: no-repeat;
-    background-position: center bottom fixed;
-    background-size: auto 100%;*/
 }
 
 #footerContainer{
-	text-align: center;
+	text-align: left;
 	margin: auto;
 	font-family: 'Arial', Arial, sans-serif;
-	padding: 30px;
-	background-color: #000;
-	color: #fff;
+	color: #000;
 	width: 100%;
 	bottom: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 10px;
+	overflow-x:hidden;
 }
 
 .footerRow{
 	width: 100%;
+	overflow-x:hidden;
 }
 
 
@@ -513,13 +491,8 @@ body{
 		line-height: 20px;
 		text-align: right;
 	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	#aboutContainer {
+		margin-top: 90px;
 	}
 }
 
@@ -540,16 +513,12 @@ body{
 		text-align: left;
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 30px;
 		line-height: 40px;
 		text-align: right;
 	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	#aboutContainer {
+		margin-top: 100px;
 	}
 }
 
@@ -570,17 +539,14 @@ body{
 		text-align: left;
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	#aboutContainer {
+		margin-top: 100px;
 	}
+
 }
 @media (min-width: 900px) and (max-width: 950px) { 
 	.nav a {
@@ -599,16 +565,12 @@ body{
 		text-align: left;
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	#aboutContainer {
+		margin-top: 100px;
 	}
 }
 @media (min-width: 950px) and (max-width: 1000px) { 
@@ -628,16 +590,12 @@ body{
 		text-align: left;
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	#aboutContainer {
+		margin-top: 110px;
 	}
 }
 @media (min-width: 1000px) and (max-width: 1050px) { 
@@ -658,7 +616,7 @@ body{
 		max-width: 400px;
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
@@ -691,7 +649,7 @@ body{
 		max-width: 400px;
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
@@ -724,7 +682,7 @@ body{
 		max-width: 400px;
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
@@ -757,7 +715,7 @@ body{
 		max-width: 400px;
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
@@ -790,7 +748,7 @@ body{
 		max-width: 400px;
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
@@ -823,7 +781,7 @@ body{
 		max-width: 400px;
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
@@ -857,7 +815,7 @@ body{
 		max-width: 400px;
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
@@ -891,10 +849,10 @@ body{
 		max-width: 400px;
 	}
 	#aboutContainer {
-		margin-top: 50px;
+		margin-top: 150px;
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
@@ -928,7 +886,7 @@ body{
 		max-width: 400px;
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
@@ -973,7 +931,7 @@ body{
 
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
@@ -1008,7 +966,7 @@ body{
 
 	}
 	.aboutRow .aboutLeft{
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 40px;
 		text-align: right;
 	}
