@@ -25,7 +25,10 @@ header{
 }
 
 .title{
-	border-style: solid;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
 	text-align: center;
 	overflow-x: hidden;
 	text-transform: uppercase;

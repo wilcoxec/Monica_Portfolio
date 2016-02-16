@@ -1,83 +1,105 @@
 html{
 	height: 100%;
-	overflow-x: hidden;
 }
 body{
 	font-family: 'Arial', Arial, sans-serif;
-	height: 100%;
-	overflow-x:hidden;
- }
-
-.projectBox{
-	position: relative;
-	margin: auto;
-	text-align: center;
-	min-height: 550px;
-	overflow-x:hidden;
-}
-
-.projectBox .image{
-	z-index: 1;
-	position: absolute;
-	text-align: center;
-	height: 80%;
-	overflow-x:hidden;
+	background-image: url(../backHome2.jpg);
+	background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    overflow-x: hidden;
+    height: 100%;
 }
 
 
-
-.projectBox .project{
-	position: absolute;
-	margin-top: 100px;
-	z-index: 2;
-	text-align: center;
-	overflow-x:hidden;
-}
-
-
-
-
-.aboutRow{
-	position: relative;
-	margin: 0;
-	text-align: center;
-
-}
-
-
-
-.aboutRow .aboutRight{
-	position: absolute;
-	z-index: 2;
-	text-align: left;
-	padding: 10px;
-	font-family: 'Arial', Arial, sans-serif;
-	font-size: 17px;
-	line-height: 22px;
-	overflow-x:hidden;
-}
-
-.aboutRow .aboutLeft{
-	position: absolute;
-	z-index: 1;
-	padding: 10px;
-	font-family: 'Arial', Arial, sans-serif;
-	text-transform: uppercase;
-	overflow-x:hidden;
+.bottom{
+	padding-bottom: 100px;
 }
 
 .about{
+	text-align: center;
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 17px;
+	line-height: 22px;
+	color: #000;
+	margin: auto;
+	padding: 20px;
+	overflow-x: hidden;
+
+}
+.aboutBox{
+
+}
+.aboutNext{
+	text-align: center;
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 17px;
+	line-height: 22px;
+	color: #000;
+	padding: 20px;
+	overflow-x: hidden;
+}
+
+.info {
+	padding-left: 20px;
+}
+
+.aboutText{
+	font-family: 'Arial', Arial, sans-serif;
+	line-height: 25px;
+	font-size: 17px;
+	text-align: left;
+	background-color: #fff;
+	overflow-x: hidden;
+	padding: 25px;
+}
+
+.aboutTitle{
+	font-family: 'Arial', Arial, sans-serif;
+	line-height: 35px;
+	font-size: 30px;
+	text-align: left;
+	background-color: #fff;
+	overflow-x: hidden;
 	padding-left: 25px;
 	padding-right: 25px;
-	overflow-x:hidden;
+	padding-top: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 
-#aboutContainer{
-	color: #000;
+.aboutTextNext {
+	text-align: left;
+
+	overflow-x: hidden;
+}
+.aboutHr hr {
+	border-top-color: #000;
+	border-top-width: 2px;
+	margin-left: 20px;
+	margin-right: 20px;
+	overflow-x: hidden;
+}
+
+.infoText {
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 22px;
+	padding: 0;
+	margin: 0;
 	text-align: center;
-	margin: auto;
-	height: 100%;
+
+	overflow-x: hidden;
+}
+
+.infoText a{
+	text-decoration: none;
+	color: #000;
+}
+
+.aboutHr{
 	overflow-x: hidden;
 }
 
@@ -91,12 +113,12 @@ body{
 	font-size: 12px;
 	text-transform: uppercase;
 	padding: 10px;
-	overflow-x:hidden;
+	position: absolute;
+	overflow-x: hidden;
 }
 
 .footerRow{
 	width: 100%;
-	overflow-x:hidden;
 }
 
 
@@ -122,7 +144,6 @@ body{
 	list-style: none;
 	text-align: center;
 	width: 100%;
-	text-decoration: none;
 }
 
 .nav2 {
@@ -133,17 +154,15 @@ body{
 	list-style: none;
 	text-align: center;
 	width: 100%;
-	text-decoration: none;
+
 }
 .nav li{
 	display: inline;
-	text-decoration: none;
 }
 
 .nav ul{
 	padding: 0;
 	margin: 0;
-	text-decoration: none;
 }
 
 .nav a{
@@ -155,13 +174,11 @@ body{
 
 .nav2 li{
 	display: inline;
-	text-decoration: none;
 }
 
 .nav2 ul{
 	padding: 0;
 	margin: 0;
-	text-decoration: none;
 }
 
 .nav2 a{
@@ -186,19 +203,7 @@ body{
 	.nav2 a {
 		font-size: 13px;
 	}
-	#bodyContainer {
-		margin-top: 14px;
-	}
-	.portfolioBox{
-		margin-top: 16px;
-	}
-	.about{
-		margin-top: 40px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
+
 
 }
 @media (min-width: 250px) and (max-width: 300px) { 
@@ -208,20 +213,6 @@ body{
 	.nav2 a {
 		font-size: 14px;
 	}
-	#bodyContainer {
-		margin-top: 14.5px;
-	}
-	.portfolioBox{
-		margin-top: 16px;
-	}
-	.about{
-		margin-top: 45px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
 
 }
 @media (min-width: 300px) and (max-width: 350px) { 
@@ -231,19 +222,7 @@ body{
 	.nav2 a {
 		font-size: 15px;
 	}
-	#bodyContainer {
-		margin-top: 16px;
-	}
-	.portfolioBox{
-		margin-top: 18px;
-	}
-	.about{
-		margin-top: 45px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
+
 
 }
 
@@ -255,19 +234,7 @@ body{
 	.nav2 a {
 		font-size: 22px;
 	}
-	#bodyContainer {
-		margin-top: 20px;
-	}
-	.portfolioBox{
-		margin-top: 20px;
-	}
-	.about{
-		margin-top: 45px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
+
 
 }
 @media (min-width: 400px) and (max-width: 450px) { 
@@ -277,20 +244,6 @@ body{
 	.nav2 a {
 		font-size: 23.5px;
 	}
-	#bodyContainer {
-		margin-top: 25px;
-	}
-	.portfolioBox{
-		margin-top: 25px;
-	}
-	.about{
-		margin-top: 45px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
 
 }
 @media (min-width: 450px) and (max-width: 500px) { 
@@ -300,27 +253,7 @@ body{
 	.nav2 a {
 		font-size: 27px;
 	}
-	#bodyContainer {
-		margin-top: 28px;
-	}
-	.portfolioBox{
-		margin-top: 30px;
-	}
-	.about{
-		margin-top: 45px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
 
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
 }
 @media (min-width: 500px) and (max-width: 550px) { 
 	.nav a {
@@ -329,27 +262,7 @@ body{
 	.nav2 a {
 		font-size: 30px;
 	}
-	#bodyContainer {
-		margin-top: 31px;
-	}
-	.portfolioBox{
-		margin-top: 31px;
-	}
-	.about{
-		margin-top: 45px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
 
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
 }
 @media (min-width: 550px) and (max-width: 600px) { 
 	.nav a {
@@ -358,28 +271,7 @@ body{
 	.nav2 a {
 		font-size: 33px;
 	}
-	#bodyContainer {
-		margin-top: 35px;
-	}
-	.portfolioBox{
-		margin-top: 35px;
-	}
-	.about{
-		margin-top: 45px;
-	}
 
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
 }
 @media (min-width: 600px) and (max-width: 650px) { 
 	.nav a {
@@ -388,27 +280,8 @@ body{
 	.nav2 a {
 		font-size: 36px;
 	}
-	#bodyContainer {
-		margin-top: 37px;
-	}
-	.portfolioBox{
-		margin-top: 37px;
-	}
-	.about{
-		margin-top: 45px;
-	}
-
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	.about {
+		margin-top: 50px;
 	}
 }
 @media (min-width: 650px) and (max-width: 700px) { 
@@ -418,27 +291,10 @@ body{
 	.nav2 a {
 		font-size: 40px;
 	}
-	#bodyContainer {
-		margin-top: 42px;
-	}
-	.portfolioBox{
-		margin-top: 42px;
-	}
-	.about{
-		margin-top: 45px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
+	.about {
+		margin-top: 50px;
 	}
 
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
 }
 @media (min-width: 700px) and (max-width: 750px) { 
 	.nav a {
@@ -447,26 +303,8 @@ body{
 	.nav2 a {
 		font-size: 43px;
 	}
-	#bodyContainer {
-		margin-top: 45px;
-	}
-	.portfolioBox{
-		margin-top: 45px;
-	}
-	.about{
-		margin-top: 45px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	.about {
+		margin-top: 50px;
 	}
 
 }
@@ -477,22 +315,8 @@ body{
 	.nav2 a {
 		font-size: 46px;
 	}
-	#bodyContainer {
-		margin-top: 48px;
-	}
-	.portfolioBox{
-		margin-top: 48px;
-	}
-	.about{
-		text-align: left;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-		text-align: right;
-	}
-	#aboutContainer {
-		margin-top: 90px;
+	.about {
+		margin-top: 50px;
 	}
 }
 
@@ -503,22 +327,8 @@ body{
 	.nav2 a {
 		font-size: 50px;
 	}
-	#bodyContainer {
-		margin-top: 52px;
-	}
-	.portfolioBox{
-		margin-top: 52px;
-	}
-	.about{
-		text-align: left;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 30px;
-		line-height: 40px;
-		text-align: right;
-	}
-	#aboutContainer {
-		margin-top: 100px;
+	.about {
+		margin-top: 70px;
 	}
 }
 
@@ -529,24 +339,9 @@ body{
 	.nav2 a {
 		font-size: 53px;
 	}
-	#bodyContainer {
-		margin-top: 55px;
+	.about {
+		margin-top: 70px;
 	}
-	.portfolioBox{
-		margin-top: 55px;
-	}
-	.about{
-		text-align: left;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
-	}
-	#aboutContainer {
-		margin-top: 100px;
-	}
-
 }
 @media (min-width: 900px) and (max-width: 950px) { 
 	.nav a {
@@ -555,22 +350,8 @@ body{
 	.nav2 a {
 		font-size: 56px;
 	}
-	#bodyContainer {
-		margin-top: 58px;
-	}
-	.portfolioBox{
-		margin-top: 58px;
-	}
-	.about{
-		text-align: left;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
-	}
-	#aboutContainer {
-		margin-top: 100px;
+	.about {
+		margin-top: 70px;
 	}
 }
 @media (min-width: 950px) and (max-width: 1000px) { 
@@ -580,22 +361,8 @@ body{
 	.nav2 a {
 		font-size: 59px;
 	}
-	#bodyContainer {
-		margin-top: 61px;
-	}
-	.portfolioBox{
-		margin-top: 61px;
-	}
-	.about{
-		text-align: left;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
-	}
-	#aboutContainer {
-		margin-top: 110px;
+	.about {
+		margin-top: 70px;
 	}
 }
 @media (min-width: 1000px) and (max-width: 1050px) { 
@@ -605,30 +372,8 @@ body{
 	.nav2 a {
 		font-size: 63px;
 	}
-	#bodyContainer {
-		margin-top: 65px;
-	}
-	.portfolioBox{
-		margin-top: 65px;
-	}
-	.about{
-		text-align: left;
-		max-width: 400px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutContainer {
-		margin-top: 110px;
+	.about {
+		margin-top: 70px;
 	}
 }
 @media (min-width: 1050px) and (max-width: 1100px) { 
@@ -638,30 +383,8 @@ body{
 	.nav2 a {
 		font-size: 66px;
 	}
-	#bodyContainer {
-		margin-top: 68px;
-	}
-	.portfolioBox{
-		margin-top: 68px;
-	}
-	.about{
-		text-align: left;
-		max-width: 400px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutContainer {
-		margin-top: 120px;
+	.about {
+		margin-top: 70px;
 	}
 }
 @media (min-width: 1100px) and (max-width: 1150px) { 
@@ -671,30 +394,8 @@ body{
 	.nav2 a {
 		font-size: 69px;
 	}
-	#bodyContainer {
-		margin-top: 71px;
-	}
-	.portfolioBox{
-		margin-top: 71px;
-	}
-	.about{
-		text-align: left;
-		max-width: 400px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutContainer {
-		margin-top: 130px;
+	.about {
+		margin-top: 70px;
 	}
 }
 @media (min-width: 1150px) and (max-width: 1200px) { 
@@ -704,30 +405,8 @@ body{
 	.nav2 a {
 		font-size: 72px;
 	}
-	#bodyContainer {
-		margin-top: 74px;
-	}
-	.portfolioBox{
-		margin-top: 74px;
-	}
-	.about{
-		text-align: left;
-		max-width: 400px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutContainer {
-		margin-top: 130px;
+	.about {
+		margin-top: 100px;
 	}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
@@ -737,30 +416,8 @@ body{
 	.nav2 a{
 		font-size: 75px;
 	}
-	#bodyContainer {
-		margin-top: 77px;
-	}
-	.portfolioBox{
-		margin-top: 77px;
-	}
-	.about{
-		text-align: left;
-		max-width: 400px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutContainer {
-		margin-top: 140px;
+	.about {
+		margin-top: 100px;
 	}
 }
 @media (min-width: 1300px) and (max-width: 1400px) {
@@ -770,31 +427,8 @@ body{
 	.nav2 a{
 		font-size: 80px;
 	}
-	#bodyContainer {
-		margin-top: 82px;
-	}
-	.portfolioBox{
-		margin-top: 82px;
-	}
-	.about{
-		text-align: left;
-		max-width: 400px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutContainer {
-		margin-top: 150px;
-
+	.about {
+		margin-top: 100px;
 	}
 }
 @media (min-width: 1400px) and (max-width: 1500px) {
@@ -804,31 +438,8 @@ body{
 	.nav2 a{
 		font-size: 88px;
 	}
-	#bodyContainer {
-		margin-top: 90px;
-	}
-	.portfolioBox{
-		margin-top: 90px;
-	}
-	.about{
-		text-align: left;
-		max-width: 400px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutContainer {
-		margin-top: 150px;
-
+	.about {
+		margin-top: 100px;
 	}
 }
 @media (min-width: 1500px) and (max-width: 1600px) {
@@ -838,34 +449,8 @@ body{
 	.nav2 a{
 		font-size: 95px;
 	}
-	#bodyContainer {
-		margin-top: 97px;
-	}
-	.portfolioBox{
-		margin-top: 97px;
-	}
-	.about{
-		text-align: left;
-		max-width: 400px;
-	}
-	#aboutContainer {
-		margin-top: 150px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutContainer {
-		margin-top: 160px;
-
+	.about {
+		margin-top: 100px;
 	}
 }
 @media (min-width: 1600px) and (max-width: 1700px) {
@@ -875,32 +460,10 @@ body{
 	.nav2 a{
 		font-size: 100px;
 	}
-	#bodyContainer {
-		margin-top: 102px;
+	.about {
+		margin-top: 100px;
 	}
-	.portfolioBox{
-		margin-top: 102px;
-	}
-	.about{
-		text-align: left;
-		max-width: 400px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutContainer {
-		margin-top: 160px;
 
-	}
 }
 @media (min-width: 1700px) and (max-width: 1900px) {
 	.nav a{
@@ -909,31 +472,8 @@ body{
 	.nav2 a{
 		font-size: 105px;
 	}
-	#bodyContainer {
-		margin-top: 112px;
-	}
-	.portfolioBox{
-		margin-top: 112px;
-	}
-	.about{
-		text-align: left;
-		max-width: 400px;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutContainer {
-		margin-top: 170px;
-
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
+	.about {
+		margin-top: 100px;
 	}
 }
 @media (min-width: 1900px) and (max-width: 2000px) {
@@ -943,32 +483,8 @@ body{
 	.nav2 a{
 		font-size: 120px;
 	}
-	#bodyContainer {
-		margin-top: 122px;
-	}
-	.portfolioBox{
-		margin-top: 122px;
-	}
-	.about{
-		text-align: left;
-		max-width: 400px;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-
-	#aboutContainer {
-		margin-top: 180px;
-
-	}
-	.aboutRow .aboutLeft{
-		font-size: 35px;
-		line-height: 40px;
-		text-align: right;
+	.about {
+		margin-top: 100px;
 	}
 }
 

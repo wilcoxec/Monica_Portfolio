@@ -2,64 +2,192 @@
 <html lang="en">
 	<head>
 		<title>MONICA WILCOX</title>
-		<link rel="stylesheet" type="text/css" href="css/port.css">
 
-		  <meta name="viewport" content="width=device-width, initial-scale=1">
-		  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-		  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/port.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.custom.css" />
+		<link rel="stylesheet" type="text/css" href="css/bookblock.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<script src="js/modernizr.custom.79639.js"></script>
+
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 		<script type="text/javascript" src="js/navStick.js"></script>
-
 	</head>
 
 	<body>
 		<header>
-			<div class="navContainer">
+			<div class="navContainer hidden-md hidden-lg">
 				<div class="nav">
 					<ul>
 						<li><a id="workNav" href="home.html">MW &nbsp;</a></li>
 						<li><a id="mwNav" href="work.html">WORK &nbsp;</a></li>
 						<li><a id="studioNav" href="studio.html">STUDIO &nbsp;</a></li>
-						<li><a id="contactNav" href="contact.html">CONTACT</a></li>
+						<li><a id="contactNav" href="contact.php">CONTACT</a></li>
 					</ul>
 				</div>
 
-				<div class="nav2">
+				<div class="nav2 hidden-md hidden-lg">
 					<ul>
 						<li><a id="workNav2">MW &nbsp;</a></li>
 						<li><a id="mwNav2" href="work.html">WORK &nbsp;</a></li>
 						<li><a id="studioNav2" >STUDIO &nbsp;</a></li>
-						<li><a id="contactNav2" >CONTACT</a></li>
+						<li><a id="contactNav2" href="contact.php">CONTACT</a></li>
 					</ul>
 				</div>
 			</div>
 		</header>
 
-		<div>
-			<div id="image"><img src="portfolio/rem1.jpg"></div>
-			<div id="image"><img src="portfolio/rem2.jpg"></div>
-			<div id="image"><img src="portfolio/rem3.jpg"></div>
-			<div id="image"><img src="portfolio/rem4.jpg"></div>
-			<div id="image"><img src="portfolio/rem5.jpg"></div>
-			<div id="image"><img src="portfolio/rem6.jpg"></div>
-			<div id="image"><img src="portfolio/rem7.jpg"></div>
+		<div class="hidden-md hidden-lg">
+			<div id="image2"><img src="portfolio/rem1.jpg"></div>
+			<div id="image2"><img src="portfolio/rem2.jpg"></div>
+			<div id="image2"><img src="portfolio/rem3.jpg"></div>
+			<div id="image2"><img src="portfolio/rem4.jpg"></div>
+			<div id="image2"><img src="portfolio/rem5.jpg"></div>
+			<div id="image2"><img src="portfolio/rem6.jpg"></div>
+			<div id="image2"><img src="portfolio/rem7.jpg"></div>
+			<div id="image2"><img src="portfolio/rem8.jpg"></div>
 		</div>	
 
+		<div class="hidden-md hidden-lg">
+			<div id="backToTop">
+				<a href="port1.html">&uarr; Back to Top</a>
+			</div>
+			<div id="backToTop">
+				<a href="port1.html">next project &#x279D;</a>
+			</div>
+		</div>
+
+		<div id="container" class="cont hidden-xs hidden-sm">	
+
+			<div class="menu-panel">
+				<!--<ul id="menu-toc" class="menu-toc">
+					<li><a href="home.html">home</a></li>
+					<li><a href="work.html">work</a></li>
+					<li><a href="studio.html">studio</a></li>
+					<li><a href="contact.php">contact</a></li>
+				</ul>-->
+				<ul id="menuItems">
+					<li><a href="home.html">home</a></li>
+					<li><a href="work.html">work</a></li>
+					<li><a href="studio.html">studio</a></li>
+					<li><a href="contact.php">contact</a></li>
+					<br>
+					<li id="next"><a href="port1.html">next project &#x279D;</a></li>
+					<li id="n">Gap Project</li>
+				</ul>
+
+			</div>
+
+			<div class="bb-custom-wrapper">
+				<div id="bb-bookblock" class="bb-bookblock">
+					<div class="bb-item" id="item1">
+					<div id="help">use arrow keys to flip page</div>
+						<div class="content">
+							<div class="scroller">
+								<div id="image"><img width="70%" src="portfolio/rem1.jpg"></div>
+							</div>
+						</div>
+					</div>
+					<div class="bb-item" id="item2">
+						<div class="content">
+							<div class="scroller">
+								<div id="image"><img width="70%" src="portfolio/rem2.jpg"></div>
+							</div>
+						</div>
+					</div>
+					<div class="bb-item" id="item3">
+						<div class="content">
+							<div class="scroller">
+								<div id="image"><img width="70%" src="portfolio/rem3.jpg"></div>
+							</div>
+						</div>
+					</div>
+					<div class="bb-item" id="item4">
+						<div class="content">
+							<div class="scroller">
+								<div id="image"><img width="70%" src="portfolio/rem4.jpg"></div>
+							</div>
+						</div>
+					</div>
+					<div class="bb-item" id="item5">
+						<div class="content">
+							<div class="scroller">
+								<div id="image"><img width="70%" src="portfolio/rem5.jpg"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="bb-item" id="item6">
+						<div class="content">
+							<div class="scroller">
+								<div id="image"><img width="70%" src="portfolio/rem6.jpg"></div>
+							</div>
+						</div>
+					</div>
+					<div class="bb-item" id="item7">
+						<div class="content">
+							<div class="scroller">
+								<div id="image"><img width="70%" src="portfolio/rem7.jpg"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="bb-item" id="item8">
+						<div class="content">
+							<div class="scroller">
+								<div id="image"><img width="70%" src="portfolio/rem8.jpg"></div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+				
+				<nav>
+					<span id="bb-nav-prev">&larr;</span>
+					<span id="bb-nav-next">&rarr;</span>
+				</nav>
+
+				<span id="tblcontents" class="menu-button">Table of Contents</span>
+
+			</div>
+				
+		</div><!-- /container -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/jquery.mousewheel.js"></script>
+		<script src="js/jquery.jscrollpane.min.js"></script>
+		<script src="js/jquerypp.custom.js"></script>
+		<script src="js/jquery.bookblock.js"></script>
+		<script src="js/page.js"></script>
+		<script>
+			$(function() {
+
+				Page.init();
+
+			});
+		</script>
+
+		<!--<div>
+			<div id="image"><img src="portfolio/gap1.jpg"></div>
+			<div id="image"><img src="portfolio/gap2.jpg"></div>
+			<div id="image"><img src="portfolio/gap3.jpg"></div>
+			<div id="image"><img src="portfolio/gap4.jpg"></div>
+			<div id="image"><img src="portfolio/gap5.jpg"></div>
+			<div id="image"><img src="portfolio/gap6.jpg"></div>
+			<div id="image"><img src="portfolio/gap7.jpg"></div>
+			<div id="image"><img src="portfolio/gap8.jpg"></div>
+			<div id="image"><img src="portfolio/gap9.jpg"></div>
+		</div>	
 
 		<div>
 			<div id="backToTop">
-				<a href="port2.html">&uarr; Back to Top</a>
+				<a href="port1.html">&uarr; Back to Top</a>
 			</div>
-		</div> 
+		</div> -->
 
-		<div id="footerContainer">
-			<div class="row">
-				<div class="col-xs-12 col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-2 col-lg-2 col-lg-offset-2">Monica Wilcox</div>
-				<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">Cincinnati</div>
-				<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">+18597535691</div>
-				<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">wilcoxmc@mail.uc.edu</div>
-			</div>
-		</div>
+
+
 	</body>
 </html>

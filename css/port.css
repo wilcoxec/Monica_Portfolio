@@ -6,11 +6,88 @@ body{
 	height: 100%;
 }
 
-#image img {
+#menuItems{
+	text-align: right;
+	color: #fff;
+	font-size: 45px;
+	line-height: 55px;
+	font-family: 'Arial', Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+#help{
+	font-family: 'Arial', Arial, sans-serif;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	-webkit-animation: swing 8s forwards ease-in-out;
+    -moz-animation:    swing 8s forwards ease-in-out;
+    -o-animation:      swing 8s forwards ease-in-out;
+    -ms-transition:    swing 8s forwards ease-in-out; 
+    animation:         swing 8s forwards ease-in-out;
+}
+
+#menuItems a{
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Arial', Arial, sans-serif;
+	text-decoration: none;
+}
+
+#next{
+	text-align: right;
+	color: #fff;
+	font-size: 20px;
+	line-height: 25px;
+	font-family: 'Arial', Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-right: 10px;	
+}
+
+#n{
+	text-align: right;
+	color: #fff;
+	font-size: 15px;
+	line-height: 20px;
+	font-family: 'Arial', Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-right: 10px;	
+}
+.cont{
+	margin-right: 0px;
+}
+
+#cont{
+	margin: 0px;
+	padding: 0px;
+}
+
+#menuItems a:hover{
+	opacity: 0.4;
+	text-decoration: none;
+}
+
+
+#image2 img{
 	width: 100%;
+	height: auto;
+}
+
+#image img {
 	height: auto;
 	overflow-x: hidden;
 	padding: 20px;
+	text-align: center;
+}
+
+.scroller {
+	text-align: center;
 }
 
 #backToTop{
@@ -19,6 +96,7 @@ body{
 	text-decoration: none;
 	padding: 10px;
 }
+
 
 #backToTop a{
 	text-align: center;
@@ -32,7 +110,7 @@ body{
 	text-transform: uppercase;
 }
 
-#footerContainer{
+#footercont{
 	text-align: left;
 	margin: auto;
 	font-family: 'Arial', Arial, sans-serif;
@@ -58,7 +136,7 @@ body{
 }
 
 /* Navigation Style */
-.navContainer {
+.navcont {
 	position: relative;
 	height: 78px;
 }
@@ -130,22 +208,8 @@ body{
 	.nav2 a {
 		font-size: 13px;
 	}
-	#bodyContainer {
-		margin-top: 14px;
-	}
-	.portfolioBox{
-		margin-top: 16px;
-	}
-	.about{
-		margin-top: 0px;
-		font-size: 30px;
-	}
-	.aboutEmail{
-		font-size: 30px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
+	.cont{
+		display: none;
 	}
 
 }
@@ -156,22 +220,8 @@ body{
 	.nav2 a {
 		font-size: 14px;
 	}
-	#bodyContainer {
-		margin-top: 14.5px;
-	}
-	.portfolioBox{
-		margin-top: 16px;
-	}
-	.about{
-		margin-top: 0px;
-		font-size: 30px;
-	}
-	.aboutEmail{
-		font-size: 30px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
+	.cont{
+		display: none;
 	}
 
 
@@ -183,22 +233,8 @@ body{
 	.nav2 a {
 		font-size: 15px;
 	}
-	#bodyContainer {
-		margin-top: 16px;
-	}
-	.portfolioBox{
-		margin-top: 18px;
-	}
-	.about{
-		margin-top: 0px;
-		font-size: 30px;
-	}
-	.aboutEmail{
-		font-size: 30px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
+	.cont{
+		display: none;
 	}
 
 }
@@ -211,23 +247,10 @@ body{
 	.nav2 a {
 		font-size: 22px;
 	}
-	#bodyContainer {
-		margin-top: 20px;
+	.cont{
+		display: none;
 	}
-	.portfolioBox{
-		margin-top: 20px;
-	}
-	.about{
-		margin-top: 0px;
-		font-size: 30px;
-	}
-	.aboutEmail{
-		font-size: 30px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
+
 
 }
 @media (min-width: 400px) and (max-width: 450px) { 
@@ -237,24 +260,9 @@ body{
 	.nav2 a {
 		font-size: 23.5px;
 	}
-	#bodyContainer {
-		margin-top: 25px;
+	.cont{
+		display: none;
 	}
-	.portfolioBox{
-		margin-top: 25px;
-	}
-	.about{
-		margin-top: 20px;
-		font-size: 30px;
-	}
-	.aboutEmail{
-		font-size: 30px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
 
 }
 @media (min-width: 450px) and (max-width: 500px) { 
@@ -264,30 +272,8 @@ body{
 	.nav2 a {
 		font-size: 27px;
 	}
-	#bodyContainer {
-		margin-top: 28px;
-	}
-	.portfolioBox{
-		margin-top: 30px;
-	}
-	.about{
-		margin-top: 35px;
-		font-size: 30px;
-	}
-	.aboutEmail{
-		font-size: 30px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	.cont{
+		display: none;
 	}
 }
 @media (min-width: 500px) and (max-width: 550px) { 
@@ -297,30 +283,8 @@ body{
 	.nav2 a {
 		font-size: 30px;
 	}
-	#bodyContainer {
-		margin-top: 31px;
-	}
-	.portfolioBox{
-		margin-top: 31px;
-	}
-	.about{
-		margin-top: 45px;
-		font-size: 30px;
-	}
-	.aboutEmail{
-		font-size: 30px;
-	}	
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	.cont{
+		display: none;
 	}
 }
 @media (min-width: 550px) and (max-width: 600px) { 
@@ -330,31 +294,8 @@ body{
 	.nav2 a {
 		font-size: 33px;
 	}
-	#bodyContainer {
-		margin-top: 35px;
-	}
-	.portfolioBox{
-		margin-top: 35px;
-	}
-	.about{
-		margin-top: 45px;
-		font-size: 30px;
-	}
-	.aboutEmail{
-		font-size: 30px;
-	}
-
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	.cont{
+		display: none;
 	}
 }
 @media (min-width: 600px) and (max-width: 650px) { 
@@ -364,31 +305,8 @@ body{
 	.nav2 a {
 		font-size: 36px;
 	}
-	#bodyContainer {
-		margin-top: 37px;
-	}
-	.portfolioBox{
-		margin-top: 37px;
-	}
-	.about{
-		margin-top: 45px;
-		font-size: 30px;
-	}
-	.aboutEmail{
-		font-size: 30px;
-	}
-
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	.cont{
+		display: none;
 	}
 }
 @media (min-width: 650px) and (max-width: 700px) { 
@@ -398,30 +316,8 @@ body{
 	.nav2 a {
 		font-size: 40px;
 	}
-	#bodyContainer {
-		margin-top: 42px;
-	}
-	.portfolioBox{
-		margin-top: 42px;
-	}
-	.about{
-		margin-top: 45px;
-		font-size: 30px;
-	}
-	.aboutEmail{
-		font-size: 30px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	.cont{
+		display: none;
 	}
 }
 @media (min-width: 700px) and (max-width: 750px) { 
@@ -431,30 +327,8 @@ body{
 	.nav2 a {
 		font-size: 43px;
 	}
-	#bodyContainer {
-		margin-top: 45px;
-	}
-	.portfolioBox{
-		margin-top: 45px;
-	}
-	.about{
-		margin-top: 45px;
-		font-size: 30px;
-	}
-	.aboutEmail{
-		font-size: 30px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	.cont{
+		display: none;
 	}
 
 }
@@ -465,32 +339,8 @@ body{
 	.nav2 a {
 		font-size: 46px;
 	}
-	#bodyContainer {
-		margin-top: 48px;
-	}
-	.portfolioBox{
-		margin-top: 48px;
-	}
-	.about{
-		margin-top: 45px;
-		text-align: left;
-		font-size: 30px;
-	}
-	.aboutEmail{
-		font-size: 30px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 20px;
-		line-height: 20px;
-		text-align: right;
-	}
-
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	.cont{
+		display: none;
 	}
 }
 
@@ -501,7 +351,7 @@ body{
 	.nav2 a {
 		font-size: 50px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 52px;
 	}
 	.portfolioBox{
@@ -536,7 +386,7 @@ body{
 	.nav2 a {
 		font-size: 53px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 55px;
 	}
 	.portfolioBox{
@@ -570,7 +420,7 @@ body{
 	.nav2 a {
 		font-size: 56px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 58px;
 	}
 	.portfolioBox{
@@ -604,7 +454,7 @@ body{
 	.nav2 a {
 		font-size: 59px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 61px;
 	}
 	.portfolioBox{
@@ -638,7 +488,7 @@ body{
 	.nav2 a {
 		font-size: 63px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 65px;
 	}
 	.portfolioBox{
@@ -664,7 +514,7 @@ body{
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	#aboutContainer {
+	#aboutcont {
 		margin-top: 110px;
 	}
 }
@@ -675,7 +525,7 @@ body{
 	.nav2 a {
 		font-size: 66px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 68px;
 	}
 	.portfolioBox{
@@ -701,7 +551,7 @@ body{
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	#aboutContainer {
+	#aboutcont {
 		margin-top: 120px;
 	}
 }
@@ -712,7 +562,7 @@ body{
 	.nav2 a {
 		font-size: 69px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 71px;
 	}
 	.portfolioBox{
@@ -738,7 +588,7 @@ body{
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	#aboutContainer {
+	#aboutcont {
 		margin-top: 130px;
 	}
 }
@@ -749,7 +599,7 @@ body{
 	.nav2 a {
 		font-size: 72px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 74px;
 	}
 	.portfolioBox{
@@ -774,7 +624,7 @@ body{
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	#aboutContainer {
+	#aboutcont {
 		margin-top: 130px;
 	}
 }
@@ -785,7 +635,7 @@ body{
 	.nav2 a{
 		font-size: 75px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 77px;
 	}
 	.portfolioBox{
@@ -810,7 +660,7 @@ body{
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	#aboutContainer {
+	#aboutcont {
 		margin-top: 140px;
 	}
 }
@@ -821,7 +671,7 @@ body{
 	.nav2 a{
 		font-size: 80px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 82px;
 	}
 	.portfolioBox{
@@ -846,7 +696,7 @@ body{
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	#aboutContainer {
+	#aboutcont {
 		margin-top: 150px;
 
 	}
@@ -858,7 +708,7 @@ body{
 	.nav2 a{
 		font-size: 88px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 90px;
 	}
 	.portfolioBox{
@@ -883,7 +733,7 @@ body{
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	#aboutContainer {
+	#aboutcont {
 		margin-top: 150px;
 
 	}
@@ -895,7 +745,7 @@ body{
 	.nav2 a{
 		font-size: 95px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 97px;
 	}
 	.portfolioBox{
@@ -908,7 +758,7 @@ body{
 	.aboutEmail{
 		font-size: 60px;
 	}
-	#aboutContainer {
+	#aboutcont {
 		margin-top: 50px;
 	}
 	.aboutRow .aboutLeft{
@@ -923,7 +773,7 @@ body{
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	#aboutContainer {
+	#aboutcont {
 		margin-top: 160px;
 
 	}
@@ -935,7 +785,7 @@ body{
 	.nav2 a{
 		font-size: 100px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 102px;
 	}
 	.portfolioBox{
@@ -960,7 +810,7 @@ body{
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	#aboutContainer {
+	#aboutcont {
 		margin-top: 160px;
 
 	}
@@ -972,7 +822,7 @@ body{
 	.nav2 a{
 		font-size: 105px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 112px;
 	}
 	.portfolioBox{
@@ -992,7 +842,7 @@ body{
 	    -ms-transform: rotate(-3deg);
 	    transform: rotate(-3deg);
 	}
-	#aboutContainer {
+	#aboutcont {
 		margin-top: 170px;
 
 	}
@@ -1009,7 +859,7 @@ body{
 	.nav2 a{
 		font-size: 120px;
 	}
-	#bodyContainer {
+	#bodycont {
 		margin-top: 122px;
 	}
 	.portfolioBox{
@@ -1030,7 +880,7 @@ body{
 	    transform: rotate(-3deg);
 	}
 
-	#aboutContainer {
+	#aboutcont {
 		margin-top: 180px;
 
 	}
@@ -1041,4 +891,43 @@ body{
 	}
 }
 
+@-webkit-keyframes swing{
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
+
+@-moz-keyframes swing{
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
+
+@-o-keyframes swing {
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
+
+@-ms-keyframes swing {
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
+
+@keyframes swing {
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
 

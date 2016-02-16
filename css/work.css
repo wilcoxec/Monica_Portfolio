@@ -1,14 +1,20 @@
-html, body{
-	min-height: 100%;
+html{
+	height: 100%;
+
+}
+body{
 	font-family: 'Arial', Arial, sans-serif;
-	overflow-x:hidden;
+
+    overflow-x: hidden;
+
 }
 
 .projectBox{
 	position: relative;
 	margin: 0;
 	text-align: center;
-	overflow-x:hidden;
+	overflow-y:hidden;
+
 }
 
 .portfolioBox{
@@ -16,6 +22,7 @@ html, body{
 	text-align: center;
 	font-family: 'Arial', Arial, sans-serif;
 	overflow-x:hidden;
+	overflow-y: hidden;
 }
 
 .portfolio{
@@ -24,15 +31,83 @@ html, body{
 	text-align: center;
 	padding: 0px;
 	overflow-x:hidden;
+	overflow-y: hidden;
 }
 
+.image img {
+	overflow-x:hidden;
+	overflow-y: hidden;
+	border-style: solid;
+	border-width: 2px;
+	color: #000;
+}
 
+.image img:hover{
+	opacity: 0.7;
+}
+
+.info {
+	padding-left: 20px;
+}
+
+.aboutText{
+	text-align: left;
+
+	overflow-x: hidden;
+}
+
+.aboutHr hr {
+	border-top-color: #000;
+	border-top-width: 2px;
+	margin-left: 20px;
+	margin-right: 20px;
+	overflow-x: hidden;
+}
+
+.infoText {
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	overflow-x: hidden;
+}
+
+.infoText a{
+	text-decoration: none;
+	color: #000;
+}
+
+.aboutHr{
+	overflow-x: hidden;
+}
+
+.menuXS{
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.menuXS a{
+	color: #000;
+}
+
+.menuHidden{
+	margin-top: 20px;
+}
 
 .projectBox .image{
 	z-index: 0;
 	position: absolute;
 	text-align: center;
 	overflow-x:hidden;
+	overflow-y: hidden;
 
 }
 
@@ -50,6 +125,25 @@ html, body{
 }
 
 
+.menuRow {
+	text-align: center;
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.menuRow a{
+	padding: 15px;
+	color: #000;
+	text-decoration: none;
+}
+
+.menuRow a:hover {
+	text-decoration: none;
+	color: #000;
+	opacity: 0.5;
+}
 
 #bodyContainer {
 	height: auto;
@@ -65,8 +159,10 @@ html, body{
 
 #projectTitle{
 	text-align: center;
-	font-size: 50px;
+	font-size: 30px;
 	text-transform: uppercase;
+	font-family: 'Arial', Arial, sans-serif;
+	font-weight: bold;
 	overflow-x:hidden;
 }
 
@@ -213,7 +309,7 @@ html, body{
 	}
 
 	.image img{
-		max-width: 100%;
+		max-width: 90%;
 		height: auto;
 	}
 }
@@ -237,7 +333,7 @@ html, body{
 		height: 10px;
 	}
 	.image img{
-		max-width: 100%;
+		max-width: 90%;
 		height: auto;
 	}
 }
@@ -261,7 +357,7 @@ html, body{
 		height: 10px;
 	}
 	.image img{
-		max-width: 100%;
+		max-width: 90%;
 		height: auto;
 	}
 }
@@ -285,7 +381,7 @@ html, body{
 		height: 15px;
 	}
 	.image img{
-		max-width: 100%;
+		max-width: 90%;
 		height: auto;
 	}
 }
@@ -306,7 +402,7 @@ html, body{
 		height: 250px;
 	}
 	.image img{
-		max-width: 100%;
+		max-width: 90%;
 		height: auto;
 	}
 }
@@ -327,7 +423,7 @@ html, body{
 		height: 400px;
 	}
 	.image img{
-		max-width: 100%;
+		max-width: 90%;
 		height: auto;
 	}
 }
@@ -348,7 +444,7 @@ html, body{
 		height: 500px;
 	}
 	.image img{
-		max-width: 100%;
+		max-width: 90%;
 		height: auto;
 	}
 }
@@ -369,7 +465,7 @@ html, body{
 		height: 500px;
 	}
 	.image img{
-		max-width: 100%;
+		max-width: 90%;
 		height: auto;
 	}
 }
@@ -390,7 +486,7 @@ html, body{
 		height: 500px;
 	}
 	.image img{
-		max-width: 100%;
+		max-width: 90%;
 		height: auto;
 	}
 }
@@ -408,10 +504,10 @@ html, body{
 		margin-top: 42px;
 	}
 	.projectBox{
-		height: 500px;
+		height: 400px;
 	}
 	.image img{
-		max-width: 100%;
+		max-width: 90%;
 		height: auto;
 	}
 }
@@ -429,10 +525,10 @@ html, body{
 		margin-top: 45px;
 	}
 	.projectBox{
-		height: 500px;
+		height: 400px;
 	}
 	.image img{
-		max-width: 100%;
+		max-width: 90%;
 		height: auto;
 	}
 }
@@ -450,11 +546,12 @@ html, body{
 		margin-top: 48px;
 	}
 	.projectBox{
-		height: 500px;
+		height: 400px;
 	}
 	.image img{
-		max-width: 100%;
+		max-width: 90%;
 		height: auto;
+
 	}
 }
 
@@ -472,10 +569,10 @@ html, body{
 		margin-top: 52px;
 	}
 	.projectBox{
-		height: 500px;
+		height: 400px;
 	}
 	.image img{
-		max-width: 90%;
+		max-width: 80%;
 		height: auto;
 	}
 }
@@ -494,10 +591,10 @@ html, body{
 		margin-top: 55px;
 	}
 	.projectBox{
-		height: 500px;
+		height: 400px;
 	}
 	.image img{
-		max-width: 90%;
+		max-width: 80%;
 		height: auto;
 	}
 }
@@ -515,10 +612,10 @@ html, body{
 		margin-top: 58px;
 	}
 	.projectBox{
-		height: 500px;
+		height: 400px;
 	}
 	.image img{
-		max-width: 90%;
+		max-width: 80%;
 		height: auto;
 	}
 }
@@ -536,10 +633,10 @@ html, body{
 		margin-top: 61px;
 	}
 	.projectBox{
-		height: 500px;
+		height: 400px;
 	}
 	.image img{
-		max-width: 90%;
+		max-width: 70%;
 		height: auto;
 	}
 }
@@ -557,10 +654,10 @@ html, body{
 		margin-top: 65px;
 	}
 	.projectBox{
-		height: 500px;
+		height: 400px;
 	}
 	.image img{
-		max-width: 70%;
+		max-width: 50%;
 		height: auto;
 	}
 }
@@ -578,10 +675,10 @@ html, body{
 		margin-top: 68px;
 	}
 	.projectBox{
-		height: 500px;
+		height: 400px;
 	}
 	.image img{
-		max-width: 70%;
+		max-width: 50%;
 		height: auto;
 	}
 }
@@ -599,10 +696,10 @@ html, body{
 		margin-top: 71px;
 	}
 	.projectBox{
-		height: 500px;
+		height: 400px;
 	}
 	.image img{
-		max-width: 70%;
+		max-width: 50%;
 		height: auto;
 	}
 }
@@ -620,10 +717,10 @@ html, body{
 		margin-top: 74px;
 	}
 	.projectBox{
-		height: 500px;
+		height: 400px;
 	}
 	.image img{
-		max-width: 70%;
+		max-width: 50%;
 		height: auto;
 	}
 }
@@ -641,10 +738,10 @@ html, body{
 		margin-top: 77px;
 	}
 	.projectBox{
-		height: 500px;
+		height: 400px;
 	}
 	.image img{
-		max-width: 70%;
+		max-width: 50%;
 		height: auto;
 	}
 }
@@ -662,10 +759,10 @@ html, body{
 		margin-top: 82px;
 	}
 	.projectBox{
-		height: 500px;
+		height: 400px;
 	}
 	.image img{
-		max-width: 70%;
+		max-width: 50%;
 		height: auto;
 	}
 }
@@ -686,7 +783,7 @@ html, body{
 		height: 500px;
 	}
 	.image img{
-		max-width: 70%;
+		max-width: 50%;
 		height: auto;
 	}
 }
@@ -707,7 +804,7 @@ html, body{
 		height: 500px;
 	}
 	.image img{
-		max-width: 70%;
+		max-width: 50%;
 		height: auto;
 	}
 }
@@ -728,7 +825,7 @@ html, body{
 		height: 500px;
 	}
 	.image img{
-		max-width: 70%;
+		max-width: 50%;
 		height: auto;
 	}
 }
@@ -749,7 +846,7 @@ html, body{
 		height: 500px;
 	}
 	.image img{
-		max-width: 70%;
+		max-width: 50%;
 		height: auto;
 	}
 }
@@ -770,7 +867,7 @@ html, body{
 		height: 500px;
 	}
 	.image img{
-		max-width: 70%;
+		max-width: 50%;
 		height: auto;
 	}
 }

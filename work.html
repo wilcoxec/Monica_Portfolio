@@ -21,7 +21,7 @@
 						<li><a id="workNav" href="home.html">MW &nbsp;</a></li>
 						<li><a id="mwNav" href="work.html">WORK &nbsp;</a></li>
 						<li><a id="studioNav" href="studio.html">STUDIO &nbsp;</a></li>
-						<li><a id="contactNav" href="contact.html">CONTACT</a></li>
+						<li><a id="contactNav" href="contact.php">CONTACT</a></li>
 					</ul>
 				</div>
 
@@ -30,22 +30,55 @@
 						<li><a id="workNav2">MW &nbsp;</a></li>
 						<li><a id="mwNav2" href="work.html">WORK &nbsp;</a></li>
 						<li><a id="studioNav2" >STUDIO &nbsp;</a></li>
-						<li><a id="contactNav2" >CONTACT</a></li>
+						<li><a id="contactNav2" href="contact.php">CONTACT</a></li>
 					</ul>
 				</div>
 			</div>
 		</header>
 
 		<div id="bodyContainer">
-			<div class="row projectBox">
-				<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10  image">
-					<a href="port3.html"><img src="images/inkBox.jpg"/></a>
+			<!--<div class="row menuRow">
+				<div class="hidden-xs col-sm-12 col-md-12 col-lg-12">
+					<div><a href="#ink">Ink Blot</a>&#x2758;<a href="#gap">Gap Project</a>&#x2758;<a href="#rem">The death of the skyscraper</a></div>
 				</div>
 
-				<div class="col-sm-5 col-sm-offset-7 col-md-5 col-md-offset-7 col-lg-5 col-lg-offset-7 hidden-xs project">
+			</div>-->
+
+			<div class="aboutHr row">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 "><hr></div>
+
+			</div>
+
+			<div class="info row">
+				<div class="infoText col-xs-12 col-sm-2 col-sm-offset-2">
+					<div><a href="#ink">Ink Blot</a></div>
+				</div>
+
+				<div class="infoText col-xs-12 col-sm-3">
+					<div><a href="#rem">The death of the skyscraper</a></div>
+				</div>
+				<div class="infoText col-xs-12 col-sm-3">
+					<div><a href="#gap">Gap Project</a></div>
+				</div>
+			</div>
+
+			<div class="aboutHr row">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 "><hr></div>
+
+			</div>
+
+		</div>
+
+		<div id="bodyContainer">
+			<a name="ink"></a>
+			<div class="row projectBox">
+				<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10  image">
+					<a href="port3.html"><img src="images/inkBox.jpg" onmouseover="this.src='images/inkBoxInvert.jpg'" onmouseout="this.src='images/inkBox.jpg'" /></a>
+				</div>
+
+				<div class="col-sm-5 col-sm-offset-6 col-md-5 col-md-offset-6 col-lg-5 col-lg-offset-6 hidden-xs project">
 			  		<div id="date">Spring || Summer</div>
-			  		<div id="projectTitle">Ink</div>
-			  		<div id="projectTitle">Blot</div>
+			  		<div id="projectTitle">Ink Blot</div>
 			  		<div class="hidden-sm" id="projectDescription">A study of print, structure, and trying to find the extraordinary</div>
 			  	</div>
 
@@ -53,6 +86,39 @@
 		</div> 
 
 		<div id="bodyContainer">
+			<a name="rem"></a>
+			<div class="row projectBox">
+				<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10  image">
+					<a href="port2.html"><img src="images/archBox.jpg" onmouseover="this.src='images/archBoxInvert.jpg'" onmouseout="this.src='images/archBox.jpg'"/></a>
+				</div>
+
+				<div class="col-sm-5 col-sm-offset-6 col-md-5 col-md-offset-6 col-lg-5 col-lg-offset-6 hidden-xs project">
+			  		<div id="date">Fall</div>
+			  		<div id="projectTitle">The death of the skyscraper </div>
+			  		<div class="hidden-sm" id="projectDescription">A fall collection inspired by Rem Koolhaas</div>
+			  	</div>
+
+			</div>  
+		</div>
+
+		<div id="bodyContainer">
+			<a name="gap"></a>
+			<div class="row projectBox">
+				<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10  image">
+					<a href="port1.html"><img src="images/gapBox.jpg" onmouseover="this.src='images/gapBoxInvert.jpg'" onmouseout="this.src='images/gapBox.jpg'"/></a>
+				</div>
+
+				<div class="col-sm-5 col-sm-offset-6 col-md-5 col-md-offset-6 col-lg-5 col-lg-offset-6 hidden-xs project">
+					<div id="date">Autumn || Winter</div>
+			  		<div id="projectTitle">Gap Project</div>
+			  		<div class="hidden-sm" id="projectDescription">Design concept for Gap's Fall 2016 line</div>
+			  	</div>
+
+			</div>  
+		</div> 
+
+		<!--<div id="bodyContainer">
+			<a name="gap"></a>
 			<div class="row projectBox">
 				<div class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-9 col-md-offset-3 col-lg-8 col-lg-offset-3 image">
 					<a href="port1.html"><img src="images/gapBox.jpg"/></a>
@@ -60,31 +126,12 @@
 
 				<div class="col-sm-5 col-md-4 col-md-offset-1 col-lg-5 col-lg-offset-2 hidden-xs project">
 			  		<div id="date">Autumn || Winter</div>
-			  		<div id="projectTitle">Gap</div>
-			  		<div id="projectTitle">Project</div>
+			  		<div id="projectTitle">Gap Project</div>
 			  		<div class="hidden-sm" id="projectDescription">Design concept for Gap's Fall 2016 line</div>
 			  	</div>
 
 			</div>  
-		</div>
-
-		<div id="bodyContainer">
-			<div class="row projectBox">
-				<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10  image">
-					<a href="port2.html"><img src="images/archBox.jpg"/></a>
-				</div>
-
-				<div class="col-sm-5 col-sm-offset-6 col-md-5 col-md-offset-6 col-lg-5 col-lg-offset-6 hidden-xs project">
-			  		<div id="date">Fall</div>
-			  		<div id="projectTitle">Rem</div>
-			  		<div id="projectTitle">Koolhass</div>
-			  		<div class="hidden-sm" id="projectDescription">A fall collection inspired by Rem Koolhaas</div>
-			  	</div>
-
-			</div>  
-		</div>
-
-
+		</div>-->
 
 
 
@@ -95,14 +142,7 @@
 				</div>
 		</div> 
 
-		<div id="footerContainer">
-			<div class="row">
-				<div class="col-xs-12 col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-2 col-lg-2 col-lg-offset-2">Monica Wilcox</div>
-				<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">Cincinnati</div>
-				<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">+18597535691</div>
-				<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">wilcoxmc@mail.uc.edu</div>
-			</div>
-		</div>
+
 		
 	</body>
 </html>
