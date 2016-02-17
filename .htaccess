@@ -1,0 +1,7 @@
+ExpiresActive On
+ExpiresByType image/gif "Access plus 1 week"
+ExpiresByType image/jpeg "Access plus 1 week"
+ExpiresByType image/jpg "Access plus 1 week"
+ExpiresByType image/png "Access plus 1 week"
+ExpiresByType image/x-icon "Access plus 1 week"
+ExpiresByType application/x-shockwave-flash "Access plus 1 week"
