@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
-html { height: 100%; }
 
 *,
 *:after,
@@ -12,7 +11,7 @@ html { height: 100%; }
 	margin: 0;
 }
 
-body {
+/*body {
 	background: #fff;
 	font-weight: 400;
 	font-size: 100%;
@@ -21,7 +20,7 @@ body {
 }
 
 .js body {
-}
+}*/
 
 a {
 	color: #555;
@@ -37,14 +36,15 @@ a:hover {
 .bb-custom-wrapper,
 .bb-bookblock {
 	width: 100%;
-	height: 110%;
+	height: 100%;
 	margin: 0px;
 	padding: 0px;
+	text-align: center;
 }
 
 .cont {
 	position: relative;
-	left: 0px;
+	/*left: 0px;*/
 	-webkit-transition: left 0.3s ease-in-out;
 	-o-transition: left 0.3s ease-in-out;
 	transition: left 0.3s ease-in-out;
@@ -64,7 +64,7 @@ a:hover {
 	height: 100%;
 	position: fixed;
 	z-index: 1000;
-	top: 0;
+	/*top: 0;*/
 	left: 0;
 }
 
@@ -80,22 +80,7 @@ a:hover {
 	color: #fff;
 } 
 
-.menu-toc {
-	list-style: none;
-}
 
-.menu-toc li a {
-	display: block;
-	color: #fff;
-	font-size: 1.1em;
-	line-height: 3.5;
-	padding: 0 20px;
-	cursor: pointer;
-	background: #000;
-	border-bottom: 1px solid #fff;
-	font-family: 'Arial', Arial, sans-serif;
-	text-transform: uppercase;
-}
 
 .menu-toc li a:hover,
 .menu-toc li.menu-toc-current a{
@@ -146,6 +131,7 @@ a:hover {
 	speak: none;
 	font-weight: bold;
 	cursor: pointer;
+	display: none;
 }
 
 .bb-custom-wrapper nav span:hover,
@@ -182,12 +168,12 @@ a:hover {
 }
 
 .js .content {
-	position: absolute;
+	position: absolute fixed;
 	top: 60px;
 	left: 0;
 	width: 100%;
 	bottom: 50px;
-	overflow: hidden;
+	overflow-x: hidden;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -222,13 +208,13 @@ a:hover {
 
 
 
-.content p {
+/*.content p {
 	font-size: 1.2em;
 	line-height: 1.6;
 	font-weight: 300;
 	padding: 5px 8%;
 	text-align: justify;
-}
+}*/
 
 
 

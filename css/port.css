@@ -1,11 +1,33 @@
 html{
 	height: 100%;
+    overflow-x: hidden;
 }
 body{
 	font-family: 'Arial', Arial, sans-serif;
 	height: 100%;
 }
 
+
+.about{
+	text-align: center;
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 17px;
+	line-height: 22px;
+	color: #000;
+	margin: auto;
+	padding: 20px;
+	overflow-x: hidden;
+
+}
+.aboutText{
+	font-family: 'Arial', Arial, sans-serif;
+	line-height: 25px;
+	font-size: 17px;
+	text-align: left;
+	background-color: #fff;
+	overflow-x: hidden;
+	padding: 25px;
+}
 #menuItems{
 	text-align: right;
 	color: #fff;
@@ -143,7 +165,7 @@ body{
 
 .nav {
 	position: absolute;
-	z-index: 4;
+	z-index: 9999;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -153,7 +175,7 @@ body{
 
 .nav2 {
 	position: absolute;
-	z-index: 3;
+	z-index: 9998;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -208,10 +230,9 @@ body{
 	.nav2 a {
 		font-size: 13px;
 	}
-	.cont{
-		display: none;
+	input, textarea {
+    	width: 90%;
 	}
-
 }
 @media (min-width: 250px) and (max-width: 300px) { 
 	.nav a {
@@ -220,11 +241,9 @@ body{
 	.nav2 a {
 		font-size: 14px;
 	}
-	.cont{
-		display: none;
+	input, textarea {
+    	width: 90%;
 	}
-
-
 }
 @media (min-width: 300px) and (max-width: 350px) { 
 	.nav a {
@@ -233,10 +252,9 @@ body{
 	.nav2 a {
 		font-size: 15px;
 	}
-	.cont{
-		display: none;
+	input, textarea {
+    	width: 90%;
 	}
-
 }
 
 /*iphone 6*/
@@ -247,10 +265,9 @@ body{
 	.nav2 a {
 		font-size: 22px;
 	}
-	.cont{
-		display: none;
+	input, textarea {
+    	width: 90%;
 	}
-
 
 }
 @media (min-width: 400px) and (max-width: 450px) { 
@@ -260,10 +277,9 @@ body{
 	.nav2 a {
 		font-size: 23.5px;
 	}
-	.cont{
-		display: none;
+	input, textarea {
+    	width: 90%;
 	}
-
 }
 @media (min-width: 450px) and (max-width: 500px) { 
 	.nav a {
@@ -272,9 +288,10 @@ body{
 	.nav2 a {
 		font-size: 27px;
 	}
-	.cont{
-		display: none;
+	input, textarea {
+    	width: 90%;
 	}
+
 }
 @media (min-width: 500px) and (max-width: 550px) { 
 	.nav a {
@@ -283,9 +300,10 @@ body{
 	.nav2 a {
 		font-size: 30px;
 	}
-	.cont{
-		display: none;
+	input, textarea {
+    	width: 90%;
 	}
+
 }
 @media (min-width: 550px) and (max-width: 600px) { 
 	.nav a {
@@ -294,8 +312,8 @@ body{
 	.nav2 a {
 		font-size: 33px;
 	}
-	.cont{
-		display: none;
+	input, textarea {
+    	width: 90%;
 	}
 }
 @media (min-width: 600px) and (max-width: 650px) { 
@@ -305,8 +323,11 @@ body{
 	.nav2 a {
 		font-size: 36px;
 	}
-	.cont{
-		display: none;
+	.about {
+		margin-top: 50px;
+	}
+	input, textarea {
+    	width: 90%;
 	}
 }
 @media (min-width: 650px) and (max-width: 700px) { 
@@ -316,8 +337,11 @@ body{
 	.nav2 a {
 		font-size: 40px;
 	}
-	.cont{
-		display: none;
+	.about {
+		margin-top: 50px;
+	}
+	input, textarea {
+    	width: 90%;
 	}
 }
 @media (min-width: 700px) and (max-width: 750px) { 
@@ -327,8 +351,11 @@ body{
 	.nav2 a {
 		font-size: 43px;
 	}
-	.cont{
-		display: none;
+	.about {
+		margin-top: 50px;
+	}
+	input, textarea {
+    	width: 90%;
 	}
 
 }
@@ -339,8 +366,11 @@ body{
 	.nav2 a {
 		font-size: 46px;
 	}
-	.cont{
-		display: none;
+	.about {
+		margin-top: 50px;
+	}
+	input, textarea {
+    	width: 40%;
 	}
 }
 
@@ -351,31 +381,11 @@ body{
 	.nav2 a {
 		font-size: 50px;
 	}
-	#bodycont {
-		margin-top: 52px;
+	.about {
+		margin-top: 70px;
 	}
-	.portfolioBox{
-		margin-top: 52px;
-	}
-	.about{
-		text-align: left;
-		margin-top: 45px;
-		font-size: 30px;
-	}
-	.aboutEmail{
-		font-size: 30px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	input, textarea {
+    	width: 40%;
 	}
 }
 
@@ -386,31 +396,11 @@ body{
 	.nav2 a {
 		font-size: 53px;
 	}
-	#bodycont {
-		margin-top: 55px;
+	.about {
+		margin-top: 70px;
 	}
-	.portfolioBox{
-		margin-top: 55px;
-	}
-	.about{
-		text-align: left;
-		margin-top: 45px;
-		font-size: 40px;
-	}
-	.aboutEmail{
-		font-size: 40px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	input, textarea {
+    	width: 40%;
 	}
 }
 @media (min-width: 900px) and (max-width: 950px) { 
@@ -420,31 +410,11 @@ body{
 	.nav2 a {
 		font-size: 56px;
 	}
-	#bodycont {
-		margin-top: 58px;
+	.about {
+		margin-top: 70px;
 	}
-	.portfolioBox{
-		margin-top: 58px;
-	}
-	.about{
-		text-align: left;
-		margin-top: 45px;
-		font-size: 40px;
-	}
-	.aboutEmail{
-		font-size: 40px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	input, textarea {
+    	width: 40%;
 	}
 }
 @media (min-width: 950px) and (max-width: 1000px) { 
@@ -454,31 +424,11 @@ body{
 	.nav2 a {
 		font-size: 59px;
 	}
-	#bodycont {
-		margin-top: 61px;
+	.about {
+		margin-top: 70px;
 	}
-	.portfolioBox{
-		margin-top: 61px;
-	}
-	.about{
-		text-align: left;
-		margin-top: 45px;
-		font-size: 40px;
-	}
-	.aboutEmail{
-		font-size: 40px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
+	input, textarea {
+    	width: 40%;
 	}
 }
 @media (min-width: 1000px) and (max-width: 1050px) { 
@@ -488,34 +438,11 @@ body{
 	.nav2 a {
 		font-size: 63px;
 	}
-	#bodycont {
-		margin-top: 65px;
+	.about {
+		margin-top: 70px;
 	}
-	.portfolioBox{
-		margin-top: 65px;
-	}
-	.about{
-		text-align: left;
-		margin-top: 45px;
-		font-size: 40px;
-	}
-	.aboutEmail{
-		font-size: 40px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutcont {
-		margin-top: 110px;
+	input, textarea {
+    	width: 40%;
 	}
 }
 @media (min-width: 1050px) and (max-width: 1100px) { 
@@ -525,34 +452,11 @@ body{
 	.nav2 a {
 		font-size: 66px;
 	}
-	#bodycont {
-		margin-top: 68px;
+	.about {
+		margin-top: 70px;
 	}
-	.portfolioBox{
-		margin-top: 68px;
-	}
-	.about{
-		text-align: left;
-		margin-top: 45px;
-		font-size: 50px;
-	}
-	.aboutEmail{
-		font-size: 50px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutcont {
-		margin-top: 120px;
+	input, textarea {
+    	width: 40%;
 	}
 }
 @media (min-width: 1100px) and (max-width: 1150px) { 
@@ -562,34 +466,14 @@ body{
 	.nav2 a {
 		font-size: 69px;
 	}
-	#bodycont {
-		margin-top: 71px;
+	.about {
+		margin-top: 70px;
 	}
-	.portfolioBox{
-		margin-top: 71px;
+	input, textarea {
+    	width: 40%;
 	}
-	.about{
-		text-align: left;
-		margin-top: 45px;
-		font-size: 50px;
-	}
-	.aboutEmail{
-		font-size: 50px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutcont {
-		margin-top: 130px;
+	.aboutHrFirst {
+		margin-top: 100px;
 	}
 }
 @media (min-width: 1150px) and (max-width: 1200px) { 
@@ -599,33 +483,14 @@ body{
 	.nav2 a {
 		font-size: 72px;
 	}
-	#bodycont {
-		margin-top: 74px;
+	.about {
+		margin-top: 100px;
 	}
-	.portfolioBox{
-		margin-top: 74px;
+	input, textarea {
+    	width: 40%;
 	}
-	.about{
-		text-align: left;
-		font-size: 50px;
-	}
-	.aboutEmail{
-		font-size: 50px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutcont {
-		margin-top: 130px;
+	.aboutHrFirst {
+		margin-top: 100px;
 	}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
@@ -635,33 +500,14 @@ body{
 	.nav2 a{
 		font-size: 75px;
 	}
-	#bodycont {
-		margin-top: 77px;
+	.about {
+		margin-top: 100px;
 	}
-	.portfolioBox{
-		margin-top: 77px;
+	input, textarea {
+    	width: 40%;
 	}
-	.about{
-		text-align: left;
-		font-size: 50px;
-	}
-	.aboutEmail{
-		font-size: 50px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutcont {
-		margin-top: 140px;
+	.aboutHrFirst {
+		margin-top: 200px;
 	}
 }
 @media (min-width: 1300px) and (max-width: 1400px) {
@@ -671,34 +517,14 @@ body{
 	.nav2 a{
 		font-size: 80px;
 	}
-	#bodycont {
-		margin-top: 82px;
+	.about {
+		margin-top: 100px;
 	}
-	.portfolioBox{
-		margin-top: 82px;
+	input, textarea {
+    	width: 40%;
 	}
-	.about{
-		text-align: left;
-		font-size: 50px;
-	}
-	.aboutEmail{
-		font-size: 50px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutcont {
-		margin-top: 150px;
-
+	.aboutHrFirst {
+		margin-top: 200px;
 	}
 }
 @media (min-width: 1400px) and (max-width: 1500px) {
@@ -708,34 +534,14 @@ body{
 	.nav2 a{
 		font-size: 88px;
 	}
-	#bodycont {
-		margin-top: 90px;
+	.about {
+		margin-top: 100px;
 	}
-	.portfolioBox{
-		margin-top: 90px;
+	input, textarea {
+    	width: 40%;
 	}
-	.about{
-		text-align: left;
-		font-size: 50px;
-	}
-	.aboutEmail{
-		font-size: 50px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutcont {
-		margin-top: 150px;
-
+	.aboutHrFirst {
+		margin-top: 200px;
 	}
 }
 @media (min-width: 1500px) and (max-width: 1600px) {
@@ -745,37 +551,14 @@ body{
 	.nav2 a{
 		font-size: 95px;
 	}
-	#bodycont {
-		margin-top: 97px;
+	.about {
+		margin-top: 100px;
 	}
-	.portfolioBox{
-		margin-top: 97px;
+	input, textarea {
+    	width: 40%;
 	}
-	.about{
-		text-align: left;
-		font-size: 60px;
-	}
-	.aboutEmail{
-		font-size: 60px;
-	}
-	#aboutcont {
-		margin-top: 50px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutcont {
-		margin-top: 160px;
-
+	.aboutHrFirst {
+		margin-top: 300px;
 	}
 }
 @media (min-width: 1600px) and (max-width: 1700px) {
@@ -785,34 +568,14 @@ body{
 	.nav2 a{
 		font-size: 100px;
 	}
-	#bodycont {
-		margin-top: 102px;
+	.about {
+		margin-top: 100px;
 	}
-	.portfolioBox{
-		margin-top: 102px;
+	input, textarea {
+    	width: 40%;
 	}
-	.about{
-		text-align: left;
-		font-size: 60px;
-	}
-	.aboutEmail{
-		font-size: 60px;
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutcont {
-		margin-top: 160px;
-
+	.aboutHrFirst {
+		margin-top: 400px;
 	}
 }
 @media (min-width: 1700px) and (max-width: 1900px) {
@@ -822,34 +585,14 @@ body{
 	.nav2 a{
 		font-size: 105px;
 	}
-	#bodycont {
-		margin-top: 112px;
+	.about {
+		margin-top: 100px;
 	}
-	.portfolioBox{
-		margin-top: 112px;
+	input, textarea {
+    	width: 40%;
 	}
-	.about{
-		text-align: left;
-		font-size: 60px;
-	}
-	.aboutEmail{
-		font-size: 60px;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-	#aboutcont {
-		margin-top: 170px;
-
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
+	.aboutHrFirst {
+		margin-top: 400px;
 	}
 }
 @media (min-width: 1900px) and (max-width: 2000px) {
@@ -859,35 +602,14 @@ body{
 	.nav2 a{
 		font-size: 120px;
 	}
-	#bodycont {
-		margin-top: 122px;
+	.about {
+		margin-top: 100px;
 	}
-	.portfolioBox{
-		margin-top: 122px;
+	input, textarea {
+    	width: 40%;
 	}
-	.about{
-		text-align: left;
-		font-size: 70px;
-	}
-	.aboutEmail{
-		font-size: 70px;
-	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
-
-	#aboutcont {
-		margin-top: 180px;
-
-	}
-	.aboutRow .aboutLeft{
-		font-size: 40px;
-		line-height: 40px;
-		text-align: right;
+	.aboutHrFirst {
+		margin-top: 500px;
 	}
 }
 

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>MONICA WILCOX</title>
+		<title>contact - MONICA WILCOX</title>
 		<link rel="stylesheet" type="text/css" href="css/contact.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
 	</head>
 
@@ -31,23 +32,31 @@
 			</div>
 		</header>
 
+		<div class="about row"></div>
 		<div class="about row">
-			<div class="aboutText col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 ">
-			</div>
+			<div class="aboutBox col-xs-12 col-sm-5 col-sm-offset-5 col-md-4 col-md-offset-5 col-lg-4 col-lg-offset-5">
+				<div class="aboutTitle">
+				Let's get in touch.
+				</div>
+				<div class="aboutText">If you are curious to hear more about what I can offer, don't hesitate to get in touch.
+				The best way to connect with me is by <a href="#email">email</a>, but feel free to give me a <a href="tel:+18597535691">call.</a> 
+				Take a look at my <a href="images/resume.pdf" target="_blank">resume</a> for more information about my work experience.
+				</div>
+ 			</div>
 		</div>
 
-		<div class="aboutHr row">
+		<div class="aboutHrFirst aboutHr row">
 			<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 "><hr></div>
 
 		</div>
 
 		<div class="info row">
 			<div class="infoText col-xs-12 col-sm-4 col-sm-offset-2">
-				<div><a href="https://www.linkedin.com/in/monica-wilcox-875514a4">Visit my LinkedIn.</a></div>
+				<div><a href="https://www.linkedin.com/in/monica-wilcox-875514a4" target="_blank">Visit my LinkedIn.</a></div>
 				<div><a href="tel:+18597535691">Give me a call.</a></div>
 			</div>
 			<div class="infoText col-xs-12 col-sm-3">
-				<div><a href="portfolio.pdf" download>Download my work (PDF).</a></div>
+				<div><a href="monicaWilcoxPortfolio.pdf" download>Download my work (PDF).</a></div>
 				<div><a href="images/resume.pdf" target="_blank">View my resume.</a></div>
 			</div>
 
@@ -57,7 +66,7 @@
 			<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 "><hr></div>
 
 		</div>
-
+			<a name="email"></a>
 <?php 
 $action=$_REQUEST['action']; 
 if ($action=="")    /* display the contact form */ 
@@ -70,7 +79,7 @@ if ($action=="")    /* display the contact form */
 	    <div></div><br> 
 	    <input name="email" type="text" value="" placeholder="Email" size="40"/><br> 
 	    <div></div><br> 
-	    <textarea name="message" rows="7" cols="40" placeholder="Message..."></textarea><br> 
+	    <textarea name="message" rows="7" cols="40" placeholder="Dear Monica,"></textarea><br> 
 	    <input type="submit" value="Send email"/>
 	</form> 
     <?php 
@@ -92,6 +101,7 @@ else                /* send the submitted data */
         } 
     }   
 ?>
+		<div id="bottomP"></div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

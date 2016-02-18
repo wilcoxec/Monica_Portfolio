@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>MONICA WILCOX</title>
+		<title>work - MONICA WILCOX</title>
+		<link rel="stylesheet" type="text/css" href="css/portfolio3.css">
 
-		<link rel="stylesheet" type="text/css" href="css/port.css">
-		<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.custom.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.custom.css" />		
 		<link rel="stylesheet" type="text/css" href="css/bookblock.css" />
 		<link rel="stylesheet" type="text/css" href="css/custom.css" />
-		<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
 	</head>
 
 	<body>
 		<header>
-			<div class="navContainer hidden-md hidden-lg">
+			<div class="navContainer">
 				<div class="nav">
 					<ul>
 						<li><a id="workNav" href="home.html">MW &nbsp;</a></li>
@@ -25,7 +26,7 @@
 					</ul>
 				</div>
 
-				<div class="nav2 hidden-md hidden-lg">
+				<div class="nav2">
 					<ul>
 						<li><a id="workNav2">MW &nbsp;</a></li>
 						<li><a id="mwNav2" href="work.html">WORK &nbsp;</a></li>
@@ -35,6 +36,42 @@
 				</div>
 			</div>
 		</header>
+
+		<div class="aboutFirst row">
+			<div class="aboutBox col-xs-12 col-sm-5 col-sm-offset-5 col-md-5 col-md-offset-5 col-lg-5 col-lg-offset-5">
+				<div class="aboutTitle">The Death of the Skyscraper</div>
+				<div class="aboutTextFirst">A fall collection inspired by Rem Koolhaas</div>
+ 			</div>
+		</div>
+
+		<div class="aboutFirst row">
+			<div class="aboutText col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 ">Autumn/Winter collection inspired by the work of architect, Rem Koolhaas. This collection pays tribute to Koolhaas' cutting edge construction and design. The lines of Koolhaas CCTV building in Beijing are mimicked in the silhouettes and quilting of the garments.</div>
+		</div>
+
+		<div class="aboutHr row">
+			<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 "><hr></div>
+
+		</div>
+
+		<div class="info row">
+			<div class="infoTextTitle hidden-xs col-sm-2 col-sm-offset-3">
+				<div>SEASON:</div>
+				<div>YEAR:</div>
+				<div>INSPIRATION:</div>
+			</div>
+			<div class="infoText col-xs-12 col-sm-3">
+				<div>Autumn - Winter</div>
+				<div>2016</div>
+				<div>Rem Koolhaas</div>
+			</div>
+					
+		</div>
+
+		<div class="aboutHr row bottom">
+			<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 "><hr></div>
+		</div>
+
+
 
 		<div class="hidden-md hidden-lg">
 			<div id="image2"><img src="portfolio/rem1.jpg"></div>
@@ -51,36 +88,14 @@
 			<div id="backToTop">
 				<a href="port1.html">&uarr; Back to Top</a>
 			</div>
-			<div id="backToTop">
-				<a href="port1.html">next project &#x279D;</a>
-			</div>
 		</div>
+		
+		<div class="hidden-sm hidden-xs" id="help">Use the Arrow Keys to Flip the Page</div>		
 
 		<div id="container" class="cont hidden-xs hidden-sm">	
-
-			<div class="menu-panel">
-				<!--<ul id="menu-toc" class="menu-toc">
-					<li><a href="home.html">home</a></li>
-					<li><a href="work.html">work</a></li>
-					<li><a href="studio.html">studio</a></li>
-					<li><a href="contact.php">contact</a></li>
-				</ul>-->
-				<ul id="menuItems">
-					<li><a href="home.html">home</a></li>
-					<li><a href="work.html">work</a></li>
-					<li><a href="studio.html">studio</a></li>
-					<li><a href="contact.php">contact</a></li>
-					<br>
-					<li id="next"><a href="port1.html">next project &#x279D;</a></li>
-					<li id="n">Gap Project</li>
-				</ul>
-
-			</div>
-
 			<div class="bb-custom-wrapper">
 				<div id="bb-bookblock" class="bb-bookblock">
 					<div class="bb-item" id="item1">
-					<div id="help">use arrow keys to flip page</div>
 						<div class="content">
 							<div class="scroller">
 								<div id="image"><img width="70%" src="portfolio/rem1.jpg"></div>
@@ -152,10 +167,11 @@
 			</div>
 				
 		</div><!-- /container -->
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="js/modernizr.custom.79639.js"></script>
-		<script type="text/javascript" src="js/navStick.js"></script>
+		<script type="text/javascript" src="js/navStickWhite.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="js/jquery.mousewheel.js"></script>
 		<script src="js/jquery.jscrollpane.min.js"></script>
@@ -169,7 +185,15 @@
 
 			});
 		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+		  ga('create', 'UA-73891251-1', 'auto');
+		  ga('send', 'pageview');
 
+		</script>
 	</body>
 </html>

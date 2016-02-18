@@ -1,88 +1,23 @@
 html{
 	height: 100%;
-	margin: 0;
-	padding: 0;
+
 }
 body{
 	font-family: 'Arial', Arial, sans-serif;
-	background-image: url(../paint.jpg);
+	background-image: url(../ink.jpg);
 	background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% auto;
     overflow-x: hidden;
     height: 100%;
-    margin: 0;
-	padding: 0;
+}
+header{
+	height: 0;
 }
 
-
-input[type=text]:focus {
-	/*background-color: #cccccc;*/
+.bottom{
+	margin-bottom: 100px;
 }
-
-input, textarea {
-    width: 50%;
-    background: none;
-    outline: none;
-    border: 0;
-    color: #000;
-    margin-bottom: 2.8rem;
-    line-height: 2;
-    font-weight: 500;
-    -webkit-font-smoothing: antialiased;
-    letter-spacing: 1px;
-    -webkit-transition: all 0.6s ease;
-    -moz-transition: all 0.6s ease;
-    -ms-transition: all 0.6s ease;
-    -transition: all 0.6s ease;
-    transition: all 0.6s ease;
-    resize: none;
-    border-radius: 0;
- 	font-family:"Ancillary";
- 	font-style:italic;
- 	font-size:14px;
- 	overflow-x:hidden;
-}
-
-input {
-    border-bottom: 1px solid #000;
-    font-weight: 300;
-
- 	overflow-x:hidden;
-}
-
-
-
-textarea:focus{
-	font-style: normal;
-}
-
-input[type=text]{
-	text-align: left; 
-	margin: 0px; 
-	font-style: italic;
-}
-textarea{
- 	border: 1px solid #000;
-
-	padding: 5px;
-}
-
-input[type=text]:focus {
-	font-style: normal;
-}
-
-input[type=submit] {
-    padding:5px 15px; 
-    background:#000; 
-    border:0 none;
-    cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; 
-    color: #fff;
-    width: 150px;
-}
-
 .about{
 	text-align: center;
 	font-family: 'Arial', Arial, sans-serif;
@@ -92,14 +27,33 @@ input[type=submit] {
 	margin: auto;
 	padding: 20px;
 	overflow-x: hidden;
+}
 
+.aboutFirst{
+	text-align: center;
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 17px;
+	line-height: 22px;
+	color: #000;
+	margin: auto;
+	padding: 20px;
+	overflow-x: hidden;
+}
+
+.aboutTextFirst{
+	font-family: 'Arial', Arial, sans-serif;
+	line-height: 25px;
+	font-size: 17px;
+	text-align: left;
+	background-color: #fff;
+	overflow-x: hidden;
+	padding: 25px;
 }
 .aboutText{
 	font-family: 'Arial', Arial, sans-serif;
 	line-height: 25px;
 	font-size: 17px;
 	text-align: left;
-	background-color: #fff;
 	overflow-x: hidden;
 	padding: 25px;
 }
@@ -118,56 +72,8 @@ input[type=submit] {
 	font-weight: bold;
 }
 
-#button{
-	text-align: left;
-}
-
-#bottomP{
-	height: 25px;
-}
-
-.form {
-	text-align: center;
-	overflow-x: hidden;
-}
-
-form{
-	margin-bottom: 100px;
-	overflow-x: hidden;
-}
-
-header{
-	height: 0;
-}
-
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #595959;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #595959;
-   opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #595959;
-   opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #595959;
-}
-:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
-  color:    #595959;
-}
-
-.bottom{
-	padding-bottom: 400px;
-    overflow-x: hidden;
-}
-
-
-
 .info {
 	padding-left: 20px;
-	overflow-x: hidden;
 }
 
 .aboutText{
@@ -187,19 +93,26 @@ header{
 .infoText {
 	font-family: 'Arial', Arial, sans-serif;
 	font-size: 15px;
-	font-weight: bold;
-	line-height: 22px;
+	line-height: 25px;
 	padding: 0;
 	margin: 0;
-	text-align: center;
-	
+	text-align: left;
 	overflow-x: hidden;
+}
+.infoTextTitle {
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	overflow-x: hidden;
+	font-weight: bold;
 }
 
 .infoText a{
 	text-decoration: none;
 	color: #000;
-	overflow-x: hidden;
 }
 
 .infoText a:hover{
@@ -209,6 +122,108 @@ header{
 .aboutHr{
 	overflow-x: hidden;
 }
+
+.menuXS{
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.menuXS a{
+	color: #000;
+}
+
+.menuHidden{
+	margin-top: 20px;
+}
+
+
+.menuRow {
+	text-align: center;
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.menuRow a{
+	padding: 15px;
+	color: #000;
+	text-decoration: none;
+}
+
+.menuRow a:hover {
+	text-decoration: none;
+	color: #000;
+	opacity: 0.5;
+}
+
+#bodyContainer {
+	height: auto;
+	overflow: hidden;
+	font-family: 'Arial', Arial, sans-serif;
+	overflow-x:hidden;
+}
+
+#date {
+	text-align: center;
+	overflow-x:hidden;
+}
+
+#help{
+	font-family: 'Arial', Arial, sans-serif;
+	text-align: center;
+	font-size: 15px;
+	-webkit-animation: swing 8s infinite ease-in-out;
+    -moz-animation:    swing 8s infinite ease-in-out;
+    -o-animation:      swing 8s infinite ease-in-out;
+    -ms-transition:    swing 8s infinite ease-in-out; 
+    animation:         swing 8s infinite ease-in-out;
+}
+
+#projectTitle a{
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: 'Arial', Arial, sans-serif;
+	font-weight: bold;
+	overflow-x:hidden;
+	color: #000;
+}
+
+#projectDescription{
+	text-transform: uppercase;
+	overflow-x:hidden;
+}
+
+#backToTop{
+	text-align: center;
+	width: 100%;
+	padding-bottom: 50px;
+	margin-top: 50px;
+	overflow-x:hidden;
+}
+#backToTop a{
+	text-align: center;
+	width: 100%;
+	text-decoration: none;
+	font-family: 'Arial', Arial, sans-serif;
+	color: #000;
+	width: 100%;
+	bottom: 0;
+	font-size: 15px;
+	line-height: 25px;
+	overflow-x:hidden;
+
+}
+#image2 img{
+	width: 100%;
+	height: auto;
+}
+
 
 #footerContainer{
 	text-align: left;
@@ -220,7 +235,7 @@ header{
 	font-size: 12px;
 	text-transform: uppercase;
 	padding: 10px;
-	overflow-x: hidden;
+	overflow-x:hidden;
 }
 
 .footerRow{
@@ -236,6 +251,8 @@ header{
 	text-align: left;
 }
 
+
+
 /* Navigation Style */
 .navContainer {
 	position: relative;
@@ -244,24 +261,22 @@ header{
 
 .nav {
 	position: absolute;
-	z-index: 4;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-align: center;
-	width: 100%;
-	overflow-x: hidden;
-}
-
-.nav2 {
-	position: absolute;
 	z-index: 3;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-align: center;
 	width: 100%;
-	overflow-x: hidden;
+}
+
+.nav2 {
+	position: absolute;
+	z-index: 2;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	width: 100%;
 
 }
 .nav li{
@@ -276,7 +291,7 @@ header{
 .nav a{
 	display: inline-block;
 	text-decoration: none;
-	font-family: 'Arial', Arial, sans-serif;
+	font-family: 'Arial', Arial, sans-serif;	
 	font-weight: bold;
 }
 
@@ -304,6 +319,8 @@ header{
 	text-decoration: none;
 }
 
+
+
 @media (min-width: 200px) and (max-width: 250px) { 
 	.nav a {
 		font-size: 13px;
@@ -311,8 +328,11 @@ header{
 	.nav2 a {
 		font-size: 13px;
 	}
-	input, textarea {
-    	width: 90%;
+	header {
+		height: 10px;
+	}
+	.aboutFirst{
+		margin-top: 50px;
 	}
 }
 @media (min-width: 250px) and (max-width: 300px) { 
@@ -322,8 +342,11 @@ header{
 	.nav2 a {
 		font-size: 14px;
 	}
-	input, textarea {
-    	width: 90%;
+	header {
+		height: 10px;
+	}
+	.aboutFirst{
+		margin-top: 60px;
 	}
 }
 @media (min-width: 300px) and (max-width: 350px) { 
@@ -333,12 +356,13 @@ header{
 	.nav2 a {
 		font-size: 15px;
 	}
-	input, textarea {
-    	width: 90%;
+	header {
+		height: 10px;
+	}
+	.aboutFirst{
+		margin-top: 60px;
 	}
 }
-
-/*iphone 6*/
 @media (min-width: 350px) and (max-width: 400px) { 
 	.nav a {
 		font-size: 22px;
@@ -346,10 +370,12 @@ header{
 	.nav2 a {
 		font-size: 22px;
 	}
-	input, textarea {
-    	width: 90%;
+	header {
+		height: 15px;
 	}
-
+	.aboutFirst{
+		margin-top: 70px;
+	}
 }
 @media (min-width: 400px) and (max-width: 450px) { 
 	.nav a {
@@ -358,8 +384,8 @@ header{
 	.nav2 a {
 		font-size: 23.5px;
 	}
-	input, textarea {
-    	width: 90%;
+	.aboutFirst{
+		margin-top: 70px;
 	}
 }
 @media (min-width: 450px) and (max-width: 500px) { 
@@ -369,10 +395,9 @@ header{
 	.nav2 a {
 		font-size: 27px;
 	}
-	input, textarea {
-    	width: 90%;
+	.aboutFirst{
+		margin-top: 70px;
 	}
-
 }
 @media (min-width: 500px) and (max-width: 550px) { 
 	.nav a {
@@ -381,10 +406,9 @@ header{
 	.nav2 a {
 		font-size: 30px;
 	}
-	input, textarea {
-    	width: 90%;
+	.aboutFirst{
+		margin-top: 50px;
 	}
-
 }
 @media (min-width: 550px) and (max-width: 600px) { 
 	.nav a {
@@ -393,8 +417,8 @@ header{
 	.nav2 a {
 		font-size: 33px;
 	}
-	input, textarea {
-    	width: 90%;
+	.aboutFirst{
+		margin-top: 70px;
 	}
 }
 @media (min-width: 600px) and (max-width: 650px) { 
@@ -405,10 +429,10 @@ header{
 		font-size: 36px;
 	}
 	.about {
-		margin-top: 50px;
+		margin-top: 30px;
 	}
-	input, textarea {
-    	width: 90%;
+	.aboutFirst{
+		margin-top: 70px;
 	}
 }
 @media (min-width: 650px) and (max-width: 700px) { 
@@ -419,10 +443,10 @@ header{
 		font-size: 40px;
 	}
 	.about {
-		margin-top: 50px;
+		margin-top: 30px;
 	}
-	input, textarea {
-    	width: 90%;
+	.aboutFirst{
+		margin-top: 100px;
 	}
 }
 @media (min-width: 700px) and (max-width: 750px) { 
@@ -433,12 +457,11 @@ header{
 		font-size: 43px;
 	}
 	.about {
-		margin-top: 50px;
+		margin-top: 40px;
 	}
-	input, textarea {
-    	width: 90%;
+	.aboutFirst{
+		margin-top: 100px;
 	}
-
 }
 @media (min-width: 750px) and (max-width: 800px) { 
 	.nav a {
@@ -448,10 +471,10 @@ header{
 		font-size: 46px;
 	}
 	.about {
-		margin-top: 50px;
+		margin-top: 40px;
 	}
-	input, textarea {
-    	width: 40%;
+	.aboutFirst{
+		margin-top: 150px;
 	}
 }
 
@@ -463,10 +486,10 @@ header{
 		font-size: 50px;
 	}
 	.about {
-		margin-top: 70px;
+		margin-top: 40px;
 	}
-	input, textarea {
-    	width: 40%;
+	.aboutFirst{
+		margin-top: 150px;
 	}
 }
 
@@ -478,10 +501,10 @@ header{
 		font-size: 53px;
 	}
 	.about {
-		margin-top: 70px;
+		margin-top: 40px;
 	}
-	input, textarea {
-    	width: 40%;
+	.aboutFirst{
+		margin-top: 150px;
 	}
 }
 @media (min-width: 900px) and (max-width: 950px) { 
@@ -492,10 +515,10 @@ header{
 		font-size: 56px;
 	}
 	.about {
-		margin-top: 70px;
+		margin-top: 40px;
 	}
-	input, textarea {
-    	width: 40%;
+	.aboutFirst{
+		margin-top: 200px;
 	}
 }
 @media (min-width: 950px) and (max-width: 1000px) { 
@@ -506,10 +529,10 @@ header{
 		font-size: 59px;
 	}
 	.about {
-		margin-top: 70px;
+		margin-top: 50px;
 	}
-	input, textarea {
-    	width: 40%;
+	.aboutFirst{
+		margin-top: 200px;
 	}
 }
 @media (min-width: 1000px) and (max-width: 1050px) { 
@@ -520,10 +543,10 @@ header{
 		font-size: 63px;
 	}
 	.about {
-		margin-top: 70px;
+		margin-top: 50px;
 	}
-	input, textarea {
-    	width: 40%;
+	.aboutFirst{
+		margin-top: 200px;
 	}
 }
 @media (min-width: 1050px) and (max-width: 1100px) { 
@@ -534,10 +557,10 @@ header{
 		font-size: 66px;
 	}
 	.about {
-		margin-top: 70px;
+		margin-top: 50px;
 	}
-	input, textarea {
-    	width: 40%;
+	.aboutFirst{
+		margin-top: 200px;
 	}
 }
 @media (min-width: 1100px) and (max-width: 1150px) { 
@@ -548,13 +571,10 @@ header{
 		font-size: 69px;
 	}
 	.about {
-		margin-top: 70px;
+		margin-top: 50px;
 	}
-	input, textarea {
-    	width: 40%;
-	}
-	.aboutHrFirst {
-		margin-top: 100px;
+	.aboutFirst{
+		margin-top: 250px;
 	}
 }
 @media (min-width: 1150px) and (max-width: 1200px) { 
@@ -565,13 +585,10 @@ header{
 		font-size: 72px;
 	}
 	.about {
-		margin-top: 100px;
+		margin-top: 50px;
 	}
-	input, textarea {
-    	width: 40%;
-	}
-	.aboutHrFirst {
-		margin-top: 100px;
+	.aboutFirst{
+		margin-top: 250px;
 	}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
@@ -582,13 +599,10 @@ header{
 		font-size: 75px;
 	}
 	.about {
-		margin-top: 100px;
+		margin-top: 70px;
 	}
-	input, textarea {
-    	width: 40%;
-	}
-	.aboutHrFirst {
-		margin-top: 200px;
+	.aboutFirst{
+		margin-top: 250px;
 	}
 }
 @media (min-width: 1300px) and (max-width: 1400px) {
@@ -599,13 +613,10 @@ header{
 		font-size: 80px;
 	}
 	.about {
-		margin-top: 100px;
+		margin-top: 80px;
 	}
-	input, textarea {
-    	width: 40%;
-	}
-	.aboutHrFirst {
-		margin-top: 200px;
+	.aboutFirst{
+		margin-top: 400px;
 	}
 }
 @media (min-width: 1400px) and (max-width: 1500px) {
@@ -616,13 +627,10 @@ header{
 		font-size: 88px;
 	}
 	.about {
-		margin-top: 100px;
+		margin-top: 80px;
 	}
-	input, textarea {
-    	width: 40%;
-	}
-	.aboutHrFirst {
-		margin-top: 200px;
+	.aboutFirst{
+		margin-top: 400px;
 	}
 }
 @media (min-width: 1500px) and (max-width: 1600px) {
@@ -633,13 +641,10 @@ header{
 		font-size: 95px;
 	}
 	.about {
-		margin-top: 100px;
+		margin-top: 80px;
 	}
-	input, textarea {
-    	width: 40%;
-	}
-	.aboutHrFirst {
-		margin-top: 300px;
+	.aboutFirst{
+		margin-top: 400px;
 	}
 }
 @media (min-width: 1600px) and (max-width: 1700px) {
@@ -650,12 +655,9 @@ header{
 		font-size: 100px;
 	}
 	.about {
-		margin-top: 100px;
+		margin-top: 80px;
 	}
-	input, textarea {
-    	width: 40%;
-	}
-	.aboutHrFirst {
+	.aboutFirst{
 		margin-top: 400px;
 	}
 }
@@ -669,10 +671,7 @@ header{
 	.about {
 		margin-top: 100px;
 	}
-	input, textarea {
-    	width: 40%;
-	}
-	.aboutHrFirst {
+	.aboutFirst{
 		margin-top: 400px;
 	}
 }
@@ -686,12 +685,49 @@ header{
 	.about {
 		margin-top: 100px;
 	}
-	input, textarea {
-    	width: 40%;
+	.aboutFirst{
+		margin-top: 400px;
 	}
-	.aboutHrFirst {
-		margin-top: 500px;
-	}
+}
+
+@-webkit-keyframes swing{
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
+
+@-moz-keyframes swing{
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
+
+@-o-keyframes swing {
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
+
+@-ms-keyframes swing {
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
+
+@keyframes swing {
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
 }
 
 

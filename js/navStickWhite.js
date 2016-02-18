@@ -18,39 +18,39 @@ $(function() {
     });
 
     mwNav.css({
-        color: "black"
+        color: "white"
     });
     workNav.css({
-        color: "black"
+        color: "white"
     });
     studioNav.css({
-        color: "black"
+        color: "white"
     });
     contactNav.css({
-        color: "black"
+        color: "white"
     });
 
     $("#workNav").hover(
         function() {
         $(this).css({
-            color: "#fff",
+            color: "#000",
 
         });
         },
         function(){
-            $(this).css("color", "black");
+            $(this).css("color", "white");
         }
     );
 
     $("#mwNav").hover(
         function() {
         $(this).css({
-            color: "#fff",
+            color: "#000",
 
         });
         },
         function(){
-            $(this).css("color", "black");
+            $(this).css("color", "white");
         }
     );
 
@@ -69,24 +69,24 @@ $(function() {
     $("#studioNav").hover(
         function() {
         $(this).css({
-            color: "#fff",
+            color: "#000",
 
         });
         },
         function(){
-            $(this).css("color", "black");
+            $(this).css("color", "white");
         }
     );
 
     $("#contactNav").hover(
         function() {
         $(this).css({
-            color: "#fff",
+            color: "#000",
 
         });
         },
         function(){
-            $(this).css("color", "black");
+            $(this).css("color", "white");
         }
     );
 
@@ -108,13 +108,13 @@ $(function() {
                 opacity: 0
             });
             workNav.css({
-                color: "black"
+                color: "white"
             });
             studioNav.css({
-                color: "black"
+                color: "white"
             });
             contactNav.css({
-                color: "black"
+                color: "white"
             });
 
             /* Menu that sticks*/
@@ -142,21 +142,21 @@ $(function() {
 
 
             mwNav.css({
-                opacity: "black"
+                opacity: "white"
             });
             workNav.css({
-                color: "black"
+                color: "white"
             });
             studioNav.css({
-                color: "black"
+                color: "white"
             });
             contactNav.css({
-                color: "black"
+                color: "white"
             });
 
             /* Menu that sticks*/
             mwNav2.css({
-                color: "black"
+                color: "white"
             });
 
             workNav2.css({
