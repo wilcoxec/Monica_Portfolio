@@ -4,7 +4,7 @@ html{
 }
 body{
 	font-family: 'Arial', Arial, sans-serif;
-	background-image: url(../arch.jpg);
+	background-image: url(../arch.png);
 	background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% auto;
@@ -224,7 +224,6 @@ header{
 	height: auto;
 }
 
-
 #footerContainer{
 	text-align: left;
 	margin: auto;
@@ -236,6 +235,11 @@ header{
 	text-transform: uppercase;
 	padding: 10px;
 	overflow-x:hidden;
+	background-color: #262626;
+}
+
+.footerImages img{
+	width: 100%;
 }
 
 .footerRow{
@@ -318,7 +322,6 @@ header{
 .nav2 a:hover{
 	text-decoration: none;
 }
-
 
 
 @media (min-width: 200px) and (max-width: 250px) { 
@@ -616,7 +619,7 @@ header{
 		margin-top: 80px;
 	}
 	.aboutFirst{
-		margin-top: 400px;
+		margin-top: 300px;
 	}
 }
 @media (min-width: 1400px) and (max-width: 1500px) {
@@ -630,7 +633,7 @@ header{
 		margin-top: 80px;
 	}
 	.aboutFirst{
-		margin-top: 400px;
+		margin-top: 300px;
 	}
 }
 @media (min-width: 1500px) and (max-width: 1600px) {

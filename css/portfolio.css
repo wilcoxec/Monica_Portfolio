@@ -4,7 +4,7 @@ html{
 }
 body{
 	font-family: 'Arial', Arial, sans-serif;
-	background-image: url(../gap1.jpg);
+	background-image: url(../gap1.png);
 	background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% auto;
@@ -14,6 +14,11 @@ body{
 header{
 	height: 0;
 }
+
+.footerImages img{
+	width: 100%;
+}
+
 
 .bottom{
 	margin-bottom: 100px;
@@ -236,6 +241,7 @@ header{
 	text-transform: uppercase;
 	padding: 10px;
 	overflow-x:hidden;
+	background-color: #262626;
 }
 
 .footerRow{
@@ -616,7 +622,7 @@ header{
 		margin-top: 80px;
 	}
 	.aboutFirst{
-		margin-top: 400px;
+		margin-top: 300px;
 	}
 }
 @media (min-width: 1400px) and (max-width: 1500px) {
@@ -630,7 +636,7 @@ header{
 		margin-top: 80px;
 	}
 	.aboutFirst{
-		margin-top: 400px;
+		margin-top: 300px;
 	}
 }
 @media (min-width: 1500px) and (max-width: 1600px) {

@@ -964,21 +964,7 @@
 		text-align: left;
 		max-width: 400px;
 	}
-	.image img{
-		-webkit-transform: rotate(-3deg);
-	    -moz-transform: rotate(-3deg);
-	    -o-transform: rotate(-3deg);
-	    -ms-transform: rotate(-3deg);
-	    transform: rotate(-3deg);
-	}
 
-	.imageRight img{
-		-webkit-transform: rotate(3deg);
-	    -moz-transform: rotate(3deg);
-	    -o-transform: rotate(3deg);
-	    -ms-transform: rotate(3deg);
-	    transform: rotate(3deg);
-	}
 }
 
 

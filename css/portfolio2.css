@@ -4,7 +4,7 @@ html{
 }
 body{
 	font-family: 'Arial', Arial, sans-serif;
-	background-image: url(../ink.jpg);
+	background-image: url(../ink.png);
 	background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% auto;
@@ -236,6 +236,11 @@ header{
 	text-transform: uppercase;
 	padding: 10px;
 	overflow-x:hidden;
+	background-color: #262626;
+}
+
+.footerImages img{
+	width: 100%;
 }
 
 .footerRow{
@@ -616,7 +621,7 @@ header{
 		margin-top: 80px;
 	}
 	.aboutFirst{
-		margin-top: 400px;
+		margin-top: 300px;
 	}
 }
 @media (min-width: 1400px) and (max-width: 1500px) {
@@ -630,7 +635,7 @@ header{
 		margin-top: 80px;
 	}
 	.aboutFirst{
-		margin-top: 400px;
+		margin-top: 300px;
 	}
 }
 @media (min-width: 1500px) and (max-width: 1600px) {
