@@ -1,60 +1,231 @@
-html {
+html{
 	height: 100%;
-}
 
+}
 body{
 	font-family: 'Arial', Arial, sans-serif;
-	background-image: url(../images/studioBack.jpg);
-	background-repeat: no-repeat;
-    background-position: center top fixed;
-    background-size: cover;
+	
     overflow-x: hidden;
     height: 100%;
-}
-
-.titleContain {
-	text-align: center;
-	color: #000;
-	overflow-x: hidden;
-	overflow-y: hidden;
-	height: 100%;
-
 }
 header{
 	height: 0;
 }
 
-.title{
-	text-align: center;
-	overflow-x: hidden;
-	font-family: 'Arial', Arial, sans-serif;
-	font-size: 17px;
-	margin-top: 300px;
-	padding: 15px;
+.footerImages img{
+	width: 100%;
 }
 
-#title{
-	font-size: 30px;
+
+.bottom{
+	margin-bottom: 100px;
+}
+.about{
+	text-align: center;
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 17px;
+	line-height: 22px;
+	color: #000;
+	margin: auto;
+	padding: 20px;
+	overflow-x: hidden;
+}
+
+.First{
+	text-align: center;
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 17px;
+	line-height: 22px;
+	color: #000;
+	margin: auto;
+	padding: 20px;
+	overflow-x: hidden;
+	background-image: url(../arch.png);
+	background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    padding-top: 50%;
+
+}
+
+.aboutFirst{
+	text-align: center;
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 17px;
+	line-height: 22px;
+	color: #000;
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow-x: hidden;
+}
+
+.aboutTextFirst{
+	font-family: 'Arial', Arial, sans-serif;
+	line-height: 25px;
+	font-size: 17px;
+	text-align: left;
+	background-color: #fff;
+	overflow-x: hidden;
+	padding: 25px;
+}
+.aboutText{
+	font-family: 'Arial', Arial, sans-serif;
+	line-height: 25px;
+	font-size: 17px;
+	text-align: left;
+	overflow-x: hidden;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.aboutTextTitle{
+	font-family: 'Arial', Arial, sans-serif;
+	line-height: 35px;
+	font-size: 25px;
+	text-align: left;
+	overflow-x: hidden;
 	font-weight: bold;
+	padding: 25px;
 	text-transform: uppercase;
 }
 
-.image img{
-	width: 100%;
-	height: auto;
+
+
+.info {
+	padding-left: 20px;
 }
 
-.pic{
-	margin: 0;
+.aboutText{
+	text-align: left;
+
+	overflow-x: hidden;
+}
+
+.aboutHr hr {
+	border-top-color: #000;
+	border-top-width: 2px;
+	margin-left: 20px;
+	margin-right: 20px;
+	overflow-x: hidden;
+}
+
+.infoText {
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 15px;
+	line-height: 25px;
 	padding: 0;
+	margin: 0;
+	text-align: left;
+	overflow-x: hidden;
+}
+.infoTextTitle {
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	overflow-x: hidden;
+	font-weight: bold;
+}
+
+.infoText a{
+	text-decoration: none;
+	color: #000;
+}
+
+.infoText a:hover{
+	color: #000;
+}
+
+.aboutHr{
+	overflow-x: hidden;
+}
+
+.menuXS{
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.menuXS a{
+	color: #000;
+}
+
+.menuHidden{
+	margin-top: 20px;
+}
+
+
+.menuRow {
+	text-align: center;
+	font-family: 'Arial', Arial, sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.menuRow a{
+	padding: 15px;
+	color: #000;
+	text-decoration: none;
+}
+
+.menuRow a:hover {
+	text-decoration: none;
+	color: #000;
+	opacity: 0.5;
+}
+
+#bodyContainer {
+	height: auto;
+	overflow: hidden;
+	font-family: 'Arial', Arial, sans-serif;
+	overflow-x:hidden;
+}
+
+#date {
+	text-align: center;
+	overflow-x:hidden;
+}
+
+#help{
+	font-family: 'Arial', Arial, sans-serif;
+	text-align: center;
+	font-size: 15px;
+	-webkit-animation: swing 8s infinite ease-in-out;
+    -moz-animation:    swing 8s infinite ease-in-out;
+    -o-animation:      swing 8s infinite ease-in-out;
+    -ms-transition:    swing 8s infinite ease-in-out; 
+    animation:         swing 8s infinite ease-in-out;
+}
+
+#projectTitle a{
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: 'Arial', Arial, sans-serif;
+	font-weight: bold;
+	overflow-x:hidden;
+	color: #000;
+}
+
+#projectDescription{
+	text-transform: uppercase;
+	overflow-x:hidden;
 }
 
 #backToTop{
 	text-align: center;
 	width: 100%;
 	padding-bottom: 50px;
+	margin-top: 50px;
+	overflow-x:hidden;
 }
-
 #backToTop a{
 	text-align: center;
 	width: 100%;
@@ -63,9 +234,16 @@ header{
 	color: #000;
 	width: 100%;
 	bottom: 0;
-	font-size: 12px;
-	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 25px;
+	overflow-x:hidden;
+
 }
+#image2 img{
+	width: 100%;
+	height: auto;
+}
+
 
 #footerContainer{
 	text-align: left;
@@ -77,6 +255,8 @@ header{
 	font-size: 12px;
 	text-transform: uppercase;
 	padding: 10px;
+	overflow-x:hidden;
+	background-color: #262626;
 }
 
 .footerRow{
@@ -91,6 +271,7 @@ header{
 .footerRight{
 	text-align: left;
 }
+
 
 
 /* Navigation Style */
@@ -159,6 +340,8 @@ header{
 	text-decoration: none;
 }
 
+
+
 @media (min-width: 200px) and (max-width: 250px) { 
 	.nav a {
 		font-size: 13px;
@@ -166,7 +349,8 @@ header{
 	.nav2 a {
 		font-size: 13px;
 	}
-
+	
+	
 }
 @media (min-width: 250px) and (max-width: 300px) { 
 	.nav a {
@@ -175,7 +359,8 @@ header{
 	.nav2 a {
 		font-size: 14px;
 	}
-
+	
+	
 }
 @media (min-width: 300px) and (max-width: 350px) { 
 	.nav a {
@@ -184,7 +369,8 @@ header{
 	.nav2 a {
 		font-size: 15px;
 	}
-
+	
+	
 }
 @media (min-width: 350px) and (max-width: 400px) { 
 	.nav a {
@@ -193,7 +379,8 @@ header{
 	.nav2 a {
 		font-size: 22px;
 	}
-
+	
+	
 }
 @media (min-width: 400px) and (max-width: 450px) { 
 	.nav a {
@@ -202,7 +389,7 @@ header{
 	.nav2 a {
 		font-size: 23.5px;
 	}
-
+	
 }
 @media (min-width: 450px) and (max-width: 500px) { 
 	.nav a {
@@ -211,7 +398,7 @@ header{
 	.nav2 a {
 		font-size: 27px;
 	}
-
+	
 }
 @media (min-width: 500px) and (max-width: 550px) { 
 	.nav a {
@@ -220,7 +407,7 @@ header{
 	.nav2 a {
 		font-size: 30px;
 	}
-
+	
 }
 @media (min-width: 550px) and (max-width: 600px) { 
 	.nav a {
@@ -229,11 +416,7 @@ header{
 	.nav2 a {
 		font-size: 33px;
 	}
-
-	.image{
-		margin: 0;
-		padding: 0;
-	}
+	
 }
 @media (min-width: 600px) and (max-width: 650px) { 
 	.nav a {
@@ -242,11 +425,10 @@ header{
 	.nav2 a {
 		font-size: 36px;
 	}
-
-	.image{
-		margin: 0;
-		padding: 0;
+	.about {
+		margin-top: 30px;
 	}
+	
 }
 @media (min-width: 650px) and (max-width: 700px) { 
 	.nav a {
@@ -255,11 +437,10 @@ header{
 	.nav2 a {
 		font-size: 40px;
 	}
-
-	.image{
-		margin: 0;
-		padding: 0;
+	.about {
+		margin-top: 30px;
 	}
+	
 }
 @media (min-width: 700px) and (max-width: 750px) { 
 	.nav a {
@@ -268,12 +449,10 @@ header{
 	.nav2 a {
 		font-size: 43px;
 	}
-
-	.image{
-		margin: 0;
-		padding: 0;
+	.about {
+		margin-top: 40px;
 	}
-
+	
 }
 @media (min-width: 750px) and (max-width: 800px) { 
 	.nav a {
@@ -282,8 +461,10 @@ header{
 	.nav2 a {
 		font-size: 46px;
 	}
-
-
+	.about {
+		margin-top: 40px;
+	}
+	
 }
 
 @media (min-width: 800px) and (max-width: 850px) { 
@@ -293,10 +474,10 @@ header{
 	.nav2 a {
 		font-size: 50px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 40px;
 	}
+	
 }
 
 @media (min-width: 850px) and (max-width: 900px) { 
@@ -306,10 +487,10 @@ header{
 	.nav2 a {
 		font-size: 53px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 40px;
 	}
+	
 }
 @media (min-width: 900px) and (max-width: 950px) { 
 	.nav a {
@@ -318,10 +499,10 @@ header{
 	.nav2 a {
 		font-size: 56px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 40px;
 	}
+	
 }
 @media (min-width: 950px) and (max-width: 1000px) { 
 	.nav a {
@@ -330,10 +511,10 @@ header{
 	.nav2 a {
 		font-size: 59px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 50px;
 	}
+	
 }
 @media (min-width: 1000px) and (max-width: 1050px) { 
 	.nav a {
@@ -342,10 +523,10 @@ header{
 	.nav2 a {
 		font-size: 63px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 50px;
 	}
+	
 }
 @media (min-width: 1050px) and (max-width: 1100px) { 
 	.nav a {
@@ -354,10 +535,10 @@ header{
 	.nav2 a {
 		font-size: 66px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 50px;
 	}
+	
 }
 @media (min-width: 1100px) and (max-width: 1150px) { 
 	.nav a {
@@ -366,10 +547,10 @@ header{
 	.nav2 a {
 		font-size: 69px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 50px;
 	}
+	
 }
 @media (min-width: 1150px) and (max-width: 1200px) { 
 	.nav a {
@@ -378,10 +559,10 @@ header{
 	.nav2 a {
 		font-size: 72px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 50px;
 	}
+	
 }
 @media (min-width: 1200px) and (max-width: 1300px){
 	.nav a{
@@ -390,10 +571,10 @@ header{
 	.nav2 a{
 		font-size: 75px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 70px;
 	}
+	
 }
 @media (min-width: 1300px) and (max-width: 1400px) {
 	.nav a{
@@ -402,10 +583,10 @@ header{
 	.nav2 a{
 		font-size: 80px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 80px;
 	}
+	
 }
 @media (min-width: 1400px) and (max-width: 1500px) {
 	.nav a{
@@ -414,10 +595,10 @@ header{
 	.nav2 a{
 		font-size: 88px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 80px;
 	}
+	
 }
 @media (min-width: 1500px) and (max-width: 1600px) {
 	.nav a{
@@ -426,10 +607,10 @@ header{
 	.nav2 a{
 		font-size: 95px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 80px;
 	}
+	
 }
 @media (min-width: 1600px) and (max-width: 1700px) {
 	.nav a{
@@ -438,10 +619,10 @@ header{
 	.nav2 a{
 		font-size: 100px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 80px;
 	}
+	
 }
 @media (min-width: 1700px) and (max-width: 1900px) {
 	.nav a{
@@ -450,10 +631,10 @@ header{
 	.nav2 a{
 		font-size: 105px;
 	}
-
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 100px;
 	}
+	
 }
 @media (min-width: 1900px) and (max-width: 2000px) {
 	.nav a{
@@ -462,10 +643,50 @@ header{
 	.nav2 a{
 		font-size: 120px;
 	}
-	.image{
-		padding: 20px;
+	.about {
+		margin-top: 100px;
 	}
+	
 }
 
+@-webkit-keyframes swing{
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
+
+@-moz-keyframes swing{
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
+
+@-o-keyframes swing {
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
+
+@-ms-keyframes swing {
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
+
+@keyframes swing {
+    0%{opacity: 0.0;}
+    25%{ opacity: 1.0;}
+    50%{opacity: 0.0;}
+    75%{ opacity: 1.0;}
+    100%{opacity: 0.0;}
+}
 
 

@@ -51,9 +51,8 @@ header{
 }
 
 .project1:hover {
-	background-image: url(../gap1.png);
-	background-size: 100% auto;
-	opacity: 0.7;
+	background-color: #000;
+	opacity: 0.8;
 	color: #fff;
 }
 
@@ -63,9 +62,8 @@ header{
 	color: #000;
 }
 .project2:hover {
-	background-image: url(../ink.png);
-	background-size: 100% auto;
-	opacity: 0.7;
+	background-color: #000;
+	opacity: 0.8;
 	color: #fff;
 }
 .project3{
@@ -74,9 +72,9 @@ header{
 	color: #000;
 }
 .project3:hover {
-	background-image: url(../arch.png);
-	background-size: 100% auto;
-	opacity: 0.7;
+	background-color: #000;
+	opacity: 0.8;
+	color: #fff;
 }
 
 
